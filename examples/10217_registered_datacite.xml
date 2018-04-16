@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.7907/Z99S1P2G</identifier>
+  <creators>
+    <creator>
+      <creatorName>Bachman, Shoshana</creatorName>
+      <givenName>Shoshana</givenName>
+      <familyName>Bachman</familyName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Development of Cu- and Ni-Catalyzed C–C and C–N Bond Forming Reactions</title>
+  </titles>
+  <publisher>California Institute of Technology</publisher>
+  <publicationYear>2017</publicationYear>
+  <resourceType resourceTypeGeneral="Text">Dissertation (Ph.D.)</resourceType>
+  <subjects>
+    <subject>Catalysis, Reaction Development, Methodology, Ni catalysis, Cu catalysis, Asymmetric Catalysis</subject>
+  </subjects>
+  <dates>
+    <date dateType="Issued">2017</date>
+  </dates>
+  <version/>
+  <descriptions>
+    <description descriptionType="Abstract">Chapters 1 and 2 describe the development of photoinduced, Cu-catalyzed coupling reactions of unactivated secondary alkyl halides with amide and cyanide nucleophiles. These reactions may be conducted at room temperature under operationally simple conditions. Mechanistic studies are consistent with the intermediacy of alkyl radicals in these processes.&#13;
+&#13;
+Chapter 3 describes progress toward the development of the first enantioselective Ni-catalyzed cross coupling of racemic alkyl halides and heteroatom nucleophiles. Borylation of secondary benzylic chlorides with B2(pin)2 may be achieved in good yield and promising levels of enantioselectivity.&#13;
+&#13;
+Chapter 4 describes enantioselective Ni-catalyzed couplings of α-substituted lactam enolates with benzonitrile derivatives resulting in formal intermolecular C- acylation via in situ hydrolysis of an imine intermediate.</description>
+  </descriptions>
+</resource>

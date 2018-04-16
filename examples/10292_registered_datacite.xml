@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.7907/Z9N29V0J</identifier>
+  <creators>
+    <creator>
+      <creatorName>Appel, Ron</creatorName>
+      <givenName>Ron</givenName>
+      <familyName>Appel</familyName>
+    </creator>
+  </creators>
+  <titles>
+    <title>Boosting Boosting</title>
+  </titles>
+  <publisher>California Institute of Technology</publisher>
+  <publicationYear>2017</publicationYear>
+  <resourceType resourceTypeGeneral="Text">Dissertation (Ph.D.)</resourceType>
+  <subjects>
+    <subject>Boosting</subject>
+  </subjects>
+  <dates>
+    <date dateType="Issued">2017</date>
+  </dates>
+  <version/>
+  <descriptions>
+    <description descriptionType="Abstract">Machine learning is becoming prevalent in all aspects of our lives. For some applications, there is a need for simple but accurate white-box systems that are able to train efficiently and with little data.&#13;
+&#13;
+"Boosting" is an intuitive method, combining many simple (possibly inaccurate) predictors to form a powerful, accurate classifier. Boosted classifiers are intuitive, easy to use, and exhibit the fastest speeds at test-time when implemented as a cascade. However, they have a few drawbacks: training decision trees is a relatively slow procedure, and from a theoretical standpoint, no simple unified framework for cost-sensitive multi-class boosting exists. Furthermore, (axis-aligned) decision trees may be inadequate in some situations, thereby stalling training; and even in cases where they are sufficiently useful, they don't capture the intrinsic nature of the data, as they tend to form boundaries that overfit.&#13;
+&#13;
+My thesis focuses on remedying these three drawbacks of boosting. Ch.III outlines a method (called QuickBoost) that trains identical classifiers at an order of magnitude faster than before, based on a proof of a bound. In Ch.IV, a unified framework for cost-sensitive multi-class boosting (called REBEL) is proposed, both advancing theory and demonstrating empirical gains. Finally, Ch.V describes a novel family of weak learners (called Localized Similarities) that guarantee theoretical bounds and outperform decision trees and Neural Nets (as well as several other commonly used classification methods) on a range of datasets.&#13;
+&#13;
+The culmination of my work is an easy-to-use, fast-training, cost-sensitive multi-class boosting framework whose functionality is interpretable (since each weak learner is a simple comparison of similarity), and whose performance is better than Neural Networks and other competing methods. It is the tool that everyone should have in their toolbox and the first one they try.</description>
+  </descriptions>
+</resource>
