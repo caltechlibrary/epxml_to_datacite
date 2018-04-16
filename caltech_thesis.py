@@ -54,7 +54,8 @@ for f in files:
     dates.append({"date":datetime.date.today().isoformat(),"dateType":"Issued"})
     if 'thesis_defense_date' in eprint:
         dates.append({"date":eprint['thesis_defense_date'],"dateType":"Accepted"})
-
+    metadata['dates'] = dates
+    
     assert schema40.validate(metadata)
     #Debugging if this fails
     #v = schema40.validator.validate(metadata)

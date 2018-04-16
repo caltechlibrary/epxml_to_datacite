@@ -17,6 +17,10 @@
   <subjects>
     <subject>Boosting</subject>
   </subjects>
+  <dates>
+    <date dateType="Issued">2018-04-16</date>
+    <date dateType="Accepted">2017-05-22</date>
+  </dates>
   <resourceType resourceTypeGeneral="Text">Dissertation (PHD)</resourceType>
   <descriptions>
     <description descriptionType="Abstract">&lt;p&gt;Machine learning is becoming prevalent in all aspects of our lives. For some applications, there is a need for simple but accurate white-box systems that are able to train efficiently and with little data.&lt;/p&gt;
