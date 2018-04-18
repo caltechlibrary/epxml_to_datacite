@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.7907/Z97M05XR</identifier>
+  <creators>
+    <creator>
+      <creatorName>Bischoff,Tobias</creatorName>
+      <givenName>Tobias</givenName>
+      <familyName>Bischoff</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID">0000-0003-3930-2762</nameIdentifier>
+      <affiliation>California Institute of Technology</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title>Dynamics of the Intertropical Convergence Zone</title>
+  </titles>
+  <publisher>California Institute of Technology</publisher>
+  <publicationYear>2017</publicationYear>
+  <subjects>
+    <subject>ITCZ</subject>
+    <subject>Climate Dynamics</subject>
+    <subject>envreng</subject>
+    <subject>appliedmath</subject>
+    <subject>compsci</subject>
+  </subjects>
+  <dates>
+    <date dateType="Issued">2018-04-18</date>
+    <date dateType="Accepted">2016-12-09</date>
+  </dates>
+  <language>English</language>
+  <resourceType resourceTypeGeneral="Text">Dissertation (PHD)</resourceType>
+  <formats>
+    <format>PDF</format>
+  </formats>
+  <version>Final</version>
+  <rightsList>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">Previous studies have shown that the latitude of the Intertropical Convergence Zone (ITCZ) is negatively correlated with cross-equatorial atmospheric energy transport and that the ITCZ shifts southward as the northern hemisphere cools and the northward cross-equatorial energy transport strengthens. However, it has remained unclear what controls the sensitivity of the ITCZ position to cross-equatorial energy transport, and what other factors may lead to shifts of the ITCZ position. In this thesis, it is shown how an energetic perspective using the vertically-integrated moist static energy balance of the atmosphere can be used to address this question. Climate states with a double-ITCZ around the equator also occur, for example, seasonally over the eastern Pacific, and frequently in climate models. Here it is shown how the ITCZ position is connected to the energy balance near the equator under a wide range of circumstances, including states with single and double ITCZs and using a Taylor expansion of the meridional energy transport around the equator quantitative estimates for the ITCZ location are derived. Simulations with an idealized aquaplanet general circulation model (GCM) confirm the quantitative adequacy of these relations. Using these ideas, an idealized precipitation model for the tropics is presented that is able to capture variations of paleoclimatological precipitation records on orbital time scales. The results provide a framework for assessing and understanding causes of common climate model biases and for interpreting tropical precipitation changes, such as those evident in records of climates of the past.</description>
+  </descriptions>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>National Science Foundation</funderName>
+      <awardNumber>AGS-1019211</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>National Science Foundation</funderName>
+      <awardNumber>AGS-1049201</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>National Science Foundation</funderName>
+      <awardNumber>AGS-1003614</awardNumber>
+    </fundingReference>
+    <fundingReference>
+      <funderName>National Science Foundation</funderName>
+      <awardNumber>OCE-1235488</awardNumber>
+    </fundingReference>
+  </fundingReferences>
+</resource>

@@ -38,6 +38,9 @@ for f in files:
     metadata['identifier'] = {'identifier':eprint['doi'],'identifierType':"DOI"}
     metadata['descriptions'] =[{'descriptionType':"Abstract",\
             'description':eprint['abstract']}]
+    metadata['formats'] = ['PDF']
+    metadata['version'] = 'Final'
+    metadata['language'] = 'English'
 
     #Subjects
     if "keywords" in eprint:
@@ -46,14 +49,70 @@ for f in files:
             subjects = eprint['keywords'].split(',')
         array = []
         for s in subjects:
-            array.append({'subject':s})
+            array.append({'subject':s.strip()})
         metadata['subjects']=array
+    if 'option_major' in eprint:
+        if isinstance(eprint['option_major']['item'],list):
+            for item in eprint['option_major']['item']:
+                metadata['subjects'].append({'subject':item})
+        else:
+            metadata['subjects'].append({'subject':eprint['option_major']['item']})
+    if 'option_minor' in eprint:
+        if isinstance(eprint['option_minor']['item'],list):
+            for item in eprint['option_minor']['item']:
+                metadata['subjects'].append({'subject':item})
+        else:
+            metadata['subjects'].append({'subject':eprint['option_minor']['item']})
+    
+    if 'funders' in eprint:
+        array = []
+        if isinstance(eprint['funders']['item'],list):
+            for item in eprint['funders']['item']:
+                award = {}
+                award['funderName'] = item['agency']
+                if 'grant_number' in item:
+                    award['awardNumber'] = {'awardNumber':item['grant_number']}
+                array.append(award)
+        else:
+            item = eprint['funders']['item']
+            award = {}
+            award['funderName'] = item['agency']
+            if 'grant_number' in item:
+                award['awardNumber'] = {'awardNumber':item['grant_number']}
+            array.append(award)
+        metadata['fundingReferences'] = array
+
+    if 'rights' in eprint:
+        metadata['rightsList'] = [{'rights':eprint['rights']}]
+
+    if 'related_url' in eprint:
+        array = []
+        if isinstance(eprint['related_url']['item'],list):
+            for item in eprint['related_url']['item']:
+                if 'CaltechDATA' in item['description']:
+                    obj = {}
+                    obj['relationType']='IsSupplementedBy'
+                    obj['relatedIdentifierType']='DOI'
+                    obj['relatedIdentifier']=item['url']
+                    array.append(obj)
+        else:
+            item = eprint['related_url']['item']
+            if 'CaltechDATA' in item['description']:
+                    obj = {}
+                    obj['relationType']='IsSupplementedBy'
+                    obj['relatedIdentifierType']='DOI'
+                    obj['relatedIdentifier']=item['url']
+                    array.append(obj)
+        metadata['relatedIdentifiers']=array
 
     #Dates
     dates = []
     dates.append({"date":datetime.date.today().isoformat(),"dateType":"Issued"})
-    if 'thesis_defense_date' in eprint:
+    if 'gradofc_approval_date' in eprint:
         dates.append({"date":eprint['gradofc_approval_date'],"dateType":"Accepted"})
+    #These are scanned records, we just list when they were made available
+    else:
+        dates.append({"date":eprint['datestamp'],"dateType":"Available"})
     metadata['dates'] = dates
     
     assert schema40.validate(metadata)

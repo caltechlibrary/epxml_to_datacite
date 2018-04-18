@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.7907/Z95D8Q2H</identifier>
+  <creators>
+    <creator>
+      <creatorName>Hodder,Roland Frederick</creatorName>
+      <givenName>Roland Frederick</givenName>
+      <familyName>Hodder</familyName>
+      <affiliation>California Institute of Technology</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title>A Report on the Geology of a Portion of the Whittier Hills Between Turnbull and La Habra Canyons</title>
+  </titles>
+  <publisher>California Institute of Technology</publisher>
+  <publicationYear>1930</publicationYear>
+  <subjects>
+    <subject>Whittier Hills</subject>
+    <subject>Turnbull Canyon</subject>
+    <subject>La Habra Canyon</subject>
+    <subject>Workman Hill</subject>
+    <subject>Whittier Fault</subject>
+    <subject>Workman Fault</subject>
+    <subject>geol</subject>
+  </subjects>
+  <dates>
+    <date dateType="Issued">2018-04-18</date>
+    <date dateType="Available">2009-12-03 21:23:38</date>
+  </dates>
+  <language>English</language>
+  <resourceType resourceTypeGeneral="Text">Dissertation (BS)</resourceType>
+  <relatedIdentifiers>
+    <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementedBy">https://doi.org/10.22002/D1.367</relatedIdentifier>
+  </relatedIdentifiers>
+  <formats>
+    <format>PDF</format>
+  </formats>
+  <version>Final</version>
+  <rightsList>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">&lt;p&gt;The rocks of the Tertiary described in this report are in the Puente Hills which are just south of the town of Puente, southeast from the town of El Monte, north of the town of Whittier, and approximately thirteen miles in a southeasternly direction from Los Angeles. The area investigated lies between Turnbull Canyon Road on the west and Hudson Avenue on the east.&lt;/p&gt;
+
+&lt;p&gt;The maps which cover this district are the Los Angeles
+County maps, La Habra and Whittier Quadrangles. The scale is
+1/2400, and the contour interval is five and twenty-five feet. The maps are accurate and adequate in every detail.&lt;/p&gt;</description>
+  </descriptions>
+</resource>
