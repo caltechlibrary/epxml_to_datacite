@@ -53,7 +53,7 @@ for f in files:
     dates = []
     dates.append({"date":datetime.date.today().isoformat(),"dateType":"Issued"})
     if 'thesis_defense_date' in eprint:
-        dates.append({"date":eprint['thesis_defense_date'],"dateType":"Accepted"})
+        dates.append({"date":eprint['gradofc_approval_date'],"dateType":"Accepted"})
     metadata['dates'] = dates
     
     assert schema40.validate(metadata)
