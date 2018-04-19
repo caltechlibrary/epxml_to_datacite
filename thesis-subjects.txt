@@ -1,0 +1,67 @@
+A:A General Works:subjects:1
+aeronautics:Aeronautics:options:1
+aerospace:Aerospace Engineering:options:1
+appliedmath:Applied And Computational Mathematics:options:1
+appliedmech:Applied Mechanics:options:1
+appliedphys:Applied Physics:options:1
+appmath:Applied Mathematics:options:1
+astronomy:Astronomy:options:1
+astrophys:Astrophysics:options:1
+behav:Behavioral and Social Neuroscience:options:1
+bioch:Biochemistry:options:1
+biochem:Biochemistry and Molecular Biophysics:options:1
+bioeng:Bioengineering:options:1
+bioinfo:Bioinformation Systems:options:1
+bioleng:Biological Engineering:options:1
+biology:Biology:options:1
+busecon:Business Economics and Management:options:1
+cds:Control and Dynamical Systems:options:1
+chemeng:Chemical Engineering:options:1
+chemistry:Chemistry:options:1
+civileng:Civil Engineering:options:1
+cms:Computing and Mathematical Sciences:options:1
+cns:Computation and Neural Systems:options:1
+compsci:Computer Science:options:1
+compscieng:Computational Science and Engineering:options:1
+div_bbe:Biology and Biological Engineering:divisions:1
+div_biol:Biology:divisions:1
+div_chem:Chemistry and Chemical Engineering:divisions:1
+div_eng:Engineering and Applied Science:divisions:1
+div_gps:Geological and Planetary Sciences:divisions:1
+div_hss:Humanities and Social Sciences:divisions:1
+div_int:Interdisciplinary Programs:divisions:1
+div_pma:Physics, Mathematics and Astronomy:divisions:1
+divisions:Academic Divisions:ROOT:1
+economics:Economics:options:1
+eleceng:Electrical Engineering:options:1
+eng:Engineering:options:1
+engappsci:Engineering and Applied Science:options:1
+english:English:options:1
+envreng:Environmental Science and Engineering:options:1
+geobiol:Geobiology:options:1
+geochem:Geochemistry:options:1
+geol:Geology:options:1
+geophys:Geophysics:options:1
+gps:Geological and Planetary Sciences:options:1
+history:History:options:1
+histsci:History and Philosophy of Science:options:1
+humanities:Humanities:options:1
+immun:Immunology:options:1
+math:Mathematics:options:1
+matsci:Materials Science:options:1
+mecheng:Mechanical Engineering:options:1
+medeng:Medical Engineering:options:1
+meteor:Meteorology:options:1
+microbio:Microbiology:options:1
+molbio:Molecular Biology:options:1
+molbiochem:Molecular Biology and Biochemistry:options:1
+neurobio:Neurobiology:options:1
+options:Options:ROOT:1
+philosophy:Philosophy:options:1
+physics:Physics:options:1
+plansci:Planetary Science:options:1
+polisci:Political Science:options:1
+socsci:Social Science:options:1
+space:Space Engineering:options:1
+subjects:Library of Congress Subject Areas:ROOT:1
+sysbiol:Systems Biology:options:1

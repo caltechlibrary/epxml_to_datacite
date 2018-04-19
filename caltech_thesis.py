@@ -2,6 +2,13 @@ import xmltodict
 from datacite import schema40
 import glob,json,datetime
 
+#Parse subjects file
+infile = open('thesis-subjects.txt','r')
+thesis_subjects = {}
+for line in infile:
+    split = line.split(':')
+    thesis_subjects[split[0]]=split[1]
+
 files = glob.glob('*.xml')
 for f in files:
     with open(f) as fd:
@@ -54,15 +61,19 @@ for f in files:
     if 'option_major' in eprint:
         if isinstance(eprint['option_major']['item'],list):
             for item in eprint['option_major']['item']:
-                metadata['subjects'].append({'subject':item})
+                text = thesis_subjects[item]
+                metadata['subjects'].append({'subject':text})
         else:
-            metadata['subjects'].append({'subject':eprint['option_major']['item']})
+            text = thesis_subjects[eprint['option_major']['item']]
+            metadata['subjects'].append({'subject':text})
     if 'option_minor' in eprint:
         if isinstance(eprint['option_minor']['item'],list):
             for item in eprint['option_minor']['item']:
-                metadata['subjects'].append({'subject':item})
+                text = thesis_subjects[item]
+                metadata['subjects'].append({'subject':text})
         else:
-            metadata['subjects'].append({'subject':eprint['option_minor']['item']})
+            text = theis_subjects[eprint['option_minor']['item']]
+            metadata['subjects'].append({'subject':text})
     
     if 'funders' in eprint:
         array = []
