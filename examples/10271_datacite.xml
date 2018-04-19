@@ -16,22 +16,31 @@
   <publicationYear>2017</publicationYear>
   <subjects>
     <subject>Catalysis</subject>
-    <subject> Reaction Development</subject>
-    <subject> Methodology</subject>
-    <subject> Ni catalysis</subject>
-    <subject> Cu catalysis</subject>
-    <subject> Asymmetric Catalysis</subject>
+    <subject>Reaction Development</subject>
+    <subject>Methodology</subject>
+    <subject>Ni catalysis</subject>
+    <subject>Cu catalysis</subject>
+    <subject>Asymmetric Catalysis</subject>
+    <subject>Chemistry</subject>
   </subjects>
   <dates>
-    <date dateType="Issued">2018-04-16</date>
-    <date dateType="Accepted">2017-05-25</date>
+    <date dateType="Issued">2018-04-19</date>
+    <date dateType="Accepted">2017-06-06</date>
   </dates>
+  <language>English</language>
   <resourceType resourceTypeGeneral="Text">Dissertation (PHD)</resourceType>
+  <formats>
+    <format>PDF</format>
+  </formats>
+  <version>Final</version>
+  <rightsList>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+  </rightsList>
   <descriptions>
-    <description descriptionType="Abstract">&lt;p&gt;Chapters 1 and 2 describe the development of photoinduced, Cu-catalyzed coupling reactions of unactivated secondary alkyl halides with amide and cyanide nucleophiles. These reactions may be conducted at room temperature under operationally simple conditions. Mechanistic studies are consistent with the intermediacy of alkyl radicals in these processes.&lt;/p&gt;
+    <description descriptionType="Abstract">Chapters 1 and 2 describe the development of photoinduced, Cu-catalyzed coupling reactions of unactivated secondary alkyl halides with amide and cyanide nucleophiles. These reactions may be conducted at room temperature under operationally simple conditions. Mechanistic studies are consistent with the intermediacy of alkyl radicals in these processes.
 
-&lt;p&gt;Chapter 3 describes progress toward the development of the first enantioselective Ni-catalyzed cross coupling of racemic alkyl halides and heteroatom nucleophiles. Borylation of secondary benzylic chlorides with B&lt;sub&gt;2&lt;/sub&gt;(pin)&lt;sub&gt;2&lt;/sub&gt; may be achieved in good yield and promising levels of enantioselectivity.&lt;/p&gt;
+Chapter 3 describes progress toward the development of the first enantioselective Ni-catalyzed cross coupling of racemic alkyl halides and heteroatom nucleophiles. Borylation of secondary benzylic chlorides with B2(pin)2 may be achieved in good yield and promising levels of enantioselectivity.
 
-&lt;p&gt;Chapter 4 describes enantioselective Ni-catalyzed couplings of α-substituted lactam enolates with benzonitrile derivatives resulting in formal intermolecular C- acylation via in situ hydrolysis of an imine intermediate.&lt;/p&gt;</description>
+Chapter 4 describes enantioselective Ni-catalyzed couplings of α-substituted lactam enolates with benzonitrile derivatives resulting in formal intermolecular C- acylation via in situ hydrolysis of an imine intermediate.</description>
   </descriptions>
 </resource>

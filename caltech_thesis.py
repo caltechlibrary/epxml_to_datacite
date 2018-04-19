@@ -1,6 +1,11 @@
 import xmltodict
 from datacite import schema40
-import glob,json,datetime
+import glob,json,datetime,re
+
+def cleanhtml(raw_html):
+  cleanr = re.compile('<.*?>')
+  cleantext = re.sub(cleanr, '', raw_html)
+  return cleantext
 
 #Parse subjects file
 infile = open('thesis-subjects.txt','r')
@@ -44,7 +49,7 @@ for f in files:
             "Dissertation ("+eprint['thesis_degree']+")",'resourceTypeGeneral':"Text"}
     metadata['identifier'] = {'identifier':eprint['doi'],'identifierType':"DOI"}
     metadata['descriptions'] =[{'descriptionType':"Abstract",\
-            'description':eprint['abstract']}]
+            'description':cleanhtml(eprint['abstract'])}]
     metadata['formats'] = ['PDF']
     metadata['version'] = 'Final'
     metadata['language'] = 'English'
