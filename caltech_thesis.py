@@ -47,7 +47,10 @@ for f in files:
     metadata['publicationYear'] = eprint['date']
     metadata['resourceType']={"resourceType":\
             "Dissertation ("+eprint['thesis_degree']+")",'resourceTypeGeneral':"Text"}
-    metadata['identifier'] = {'identifier':eprint['doi'],'identifierType':"DOI"}
+    
+    if 'doi' in eprint:
+        metadata['identifier'] = {'identifier':eprint['doi'],'identifierType':"DOI"}
+    
     metadata['descriptions'] =[{'descriptionType':"Abstract",\
             'description':cleanhtml(eprint['abstract'])}]
     metadata['formats'] = ['PDF']
