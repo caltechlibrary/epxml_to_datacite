@@ -1,0 +1,2041 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://thesis.library.caltech.edu/id/eprint/10271'>
+    <eprintid>10271</eprintid>
+    <rev_number>54</rev_number>
+    <documents>
+      <document id='https://thesis.library.caltech.edu/id/document/79983'>
+        <docid>79983</docid>
+        <rev_number>7</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226091'>
+            <fileid>226091</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79983</objectid>
+            <filename>Ch1 final.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>1f7b02567f581c74cfb248d355419e80</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1150123</filesize>
+            <mtime>2017-06-05 07:06:06</mtime>
+            <url>https://thesis.library.caltech.edu/10271/7/Ch1%20final.pdf</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>7</pos>
+        <placement>2</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Chapter 1</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Ch1 final.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79984'>
+        <docid>79984</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226093'>
+            <fileid>226093</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79984</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>b224541c4c00c33c602f6103aa2761ef</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>21324</filesize>
+            <mtime>2017-06-05 07:06:24</mtime>
+            <url>https://thesis.library.caltech.edu/10271/8/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>8</pos>
+        <placement>8</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79985'>
+        <docid>79985</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226094'>
+            <fileid>226094</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79985</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>be9421d91f346d646f120795bd55d352</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>36519</filesize>
+            <mtime>2017-06-05 07:06:25</mtime>
+            <url>https://thesis.library.caltech.edu/10271/9/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>9</pos>
+        <placement>9</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79986'>
+        <docid>79986</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226095'>
+            <fileid>226095</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79986</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>999685ad5fb45e79f6c846d15ddee33b</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>4880</filesize>
+            <mtime>2017-06-05 07:06:25</mtime>
+            <url>https://thesis.library.caltech.edu/10271/10/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>10</pos>
+        <placement>10</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79987'>
+        <docid>79987</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226096'>
+            <fileid>226096</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79987</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>b5e4f674a45a3ea78a384de342e89b86</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1279</filesize>
+            <mtime>2017-06-05 07:06:26</mtime>
+            <url>https://thesis.library.caltech.edu/10271/11/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>11</pos>
+        <placement>11</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79988'>
+        <docid>79988</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226097'>
+            <fileid>226097</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79988</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/plain</mime_type>
+            <hash>8da5770d290e85387f5bba0595a467f1</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>11888</filesize>
+            <mtime>2017-06-05 07:06:27</mtime>
+            <url>https://thesis.library.caltech.edu/10271/12/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>12</pos>
+        <placement>12</placement>
+        <mime_type>text/plain</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79983</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79989'>
+        <docid>79989</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226098'>
+            <fileid>226098</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79989</objectid>
+            <filename>Ch2 final.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>5fb7bcae9bcbcaaef23673d1dee3fd49</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>719690</filesize>
+            <mtime>2017-06-05 07:06:40</mtime>
+            <url>https://thesis.library.caltech.edu/10271/13/Ch2%20final.pdf</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>13</pos>
+        <placement>3</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Chapter 2</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Ch2 final.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79990'>
+        <docid>79990</docid>
+        <rev_number>6</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226100'>
+            <fileid>226100</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79990</objectid>
+            <filename>Ch 3 final.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>9d1e3e7c5679cdf607c85aebb28d23b9</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>461620</filesize>
+            <mtime>2017-06-05 07:06:49</mtime>
+            <url>https://thesis.library.caltech.edu/10271/14/Ch%203%20final.pdf</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>14</pos>
+        <placement>4</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Chapter 3</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Ch 3 final.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79991'>
+        <docid>79991</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226102'>
+            <fileid>226102</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79991</objectid>
+            <filename>Ch 4 final.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>58e9edbe20eeb28801e87faf7cd2b975</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1354684</filesize>
+            <mtime>2017-06-05 07:06:55</mtime>
+            <url>https://thesis.library.caltech.edu/10271/15/Ch%204%20final.pdf</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>15</pos>
+        <placement>5</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Chapter 4</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Ch 4 final.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79992'>
+        <docid>79992</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226104'>
+            <fileid>226104</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79992</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>c29d42e52cbd72e49cf256d22dbd866f</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>23748</filesize>
+            <mtime>2017-06-05 07:06:58</mtime>
+            <url>https://thesis.library.caltech.edu/10271/16/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>16</pos>
+        <placement>16</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79993'>
+        <docid>79993</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226105'>
+            <fileid>226105</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79993</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>0d3e9c23891958db943c932992a60d5b</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>40489</filesize>
+            <mtime>2017-06-05 07:06:59</mtime>
+            <url>https://thesis.library.caltech.edu/10271/17/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>17</pos>
+        <placement>17</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79994'>
+        <docid>79994</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226106'>
+            <fileid>226106</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79994</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>d2c982e83e337042482e96f57bcf7276</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>5077</filesize>
+            <mtime>2017-06-05 07:07:00</mtime>
+            <url>https://thesis.library.caltech.edu/10271/18/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>18</pos>
+        <placement>18</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79995'>
+        <docid>79995</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226107'>
+            <fileid>226107</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79995</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>645c2dd563398c04cf6a35c04c045d59</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1393</filesize>
+            <mtime>2017-06-05 07:07:00</mtime>
+            <url>https://thesis.library.caltech.edu/10271/19/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>19</pos>
+        <placement>19</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79996'>
+        <docid>79996</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226108'>
+            <fileid>226108</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79996</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>33cddf07c4868374acf3251d25af3225</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>17501</filesize>
+            <mtime>2017-06-05 07:07:01</mtime>
+            <url>https://thesis.library.caltech.edu/10271/20/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>20</pos>
+        <placement>20</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79997'>
+        <docid>79997</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226109'>
+            <fileid>226109</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79997</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>36c8001edff56574c152a59fd4e31594</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>29483</filesize>
+            <mtime>2017-06-05 07:07:01</mtime>
+            <url>https://thesis.library.caltech.edu/10271/21/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>21</pos>
+        <placement>21</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79998'>
+        <docid>79998</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226110'>
+            <fileid>226110</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79998</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>de0cf5eac132e1b0e5b906779a9a402a</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>3987</filesize>
+            <mtime>2017-06-05 07:07:02</mtime>
+            <url>https://thesis.library.caltech.edu/10271/22/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>22</pos>
+        <placement>22</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/79999'>
+        <docid>79999</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226111'>
+            <fileid>226111</fileid>
+            <datasetid>document</datasetid>
+            <objectid>79999</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>048edaedde4dd4186c325c27f533d798</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1259</filesize>
+            <mtime>2017-06-05 07:07:02</mtime>
+            <url>https://thesis.library.caltech.edu/10271/23/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>23</pos>
+        <placement>23</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80000'>
+        <docid>80000</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226112'>
+            <fileid>226112</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80000</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>094b6c79bd01d7f705617af0f7bdd33d</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>21069</filesize>
+            <mtime>2017-06-05 07:07:03</mtime>
+            <url>https://thesis.library.caltech.edu/10271/24/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>24</pos>
+        <placement>24</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80001'>
+        <docid>80001</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226113'>
+            <fileid>226113</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80001</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>baa4a100aafdb1e78d85cb139251bf83</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>34082</filesize>
+            <mtime>2017-06-05 07:07:03</mtime>
+            <url>https://thesis.library.caltech.edu/10271/25/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>25</pos>
+        <placement>25</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80002'>
+        <docid>80002</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226114'>
+            <fileid>226114</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80002</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>4e37e782a7ec601b960f8ee4ada17e70</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>4341</filesize>
+            <mtime>2017-06-05 07:07:04</mtime>
+            <url>https://thesis.library.caltech.edu/10271/26/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>26</pos>
+        <placement>26</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80003'>
+        <docid>80003</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226115'>
+            <fileid>226115</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80003</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>898b24d86c7f582a94a81248a30bc96a</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1290</filesize>
+            <mtime>2017-06-05 07:07:04</mtime>
+            <url>https://thesis.library.caltech.edu/10271/27/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>27</pos>
+        <placement>27</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80004'>
+        <docid>80004</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226116'>
+            <fileid>226116</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80004</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/plain</mime_type>
+            <hash>b7315fa40f4c8e7239cd42b6236532d8</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>9505</filesize>
+            <mtime>2017-06-05 07:07:05</mtime>
+            <url>https://thesis.library.caltech.edu/10271/28/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>28</pos>
+        <placement>28</placement>
+        <mime_type>text/plain</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79989</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80005'>
+        <docid>80005</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226117'>
+            <fileid>226117</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80005</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/plain</mime_type>
+            <hash>3819f0c734363a359f3645c52b11969c</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>6856</filesize>
+            <mtime>2017-06-05 07:07:06</mtime>
+            <url>https://thesis.library.caltech.edu/10271/29/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>29</pos>
+        <placement>29</placement>
+        <mime_type>text/plain</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79990</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80006'>
+        <docid>80006</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226118'>
+            <fileid>226118</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80006</objectid>
+            <filename>Appendix 1 final.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>28a911832fb57be9beea2e7c18737d03</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>2405015</filesize>
+            <mtime>2017-06-05 07:07:06</mtime>
+            <url>https://thesis.library.caltech.edu/10271/30/Appendix%201%20final.pdf</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>30</pos>
+        <placement>6</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Appendix 1</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Appendix 1 final.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80007'>
+        <docid>80007</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226120'>
+            <fileid>226120</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80007</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c</mime_type>
+            <hash>769e79a882930aaf349f5dd97b11c4f9</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>12856</filesize>
+            <mtime>2017-06-05 07:07:06</mtime>
+            <url>https://thesis.library.caltech.edu/10271/31/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>31</pos>
+        <placement>31</placement>
+        <mime_type>text/x-c</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/79991</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80008'>
+        <docid>80008</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226121'>
+            <fileid>226121</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80008</objectid>
+            <filename>Appendix 2 final.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>ac8a9545f374cc716d074b51344851f3</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1031770</filesize>
+            <mtime>2017-06-05 07:07:12</mtime>
+            <url>https://thesis.library.caltech.edu/10271/32/Appendix%202%20final.pdf</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>32</pos>
+        <placement>7</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Appendix 2</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Appendix 2 final.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80009'>
+        <docid>80009</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226123'>
+            <fileid>226123</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80009</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>78f2e86ae1e8833ce78585a3a80dd487</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>12952</filesize>
+            <mtime>2017-06-05 07:07:20</mtime>
+            <url>https://thesis.library.caltech.edu/10271/33/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>33</pos>
+        <placement>33</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80010'>
+        <docid>80010</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226124'>
+            <fileid>226124</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80010</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>491a09cdbde9bdd75b66cc43d975d5f6</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>17350</filesize>
+            <mtime>2017-06-05 07:07:21</mtime>
+            <url>https://thesis.library.caltech.edu/10271/34/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>34</pos>
+        <placement>34</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80011'>
+        <docid>80011</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226125'>
+            <fileid>226125</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80011</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>922f9fe05ab949725ff84fc308d5e515</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>6709</filesize>
+            <mtime>2017-06-05 07:07:22</mtime>
+            <url>https://thesis.library.caltech.edu/10271/35/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>35</pos>
+        <placement>35</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80012'>
+        <docid>80012</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226126'>
+            <fileid>226126</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80012</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>7c7d108da29b0e61edd7dc661e552cb1</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>890</filesize>
+            <mtime>2017-06-05 07:07:22</mtime>
+            <url>https://thesis.library.caltech.edu/10271/36/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>36</pos>
+        <placement>36</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80013'>
+        <docid>80013</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226127'>
+            <fileid>226127</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80013</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>a2d8f93349c0777e781c92751fc0991d</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>11728</filesize>
+            <mtime>2017-06-05 07:07:23</mtime>
+            <url>https://thesis.library.caltech.edu/10271/37/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>37</pos>
+        <placement>37</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80014'>
+        <docid>80014</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226128'>
+            <fileid>226128</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80014</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>14ff49495b6f8ccc173dba054bcf6b9c</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>15977</filesize>
+            <mtime>2017-06-05 07:07:23</mtime>
+            <url>https://thesis.library.caltech.edu/10271/38/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>38</pos>
+        <placement>38</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80015'>
+        <docid>80015</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226129'>
+            <fileid>226129</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80015</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>ceda7e1a700faa8d42a099f14c1d1a15</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>6097</filesize>
+            <mtime>2017-06-05 07:07:23</mtime>
+            <url>https://thesis.library.caltech.edu/10271/39/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>39</pos>
+        <placement>39</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80016'>
+        <docid>80016</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226130'>
+            <fileid>226130</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80016</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>4ae7c950a0df77f4a685f8c2a3c6c1c1</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>888</filesize>
+            <mtime>2017-06-05 07:07:24</mtime>
+            <url>https://thesis.library.caltech.edu/10271/40/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>40</pos>
+        <placement>40</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80017'>
+        <docid>80017</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226131'>
+            <fileid>226131</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80017</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/plain</mime_type>
+            <hash>eb44b03e6feac88d8f0ca0a876a9ed4c</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>321</filesize>
+            <mtime>2017-06-05 07:07:25</mtime>
+            <url>https://thesis.library.caltech.edu/10271/41/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>41</pos>
+        <placement>41</placement>
+        <mime_type>text/plain</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80006</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80018'>
+        <docid>80018</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226132'>
+            <fileid>226132</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80018</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/plain</mime_type>
+            <hash>f460781543fc196e818f833b890eefd5</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>327</filesize>
+            <mtime>2017-06-05 07:07:25</mtime>
+            <url>https://thesis.library.caltech.edu/10271/42/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>42</pos>
+        <placement>42</placement>
+        <mime_type>text/plain</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80008</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80019'>
+        <docid>80019</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226133'>
+            <fileid>226133</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80019</objectid>
+            <filename>Appendix 3.1 final.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>cac62c23d22f4a4bdf8e787656408c0f</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>10598966</filesize>
+            <mtime>2017-06-05 07:09:15</mtime>
+            <url>https://thesis.library.caltech.edu/10271/43/Appendix%203.1%20final.pdf</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>43</pos>
+        <placement>8</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Appendix 3</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Appendix 3.1 final.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80020'>
+        <docid>80020</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226136'>
+            <fileid>226136</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80020</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>1c21299e0620f5e3c4e25c9760a33299</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>9051</filesize>
+            <mtime>2017-06-05 07:09:28</mtime>
+            <url>https://thesis.library.caltech.edu/10271/44/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>44</pos>
+        <placement>44</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80021'>
+        <docid>80021</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226137'>
+            <fileid>226137</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80021</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>f87c2e6444378bae7614d06d9851f0a4</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>12669</filesize>
+            <mtime>2017-06-05 07:09:30</mtime>
+            <url>https://thesis.library.caltech.edu/10271/45/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>45</pos>
+        <placement>45</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80022'>
+        <docid>80022</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226138'>
+            <fileid>226138</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80022</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>4da868ab23ace3f2ff26795032c7e7b5</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>4497</filesize>
+            <mtime>2017-06-05 07:09:31</mtime>
+            <url>https://thesis.library.caltech.edu/10271/46/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>46</pos>
+        <placement>46</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80023'>
+        <docid>80023</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226139'>
+            <fileid>226139</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80023</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>2f28ebb50132a535591024a1707887ba</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>853</filesize>
+            <mtime>2017-06-05 07:09:32</mtime>
+            <url>https://thesis.library.caltech.edu/10271/47/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>47</pos>
+        <placement>47</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80024'>
+        <docid>80024</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226140'>
+            <fileid>226140</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80024</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/plain</mime_type>
+            <hash>0645b958283f9c0b88a726328acad45a</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1450</filesize>
+            <mtime>2017-06-05 07:09:33</mtime>
+            <url>https://thesis.library.caltech.edu/10271/48/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>48</pos>
+        <placement>48</placement>
+        <mime_type>text/plain</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80019</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80253'>
+        <docid>80253</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226739'>
+            <fileid>226739</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80253</objectid>
+            <filename>SB Thesis final.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>e82b2df7604b32b68e974a682fd8c149</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>18168470</filesize>
+            <mtime>2017-06-05 20:36:29</mtime>
+            <url>https://thesis.library.caltech.edu/10271/49/SB%20Thesis%20final.pdf</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>49</pos>
+        <placement>1</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Full Thesis</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>SB Thesis final.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80254'>
+        <docid>80254</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226743'>
+            <fileid>226743</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80254</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>ef0a96278b75f697dac9cd3f3f45b4e2</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>14532</filesize>
+            <mtime>2017-06-05 20:36:44</mtime>
+            <url>https://thesis.library.caltech.edu/10271/50/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>50</pos>
+        <placement>50</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80255'>
+        <docid>80255</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226744'>
+            <fileid>226744</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80255</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>ebd8ae6c2b146788e3226adac3a1c9ba</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>17820</filesize>
+            <mtime>2017-06-05 20:36:47</mtime>
+            <url>https://thesis.library.caltech.edu/10271/51/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>51</pos>
+        <placement>51</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80256'>
+        <docid>80256</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226745'>
+            <fileid>226745</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80256</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>5dbdcbdaf037dd5f09e74d2f41ee2300</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>3665</filesize>
+            <mtime>2017-06-05 20:36:49</mtime>
+            <url>https://thesis.library.caltech.edu/10271/52/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>52</pos>
+        <placement>52</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80257'>
+        <docid>80257</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226746'>
+            <fileid>226746</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80257</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>5a9076312387ca26a5fd51154f401af4</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1123</filesize>
+            <mtime>2017-06-05 20:36:51</mtime>
+            <url>https://thesis.library.caltech.edu/10271/53/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>53</pos>
+        <placement>53</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80258'>
+        <docid>80258</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/226748'>
+            <fileid>226748</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80258</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c</mime_type>
+            <hash>d7ad51bc5ffa035411fac6bb0b5b6956</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>33322</filesize>
+            <mtime>2017-06-05 20:37:00</mtime>
+            <url>https://thesis.library.caltech.edu/10271/54/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10271</eprintid>
+        <pos>54</pos>
+        <placement>54</placement>
+        <mime_type>text/x-c</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80253</uri>
+          </item>
+        </relation>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>10658</userid>
+    <dir>disk0/00/01/02/71</dir>
+    <datestamp>2017-06-06 23:56:26</datestamp>
+    <lastmod>2017-06-15 16:57:51</lastmod>
+    <status_changed>2017-06-06 23:56:26</status_changed>
+    <type>thesis</type>
+    <metadata_visibility>show</metadata_visibility>
+    <creators>
+      <item>
+        <name>
+          <family>Bachman</family>
+          <given>Shoshana</given>
+        </name>
+        <id>Bachman-Shoshana</id>
+        <email>shoshana.bachman@gmail.com</email>
+        <show_email>NO</show_email>
+      </item>
+    </creators>
+    <title>Development of Cu- and Ni-Catalyzed C–C and C–N Bond Forming Reactions</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_chem</item>
+    </divisions>
+    <full_text_status>public</full_text_status>
+    <keywords>Catalysis, Reaction Development, Methodology, Ni catalysis, Cu catalysis, Asymmetric Catalysis</keywords>
+    <suggestions>Files temporarily withheld until Jun 13, 2017 - released to public view 6/15/2017</suggestions>
+    <abstract>&lt;p&gt;Chapters 1 and 2 describe the development of photoinduced, Cu-catalyzed coupling reactions of unactivated secondary alkyl halides with amide and cyanide nucleophiles. These reactions may be conducted at room temperature under operationally simple conditions. Mechanistic studies are consistent with the intermediacy of alkyl radicals in these processes.&lt;/p&gt;
+
+&lt;p&gt;Chapter 3 describes progress toward the development of the first enantioselective Ni-catalyzed cross coupling of racemic alkyl halides and heteroatom nucleophiles. Borylation of secondary benzylic chlorides with B&lt;sub&gt;2&lt;/sub&gt;(pin)&lt;sub&gt;2&lt;/sub&gt; may be achieved in good yield and promising levels of enantioselectivity.&lt;/p&gt;
+
+&lt;p&gt;Chapter 4 describes enantioselective Ni-catalyzed couplings of α-substituted lactam enolates with benzonitrile derivatives resulting in formal intermolecular C- acylation via in situ hydrolysis of an imine intermediate.&lt;/p&gt;</abstract>
+    <date>2017</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:06042017-233801526</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>phd</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:06042017-233801526</official_url>
+    <related_url>
+      <item>
+        <url>http://dx.doi.org/10.1021/ja4126609</url>
+        <type>doi</type>
+        <description>Article related to Chapter 1</description>
+      </item>
+      <item>
+        <url>http://dx.doi.org/10.1021/jacs.5b08452</url>
+        <type>doi</type>
+        <description>Article related to Chapter 2</description>
+      </item>
+      <item>
+        <url>http://dx.doi.org/10.1021/jacs.6b02120</url>
+        <type>doi</type>
+        <description>Article related to Chapter 4</description>
+      </item>
+    </related_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <doi>10.7907/Z99S1P2G</doi>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Stoltz</family>
+          <given>Brian M.</given>
+        </name>
+        <id>Stoltz-B-M</id>
+        <role>advisor</role>
+        <email>stoltz@caltech.edu</email>
+      </item>
+    </thesis_advisor>
+    <thesis_committee>
+      <item>
+        <name>
+          <family>Reisman</family>
+          <given>Sarah E.</given>
+        </name>
+        <id>Reisman-S-E</id>
+        <role>chair</role>
+        <email>reisman@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Fu</family>
+          <given>Gregory C.</given>
+        </name>
+        <id>Fu-G-C</id>
+        <role>member</role>
+        <email>gcfu@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Peters</family>
+          <given>Jonas C.</given>
+        </name>
+        <id>Peters-J-C</id>
+        <role>member</role>
+        <email>jpeters@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Stoltz</family>
+          <given>Brian M.</given>
+        </name>
+        <id>Stoltz-B-M</id>
+        <role>member</role>
+        <email>stoltz@caltech.edu</email>
+      </item>
+    </thesis_committee>
+    <thesis_degree>PHD</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>2017-05-25</thesis_defense_date>
+    <reviewer>Kathy Johnson</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>chemistry</item>
+    </option_major>
+    <copyright_statement>Author&apos;s Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under &quot;Thesis Availability&quot; in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+    <gradofc_approval_date>2017-06-06</gradofc_approval_date>
+  </eprint>
+</eprints>

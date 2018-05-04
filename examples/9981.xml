@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://thesis.library.caltech.edu/id/eprint/9981'>
+    <eprintid>9981</eprintid>
+    <rev_number>25</rev_number>
+    <documents>
+      <document id='https://thesis.library.caltech.edu/id/document/74780'>
+        <docid>74780</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/211302'>
+            <fileid>211302</fileid>
+            <datasetid>document</datasetid>
+            <objectid>74780</objectid>
+            <filename>dynamics-intertropical-convergence (1).pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>a3cd5516814fed1de0d642a545f63d06</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>5615456</filesize>
+            <mtime>2016-11-17 01:21:28</mtime>
+            <url>https://thesis.library.caltech.edu/9981/7/dynamics-intertropical-convergence%20%281%29.pdf</url>
+          </file>
+        </files>
+        <eprintid>9981</eprintid>
+        <pos>7</pos>
+        <placement>7</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>dynamics-intertropical-convergence (1).pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/74781'>
+        <docid>74781</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/211305'>
+            <fileid>211305</fileid>
+            <datasetid>document</datasetid>
+            <objectid>74781</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>c6cb646f470e69f6150ef21c76dc342a</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>17890</filesize>
+            <mtime>2016-11-17 01:21:43</mtime>
+            <url>https://thesis.library.caltech.edu/9981/8/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>9981</eprintid>
+        <pos>8</pos>
+        <placement>8</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/74782'>
+        <docid>74782</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/211306'>
+            <fileid>211306</fileid>
+            <datasetid>document</datasetid>
+            <objectid>74782</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>c3802fc841ca8ce3a0c14a539a9abfc2</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>26967</filesize>
+            <mtime>2016-11-17 01:21:44</mtime>
+            <url>https://thesis.library.caltech.edu/9981/9/preview.png</url>
+          </file>
+        </files>
+        <eprintid>9981</eprintid>
+        <pos>9</pos>
+        <placement>9</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/74783'>
+        <docid>74783</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/211307'>
+            <fileid>211307</fileid>
+            <datasetid>document</datasetid>
+            <objectid>74783</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>b0518e78eecb82c29501cff62b702f97</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>5152</filesize>
+            <mtime>2016-11-17 01:21:44</mtime>
+            <url>https://thesis.library.caltech.edu/9981/10/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>9981</eprintid>
+        <pos>10</pos>
+        <placement>10</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/74784'>
+        <docid>74784</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/211308'>
+            <fileid>211308</fileid>
+            <datasetid>document</datasetid>
+            <objectid>74784</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>b97fd7859a7fddf0c5c959d6ac439452</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1358</filesize>
+            <mtime>2016-11-17 01:21:44</mtime>
+            <url>https://thesis.library.caltech.edu/9981/11/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>9981</eprintid>
+        <pos>11</pos>
+        <placement>11</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/74785'>
+        <docid>74785</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/211309'>
+            <fileid>211309</fileid>
+            <datasetid>document</datasetid>
+            <objectid>74785</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c</mime_type>
+            <hash>eac975ea524d1d11a8a739026af641bd</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>25656</filesize>
+            <mtime>2016-11-17 01:21:54</mtime>
+            <url>https://thesis.library.caltech.edu/9981/12/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>9981</eprintid>
+        <pos>12</pos>
+        <placement>12</placement>
+        <mime_type>text/x-c</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/74780</uri>
+          </item>
+        </relation>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>9594</userid>
+    <dir>disk0/00/00/99/81</dir>
+    <datestamp>2016-12-09 21:30:38</datestamp>
+    <lastmod>2017-06-16 22:18:14</lastmod>
+    <status_changed>2016-12-09 21:30:38</status_changed>
+    <type>thesis</type>
+    <metadata_visibility>show</metadata_visibility>
+    <creators>
+      <item>
+        <name>
+          <family>Bischoff</family>
+          <given>Tobias</given>
+        </name>
+        <id>Bischoff-Tobias</id>
+        <email>bischtob@gmail.com</email>
+        <show_email>NO</show_email>
+        <orcid>0000-0003-3930-2762</orcid>
+      </item>
+    </creators>
+    <title>Dynamics of the Intertropical Convergence Zone</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_gps</item>
+    </divisions>
+    <full_text_status>public</full_text_status>
+    <keywords>ITCZ, Climate Dynamics</keywords>
+    <abstract>Previous studies have shown that the latitude of the Intertropical Convergence Zone (ITCZ) is negatively correlated with cross-equatorial atmospheric energy transport and that the ITCZ shifts southward as the northern hemisphere cools and the northward cross-equatorial energy transport strengthens. However, it has remained unclear what controls the sensitivity of the ITCZ position to cross-equatorial energy transport, and what other factors may lead to shifts of the ITCZ position. In this thesis, it is shown how an energetic perspective using the vertically-integrated moist static energy balance of the atmosphere can be used to address this question. Climate states with a double-ITCZ around the equator also occur, for example, seasonally over the eastern Pacific, and frequently in climate models. Here it is shown how the ITCZ position is connected to the energy balance near the equator under a wide range of circumstances, including states with single and double ITCZs and using a Taylor expansion of the meridional energy transport around the equator quantitative estimates for the ITCZ location are derived. Simulations with an idealized aquaplanet general circulation model (GCM) confirm the quantitative adequacy of these relations. Using these ideas, an idealized precipitation model for the tropics is presented that is able to capture variations of paleoclimatological precipitation records on orbital time scales. The results provide a framework for assessing and understanding causes of common climate model biases and for interpreting tropical precipitation changes, such as those evident in records of climates of the past.</abstract>
+    <date>2017</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:11122016-111133209</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>phd</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:11122016-111133209</official_url>
+    <related_url>
+      <item>
+        <url>http://dx.doi.org/10.1175/JCLI-D-13-00650.1</url>
+        <type>doi</type>
+        <description>Article adapted for ch. 2</description>
+      </item>
+      <item>
+        <url>http://dx.doi.org/10.1175/JCLI-D-15-0328.1</url>
+        <type>doi</type>
+        <description>Article adapted for ch. 3</description>
+      </item>
+      <item>
+        <url>http://dx.doi.org/10.1175/JPO-D-14-0062.1</url>
+        <type>doi</type>
+        <description>Article adapted for ch. 5</description>
+      </item>
+    </related_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <doi>10.7907/Z97M05XR</doi>
+    <funders>
+      <item>
+        <agency>National Science Foundation</agency>
+        <grant_number>AGS-1019211</grant_number>
+      </item>
+      <item>
+        <agency>National Science Foundation</agency>
+        <grant_number>AGS-1049201</grant_number>
+      </item>
+      <item>
+        <agency>National Science Foundation</agency>
+        <grant_number>AGS-1003614</grant_number>
+      </item>
+      <item>
+        <agency>National Science Foundation</agency>
+        <grant_number>OCE-1235488</grant_number>
+      </item>
+    </funders>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Schneider</family>
+          <given>Tapio</given>
+        </name>
+        <id>Schneider-T</id>
+        <role>advisor</role>
+        <email>tapio@caltech.edu</email>
+      </item>
+    </thesis_advisor>
+    <thesis_committee>
+      <item>
+        <name>
+          <family>Thompson</family>
+          <given>Frederick B.</given>
+        </name>
+        <id>Thompson-F-B</id>
+        <role>chair</role>
+        <email>andrewt@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Schneider</family>
+          <given>Tapio</given>
+        </name>
+        <id>Schneider-T</id>
+        <role>member</role>
+        <email>tapio@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Bordoni</family>
+          <given>Simona</given>
+        </name>
+        <id>Bordoni-S</id>
+        <role>member</role>
+        <email>bordoni@gps.caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Adkins</family>
+          <given>Jess F.</given>
+        </name>
+        <id>Adkins-J-F</id>
+        <role>member</role>
+        <email>jess@gps.caltech.edu</email>
+      </item>
+    </thesis_committee>
+    <thesis_degree>PHD</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>2016-06-09</thesis_defense_date>
+    <reviewer>Kathy Johnson</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>envreng</item>
+    </option_major>
+    <option_minor>
+      <item>appliedmath</item>
+      <item>compsci</item>
+    </option_minor>
+    <copyright_statement>Author&apos;s Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under &quot;Thesis Availability&quot; in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+    <gradofc_approval_date>2016-12-09</gradofc_approval_date>
+  </eprint>
+</eprints>

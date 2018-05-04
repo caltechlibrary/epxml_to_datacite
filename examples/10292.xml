@@ -1,0 +1,377 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://thesis.library.caltech.edu/id/eprint/10292'>
+    <eprintid>10292</eprintid>
+    <rev_number>30</rev_number>
+    <documents>
+      <document id='https://thesis.library.caltech.edu/id/document/80781'>
+        <docid>80781</docid>
+        <rev_number>4</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/228005'>
+            <fileid>228005</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80781</objectid>
+            <filename>Appel_Ron_2017.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>ba5c2f054adec24df7837b0914481f08</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>8076627</filesize>
+            <mtime>2017-06-06 22:51:49</mtime>
+            <url>https://thesis.library.caltech.edu/10292/7/Appel_Ron_2017.pdf</url>
+          </file>
+        </files>
+        <eprintid>10292</eprintid>
+        <pos>7</pos>
+        <placement>7</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Appel_Ron_2017.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80782'>
+        <docid>80782</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/228007'>
+            <fileid>228007</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80782</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>a1764a04873952f44a369be6d2951edc</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>15303</filesize>
+            <mtime>2017-06-06 22:51:51</mtime>
+            <url>https://thesis.library.caltech.edu/10292/8/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10292</eprintid>
+        <pos>8</pos>
+        <placement>8</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80783'>
+        <docid>80783</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/228008'>
+            <fileid>228008</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80783</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>68c3991c1644f02bea77ab49c3316a44</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>22944</filesize>
+            <mtime>2017-06-06 22:51:52</mtime>
+            <url>https://thesis.library.caltech.edu/10292/9/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10292</eprintid>
+        <pos>9</pos>
+        <placement>9</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80784'>
+        <docid>80784</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/228009'>
+            <fileid>228009</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80784</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>3a3c5a5507804b6f2b7646ba779b749c</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>4581</filesize>
+            <mtime>2017-06-06 22:51:52</mtime>
+            <url>https://thesis.library.caltech.edu/10292/10/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10292</eprintid>
+        <pos>10</pos>
+        <placement>10</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80785'>
+        <docid>80785</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/228010'>
+            <fileid>228010</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80785</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>ac33eb454968c0ee15b72628407d9d73</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1314</filesize>
+            <mtime>2017-06-06 22:51:53</mtime>
+            <url>https://thesis.library.caltech.edu/10292/11/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10292</eprintid>
+        <pos>11</pos>
+        <placement>11</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/80786'>
+        <docid>80786</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/228011'>
+            <fileid>228011</fileid>
+            <datasetid>document</datasetid>
+            <objectid>80786</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c</mime_type>
+            <hash>9742fb932b3606b2073bf29c7bd60d3f</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>22151</filesize>
+            <mtime>2017-06-06 22:51:56</mtime>
+            <url>https://thesis.library.caltech.edu/10292/12/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10292</eprintid>
+        <pos>12</pos>
+        <placement>12</placement>
+        <mime_type>text/x-c</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/80781</uri>
+          </item>
+        </relation>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>11127</userid>
+    <dir>disk0/00/01/02/92</dir>
+    <datestamp>2017-06-07 17:41:44</datestamp>
+    <lastmod>2017-06-15 17:05:48</lastmod>
+    <status_changed>2017-06-07 17:41:44</status_changed>
+    <type>thesis</type>
+    <metadata_visibility>show</metadata_visibility>
+    <creators>
+      <item>
+        <name>
+          <family>Appel</family>
+          <given>Ron</given>
+        </name>
+        <id>Appel-Ron</id>
+        <email>ronappel1@gmail.com</email>
+        <show_email>NO</show_email>
+      </item>
+    </creators>
+    <title>Boosting Boosting</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_eng</item>
+    </divisions>
+    <full_text_status>public</full_text_status>
+    <keywords>Boosting</keywords>
+    <suggestions>Files temporarily withheld until Jun 14, 2017 - released to public view 6/15/2017</suggestions>
+    <abstract>&lt;p&gt;Machine learning is becoming prevalent in all aspects of our lives. For some applications, there is a need for simple but accurate white-box systems that are able to train efficiently and with little data.&lt;/p&gt;
+
+&lt;p&gt;&quot;Boosting&quot; is an intuitive method, combining many simple (possibly inaccurate) predictors to form a powerful, accurate classifier. Boosted classifiers are intuitive, easy to use, and exhibit the fastest speeds at test-time when implemented as a cascade. However, they have a few drawbacks: training decision trees is a relatively slow procedure, and from a theoretical standpoint, no simple unified framework for cost-sensitive multi-class boosting exists. Furthermore, (axis-aligned) decision trees may be inadequate in some situations, thereby stalling training; and even in cases where they are sufficiently useful, they don&apos;t capture the intrinsic nature of the data, as they tend to form boundaries that overfit.&lt;/p&gt;
+
+&lt;p&gt;My thesis focuses on remedying these three drawbacks of boosting.
+Ch.III outlines a method (called QuickBoost) that trains identical classifiers at an order of magnitude faster than before, based on a proof of a bound. In Ch.IV, a unified framework for cost-sensitive multi-class boosting (called REBEL) is proposed, both advancing theory and demonstrating empirical gains. Finally, Ch.V describes a novel family of weak learners (called Localized Similarities) that guarantee theoretical bounds and outperform decision trees and Neural Nets (as well as several other commonly used classification methods) on a range of datasets. &lt;/p&gt;
+
+&lt;p&gt;The culmination of my work is an easy-to-use, fast-training, cost-sensitive multi-class boosting framework whose functionality is interpretable (since each weak learner is a simple comparison of similarity), and whose performance is better than Neural Networks and other competing methods. It is the tool that everyone should have in their toolbox and the first one they try.&lt;/p&gt;</abstract>
+    <date>2017</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:06052017-221842127</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>phd</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:06052017-221842127</official_url>
+    <related_url>
+      <item>
+        <url>http://resolver.caltech.edu/CaltechAUTHORS:20131007-134123893</url>
+        <type>doc</type>
+        <description>Article adapted for Ch. 3</description>
+      </item>
+      <item>
+        <url>http://resolver.caltech.edu/CaltechAUTHORS:20160922-125241569</url>
+        <type>doc</type>
+        <description>Article adapted for Ch. 4</description>
+      </item>
+    </related_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <doi>10.7907/Z9N29V0J</doi>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Perona</family>
+          <given>Pietro</given>
+        </name>
+        <id>Perona-P</id>
+        <role>advisor</role>
+        <email>perona@caltech.edu</email>
+      </item>
+    </thesis_advisor>
+    <thesis_committee>
+      <item>
+        <name>
+          <family>Perona</family>
+          <given>Pietro</given>
+        </name>
+        <id>Perona-P</id>
+        <role>chair</role>
+        <email>perona@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Abu-Mostafa</family>
+          <given>Yaser S.</given>
+        </name>
+        <id>Abu-Mostafa-Y-S</id>
+        <role>member</role>
+        <email>yaser@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Bruck</family>
+          <given>Jehoshua</given>
+        </name>
+        <id>Bruck-J</id>
+        <role>member</role>
+        <email>bruck@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Hassibi</family>
+          <given>Babak</given>
+        </name>
+        <id>Hassibi-B</id>
+        <role>member</role>
+        <email>hassibi@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Yue</family>
+          <given>Yisong</given>
+        </name>
+        <id>Yue-Yisong</id>
+        <role>member</role>
+        <email>yyue@caltech.edu</email>
+      </item>
+    </thesis_committee>
+    <thesis_degree>PHD</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>2017-05-22</thesis_defense_date>
+    <reviewer>Kathy Johnson</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>eleceng</item>
+    </option_major>
+    <copyright_statement>Author&apos;s Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under &quot;Thesis Availability&quot; in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+    <gradofc_approval_date>2107-06-06</gradofc_approval_date>
+    <local_group>
+      <item>Caltech Vision Lab</item>
+    </local_group>
+  </eprint>
+</eprints>

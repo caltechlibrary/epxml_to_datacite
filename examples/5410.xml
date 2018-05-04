@@ -1,0 +1,276 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://thesis.library.caltech.edu/id/eprint/5410'>
+    <eprintid>5410</eprintid>
+    <rev_number>21</rev_number>
+    <documents>
+      <document id='https://thesis.library.caltech.edu/id/document/8934'>
+        <docid>8934</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/55379'>
+            <fileid>55379</fileid>
+            <datasetid>document</datasetid>
+            <objectid>8934</objectid>
+            <filename>Hodder_rf_1930.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <filesize>1471668</filesize>
+            <mtime>2012-12-26 03:19:11</mtime>
+            <url>https://thesis.library.caltech.edu/5410/1/Hodder_rf_1930.pdf</url>
+          </file>
+        </files>
+        <eprintid>5410</eprintid>
+        <pos>1</pos>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Thesis</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Hodder_rf_1930.pdf</main>
+        <content>final</content>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/hasVolatileVersion</type>
+            <uri>https://thesis.library.caltech.edu/id/document/25100</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/haspreviewThumbnailVersion</type>
+            <uri>https://thesis.library.caltech.edu/id/document/25100</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/hasVersion</type>
+            <uri>https://thesis.library.caltech.edu/id/document/25100</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/8935'>
+        <docid>8935</docid>
+        <rev_number>6</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/55383'>
+            <fileid>55383</fileid>
+            <datasetid>document</datasetid>
+            <objectid>8935</objectid>
+            <filename>Hodder_rf_1930_plate.PDF</filename>
+            <mime_type>application/pdf</mime_type>
+            <filesize>10674241</filesize>
+            <mtime>2012-12-26 03:19:11</mtime>
+            <url>https://thesis.library.caltech.edu/5410/2/Hodder_rf_1930_plate.PDF</url>
+          </file>
+        </files>
+        <eprintid>5410</eprintid>
+        <pos>2</pos>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Geologic plate map</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Hodder_rf_1930_plate.PDF</main>
+        <content>supplemental</content>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/hasVolatileVersion</type>
+            <uri>https://thesis.library.caltech.edu/id/document/25101</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/haspreviewThumbnailVersion</type>
+            <uri>https://thesis.library.caltech.edu/id/document/25101</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/hasVersion</type>
+            <uri>https://thesis.library.caltech.edu/id/document/25101</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/15457'>
+        <docid>15457</docid>
+        <rev_number>3</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/204929'>
+            <fileid>204929</fileid>
+            <datasetid>document</datasetid>
+            <objectid>15457</objectid>
+            <filename>Hodder_rf_1930.zip</filename>
+            <mime_type>application/zip</mime_type>
+            <filesize>31827721</filesize>
+            <mtime>2016-08-22 21:18:20</mtime>
+            <url>https://thesis.library.caltech.edu/5410/3/Hodder_rf_1930.zip</url>
+          </file>
+        </files>
+        <eprintid>5410</eprintid>
+        <pos>3</pos>
+        <format>application/zip</format>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>Hodder_rf_1930.zip</main>
+        <content>archival</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/25100'>
+        <docid>25100</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/55377'>
+            <fileid>55377</fileid>
+            <datasetid>document</datasetid>
+            <objectid>25100</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>f77ada4a2b30d0560e9b41fee45e4dda</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>5260</filesize>
+            <mtime>2012-12-26 03:19:11</mtime>
+            <url>https://thesis.library.caltech.edu/5410/4/preview.png</url>
+          </file>
+        </files>
+        <eprintid>5410</eprintid>
+        <pos>4</pos>
+        <placement>4</placement>
+        <mime_type>image/png</mime_type>
+        <format>image/png</format>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/8934</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/8934</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/8934</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/25101'>
+        <docid>25101</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/55381'>
+            <fileid>55381</fileid>
+            <datasetid>document</datasetid>
+            <objectid>25101</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>04e1aac27d9d492ee109e06540927010</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>191800</filesize>
+            <mtime>2012-12-26 03:19:11</mtime>
+            <url>https://thesis.library.caltech.edu/5410/5/preview.png</url>
+          </file>
+        </files>
+        <eprintid>5410</eprintid>
+        <pos>5</pos>
+        <placement>5</placement>
+        <mime_type>image/png</mime_type>
+        <format>image/png</format>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/8935</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/8935</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/8935</uri>
+          </item>
+        </relation>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>51</userid>
+    <dir>disk0/00/00/54/10</dir>
+    <datestamp>2009-12-03 21:23:38</datestamp>
+    <lastmod>2018-04-18 17:03:30</lastmod>
+    <status_changed>2009-12-03 21:23:38</status_changed>
+    <type>thesis</type>
+    <metadata_visibility>show</metadata_visibility>
+    <item_issues_count>0</item_issues_count>
+    <creators>
+      <item>
+        <name>
+          <family>Hodder</family>
+          <given>Roland Frederick</given>
+        </name>
+        <id>Hodder-Roland-Frederick</id>
+        <show_email>NO</show_email>
+      </item>
+    </creators>
+    <title>A Report on the Geology of a Portion of the Whittier Hills Between Turnbull and La Habra Canyons</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_gps</item>
+    </divisions>
+    <full_text_status>public</full_text_status>
+    <keywords>Whittier Hills, Turnbull Canyon, La Habra Canyon, Workman Hill, Whittier Fault, Workman Fault</keywords>
+    <note>Supplemental Files Information:
+Geologic Plate: Supplement 1 from &quot;A report on the geology of a portion of the Whittier Hills between Turnbull and La Habra Canyons&quot; (Thesis).
+
+
+</note>
+    <abstract>&lt;p&gt;The rocks of the Tertiary described in this report are in the Puente Hills which are just south of the town of Puente, southeast from the town of El Monte, north of the town of Whittier, and approximately thirteen miles in a southeasternly direction from Los Angeles. The area investigated lies between Turnbull Canyon Road on the west and Hudson Avenue on the east.&lt;/p&gt;
+
+&lt;p&gt;The maps which cover this district are the Los Angeles
+County maps, La Habra and Whittier Quadrangles. The scale is
+1/2400, and the contour interval is five and twenty-five feet. The maps are accurate and adequate in every detail.&lt;/p&gt;
+</abstract>
+    <date>1930</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:12022009-145259186</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>bachelors</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:12022009-145259186</official_url>
+    <related_url>
+      <item>
+        <url>https://doi.org/10.22002/D1.367</url>
+        <type>doi</type>
+        <description>Supplement 1 in CaltechDATA: Geologic Plate</description>
+      </item>
+    </related_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <doi>10.7907/Z95D8Q2H</doi>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Unknown</family>
+          <given>Unknown</given>
+        </name>
+      </item>
+    </thesis_advisor>
+    <thesis_committee>
+      <item>
+        <name>
+          <family>Unknown</family>
+          <given>Unknown</given>
+        </name>
+      </item>
+    </thesis_committee>
+    <thesis_degree>BS</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>1930-01-01</thesis_defense_date>
+    <reviewer>Kathy Johnson</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>geol</item>
+    </option_major>
+    <copyright_statement>Author&apos;s Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under &quot;Thesis Availability&quot; in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+  </eprint>
+</eprints>
