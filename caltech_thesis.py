@@ -81,7 +81,7 @@ for f in files:
                     text = thesis_subjects[item]
                     metadata['subjects'].append({'subject':text})
             else:
-                text = theis_subjects[eprint['option_minor']['item']]
+                text = thesis_subjects[eprint['option_minor']['item']]
                 metadata['subjects'].append({'subject':text})
     
         if 'funders' in eprint:
