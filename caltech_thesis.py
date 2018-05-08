@@ -51,7 +51,9 @@ for f in files:
     
         if 'doi' in eprint:
             metadata['identifier'] = {'identifier':eprint['doi'],'identifierType':"DOI"}
-    
+        else:
+            metadata['identifier'] = {'identifier':'10.5072/1','identifierType':"DOI"}
+
         metadata['descriptions'] =[{'descriptionType':"Abstract",\
             'description':cleanhtml(eprint['abstract'])}]
         metadata['formats'] = ['PDF']
