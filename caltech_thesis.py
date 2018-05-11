@@ -54,6 +54,9 @@ for f in files:
         else:
             metadata['identifier'] = {'identifier':'10.5072/1','identifierType':"DOI"}
 
+        metadata['alternateIdentifiers'] = [{'alternateIdentifier':eprint['eprintid'],
+            'alternateIdentifierType':"Eprint_ID"}]
+
         metadata['descriptions'] =[{'descriptionType':"Abstract",\
             'description':cleanhtml(eprint['abstract'])}]
         metadata['formats'] = ['PDF']
@@ -129,7 +132,6 @@ for f in files:
 
         #Dates
         dates = []
-        dates.append({"date":datetime.date.today().isoformat(),"dateType":"Issued"})
         if 'gradofc_approval_date' in eprint:
             dates.append({"date":eprint['gradofc_approval_date'],"dateType":"Accepted"})
         #These are scanned records, we just list when they were made available
