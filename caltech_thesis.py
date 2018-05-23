@@ -7,7 +7,7 @@ def cleanhtml(raw_html):
   cleantext = re.sub(cleanr, '', raw_html)
   return cleantext
 
-#Parse subjects file
+#Parse subjects file to create dictionary of Eprints keys and labels
 infile = open('thesis-subjects.txt','r')
 thesis_subjects = {}
 for line in infile:
@@ -46,8 +46,13 @@ for f in files:
         metadata['titles'] = [{'title':eprint['title']}]
         metadata['publisher'] = "California Institute of Technology"
         metadata['publicationYear'] = eprint['date']
-        metadata['resourceType']={"resourceType":\
-            "Dissertation ("+eprint['thesis_degree']+")",'resourceTypeGeneral':"Text"}
+        #DataCite wants doctoral degrees tagged as dissertation
+        if eprint['thesis_degree'] == 'PHD':
+            metadata['resourceType']={"resourceType":\
+            "Dissertation",'resourceTypeGeneral':"Text"}
+        else:
+            metadata['resourceType']={"resourceType":\
+            thesis_subjects[eprint['thesis_type']],'resourceTypeGeneral':"Text"}
     
         if 'doi' in eprint:
             metadata['identifier'] = {'identifier':eprint['doi'],'identifierType':"DOI"}

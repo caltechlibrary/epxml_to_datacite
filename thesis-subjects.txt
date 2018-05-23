@@ -65,3 +65,9 @@ socsci:Social Science:options:1
 space:Space Engineering:options:1
 subjects:Library of Congress Subject Areas:ROOT:1
 sysbiol:Systems Biology:options:1
+bachelors:Bachelor's thesis
+engd:Engineer's thesis
+masters:Master's thesis
+other:Other
+senior_major:Senior thesis (Major)
+senior_minor:Senior thesis (Minor)
