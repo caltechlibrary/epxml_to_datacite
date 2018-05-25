@@ -158,6 +158,6 @@ for f in files:
         xml = schema40.tostring(metadata)
 
         outname = f.split('.xml')[0]+'_datacite.xml'
-        outfile = open(outname,'w')
+        outfile = open(outname,'w',encoding='utf8')
         outfile.write(xml)
 
