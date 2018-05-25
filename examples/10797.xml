@@ -1,0 +1,380 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://thesis.library.caltech.edu/id/eprint/10797'>
+    <eprintid>10797</eprintid>
+    <rev_number>47</rev_number>
+    <documents>
+      <document id='https://thesis.library.caltech.edu/id/document/87672'>
+        <docid>87672</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248879'>
+            <fileid>248879</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87672</objectid>
+            <filename>thesis_final.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>2e957c19d6097d417a3072e2640cb04a</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>8151137</filesize>
+            <mtime>2018-04-14 15:06:34</mtime>
+            <url>https://thesis.library.caltech.edu/10797/1/thesis_final.pdf</url>
+          </file>
+        </files>
+        <eprintid>10797</eprintid>
+        <pos>1</pos>
+        <placement>1</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Thesis</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>thesis_final.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87673'>
+        <docid>87673</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248881'>
+            <fileid>248881</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87673</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>d4dae3fca3665148e57f4210ab5c097e</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>18028</filesize>
+            <mtime>2018-04-14 15:06:43</mtime>
+            <url>https://thesis.library.caltech.edu/10797/2/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10797</eprintid>
+        <pos>2</pos>
+        <placement>2</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87674'>
+        <docid>87674</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248882'>
+            <fileid>248882</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87674</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>5b2030077b949840c1d5df8880527828</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>27169</filesize>
+            <mtime>2018-04-14 15:06:44</mtime>
+            <url>https://thesis.library.caltech.edu/10797/3/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10797</eprintid>
+        <pos>3</pos>
+        <placement>3</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87675'>
+        <docid>87675</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248883'>
+            <fileid>248883</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87675</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>ef57c7818a501c89386dd45e9983d0de</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>5157</filesize>
+            <mtime>2018-04-14 15:06:44</mtime>
+            <url>https://thesis.library.caltech.edu/10797/4/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10797</eprintid>
+        <pos>4</pos>
+        <placement>4</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87676'>
+        <docid>87676</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248884'>
+            <fileid>248884</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87676</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>ae86567da0e512732659113cd63d6b3e</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1399</filesize>
+            <mtime>2018-04-14 15:06:45</mtime>
+            <url>https://thesis.library.caltech.edu/10797/5/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10797</eprintid>
+        <pos>5</pos>
+        <placement>5</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87677'>
+        <docid>87677</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248885'>
+            <fileid>248885</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87677</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c++</mime_type>
+            <hash>c94952e0871d1121005582f5eeac4e41</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>26285</filesize>
+            <mtime>2018-04-14 15:06:58</mtime>
+            <url>https://thesis.library.caltech.edu/10797/6/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10797</eprintid>
+        <pos>6</pos>
+        <placement>6</placement>
+        <mime_type>text/x-c++</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87672</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87678'>
+        <docid>87678</docid>
+        <rev_number>4</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248886'>
+            <fileid>248886</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87678</objectid>
+            <filename>thesis_final.tar.gz</filename>
+            <mime_type>application/x-gzip</mime_type>
+            <hash>6eeb71031a7818f15e0071e975b498db</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>22307408</filesize>
+            <mtime>2018-04-14 15:13:39</mtime>
+            <url>https://thesis.library.caltech.edu/10797/7/thesis_final.tar.gz</url>
+          </file>
+        </files>
+        <eprintid>10797</eprintid>
+        <pos>7</pos>
+        <placement>7</placement>
+        <mime_type>application/x-gzip</mime_type>
+        <format>application/x-gzip</format>
+        <formatdesc>Thesis source files</formatdesc>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>thesis_final.tar.gz</main>
+        <content>archival</content>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>9855</userid>
+    <dir>disk0/00/01/07/97</dir>
+    <datestamp>2018-05-08 20:24:35</datestamp>
+    <lastmod>2018-05-15 17:36:46</lastmod>
+    <status_changed>2018-05-08 20:24:35</status_changed>
+    <type>thesis</type>
+    <metadata_visibility>show</metadata_visibility>
+    <creators>
+      <item>
+        <name>
+          <family>Chao</family>
+          <given>Daniel</given>
+        </name>
+        <id>Chao-Daniel</id>
+        <email>dchao34@gmail.com</email>
+        <show_email>NO</show_email>
+      </item>
+    </creators>
+    <title>Measuring R(D(*)) for B → ‾D(*)τν_τ using Semileptonic Tags and Tau Decays to Hadrons</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_pma</item>
+    </divisions>
+    <full_text_status>public</full_text_status>
+    <keywords>Babar, High Energy Physics, Supersymmetry</keywords>
+    <abstract>&lt;p&gt;We perform a measurement of R(D&lt;sup&gt;(*)&lt;/sup&gt;) for B → &lt;span style=&quot;text-decoration: overline&quot;&gt;D&lt;/span&gt;(*)τν&lt;sub&gt;τ&lt;/sub&gt; using semileptonic tagging and τ decays to hadrons on the 429 fb&lt;sup&gt;-1&lt;/sup&gt; of data that BABAR collected at the Υ(4S) resonance. This is the first measurement of R(D&lt;sup&gt;(*)&lt;/sup&gt;) using the specied reconstruction channels. Candidate selection was performed with supervised learning, where the training labels were obtained by solving an instance of subgraph isomorphism. The signal extraction was performed by solving an optimization problem whose objective function required the evaluation of kernel density estimates that were accelerated by a branch-and-bound algorithm as well as with a GPU. The training data for the density estimates were themselves the output of two classier scores. We present a 68% and 95% confidence regions of R(D&lt;sup&gt;(*)&lt;/sup&gt;), which do not show enough evidence to reject the standard model prediction.&lt;/p&gt;</abstract>
+    <date>2018</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:04092018-211419944</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>phd</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:04092018-211419944</official_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <doi>10.7907/25e6-j889</doi>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Porter</family>
+          <given>Frank C.</given>
+        </name>
+        <id>Porter-F-C</id>
+        <role>advisor</role>
+        <email>fcp@caltech.edu</email>
+      </item>
+    </thesis_advisor>
+    <thesis_committee>
+      <item>
+        <name>
+          <family>Porter</family>
+          <given>Frank C.</given>
+        </name>
+        <id>Porter-F-C</id>
+        <role>chair</role>
+        <email>fcp@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Hitlin</family>
+          <given>David G.</given>
+        </name>
+        <id>Hitlin-D-G</id>
+        <role>member</role>
+        <email>hitlin@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Carroll</family>
+          <given>Sean M.</given>
+        </name>
+        <id>Carroll-S-M</id>
+        <role>member</role>
+        <email>seancarroll@gmail.com</email>
+      </item>
+      <item>
+        <name>
+          <family>Yue</family>
+          <given>Yisong</given>
+        </name>
+        <id>Yue-Yisong</id>
+        <role>member</role>
+        <email>yyue@caltech.edu</email>
+      </item>
+    </thesis_committee>
+    <thesis_degree>PHD</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>2016-09-08</thesis_defense_date>
+    <reviewer>Melissa Ray</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>physics</item>
+    </option_major>
+    <copyright_statement>Author&apos;s Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under &quot;Thesis Availability&quot; in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+    <gradofc_approval_date>2018-05-08</gradofc_approval_date>
+    <alt_title>
+      <item>Measuring R(D(*)) for B → Dtaunu using Semileptonic Tags and Tau Decays to Hadrons</item>
+      <item>Measuring R(D(*)) for B → &lt;overline&gt;D(*) tau nu tau using Semileptonic Tags and Tau Decays to Hadrons</item>
+      <item>Measuring R(D(*)) for B → D(*) tau nu using Semileptonic Tags and Tau Decays to Hadrons</item>
+    </alt_title>
+  </eprint>
+</eprints>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.5072/1</identifier>
+  <creators>
+    <creator>
+      <creatorName>Abrecht,David Gregory</creatorName>
+      <givenName>David Gregory</givenName>
+      <familyName>Abrecht</familyName>
+      <affiliation>California Institute of Technology</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title>Thermodynamic properties of organometallic dihydrogen complexes for hydrogen storage applications</title>
+  </titles>
+  <publisher>California Institute of Technology</publisher>
+  <publicationYear>2013</publicationYear>
+  <subjects>
+    <subject>hydrogen storage</subject>
+    <subject>Kubas materials</subject>
+    <subject>Langmuir isotherm</subject>
+    <subject>Mossbauer spectroscopy</subject>
+    <subject>GAMESS</subject>
+    <subject>organometallic chemistry</subject>
+    <subject>Chemical Engineering</subject>
+    <subject>Materials Science</subject>
+  </subjects>
+  <dates>
+    <date dateType="Accepted">2012-12-12</date>
+  </dates>
+  <language>English</language>
+  <resourceType resourceTypeGeneral="Text">Dissertation</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Eprint_ID">7320</alternateIdentifier>
+  </alternateIdentifiers>
+  <formats>
+    <format>PDF</format>
+  </formats>
+  <version>Final</version>
+  <rightsList>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">The mechanism and thermodynamic properties of hydrogen binding to the solid-state complexes [M(CO)dppe2][BArF24] (M = Mn, Re, Tc) and [M'Hdppe2][NTf2] (M' = Fe, Ru, Os) were investigated experimentally and computationally over the temperature range 298K-373K and pressure range 0-2800 torr, based on the Sieverts method. The bulk absorption behavior was found to be accurately described by Langmuir isotherms. Enthalpy and entropy values of &amp;#916;H&amp;#176; = -52.2 kJ/mol and &amp;#916;S&amp;#176; = -99.6 J/mol-K were obtained experimentally for hydrogen absorption onto [Mn(CO)dppe2][BArF24] from the Langmuir equilibrium constant, and values obtained from electronic structure calculations using the LANL2DZ-ECP basis set were found to successfully reproduce both the pressure-temperature-composition behavior and the thermodynamic values to within 5% of those obtained through experiment. Results from simulations for all complexes yielded large enthalpy values similar to metal hydride formation enthalpies for all complexes studied, and the substitution of the metal center reproduced qualitative binding strength trends of 5d&amp;gt;3d&amp;gt;4d consistent with those previously reported for the group 6 metals.
+
+X-ray diffraction patterns and M&amp;#246;ssbauer spectra were taken to determine the thermal decomposition pathway for [FeH(&amp;#951;2-H2)dppe2][NTf2]. Simulations at the B3LYP/TZVP level of theory and experimental M&amp;#246;ssbauer spectra confirmed the direct thermal decomposition from singlet-state [FeH(&amp;#951;2-H2)dppe2][NTf2] to triplet-state [FeHdppe2][NTf2] under vacuum conditions at 398K. Evaluation of the partial quadrupole splitting values of Q(H2) = -0.245 mm/s from M&amp;#246;ssbauer spectroscopy significantly differ from typical values obtained for hydrides, indicating an underutilized mechanism for identification of dihydrogen ligands. Singlet-state thermodynamic values from simulation were consistent with experimental observations for Ru and Os, and ruthenium complexes were found to have thermodynamic properties within appropriate ranges for hydrogen storage applications. Simulated thermodynamic values for Fe complexes were found to significantly underestimate experimental behavior, demonstrating the importance of the magnetic spin state of the molecule to hydrogen binding properties.</description>
+  </descriptions>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>Resnick Sustainability Institute</funderName>
+    </fundingReference>
+  </fundingReferences>
+</resource>

@@ -1,0 +1,396 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://thesis.library.caltech.edu/id/eprint/10754'>
+    <eprintid>10754</eprintid>
+    <rev_number>21</rev_number>
+    <documents>
+      <document id='https://thesis.library.caltech.edu/id/document/87416'>
+        <docid>87416</docid>
+        <rev_number>3</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248170'>
+            <fileid>248170</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87416</objectid>
+            <filename>Herndier_B_1981.zip</filename>
+            <mime_type>application/x-zip</mime_type>
+            <hash>60d8433182f24b36134ff6f5b2b8f05e</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>200413053</filesize>
+            <mtime>2018-03-29 23:28:20</mtime>
+            <url>https://thesis.library.caltech.edu/10754/7/Herndier_B_1981.zip</url>
+          </file>
+        </files>
+        <eprintid>10754</eprintid>
+        <pos>7</pos>
+        <placement>7</placement>
+        <mime_type>application/x-zip</mime_type>
+        <format>application/zip</format>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>Herndier_B_1981.zip</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87468'>
+        <docid>87468</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248317'>
+            <fileid>248317</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87468</objectid>
+            <filename>Herndier_B_1981.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>09e77c9c85349951c4d4a6661faf0140</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>76618754</filesize>
+            <mtime>2018-04-04 15:23:00</mtime>
+            <url>https://thesis.library.caltech.edu/10754/8/Herndier_B_1981.pdf</url>
+          </file>
+        </files>
+        <eprintid>10754</eprintid>
+        <pos>8</pos>
+        <placement>8</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <language>en</language>
+        <security>validuser</security>
+        <license>other</license>
+        <main>Herndier_B_1981.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87469'>
+        <docid>87469</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248319'>
+            <fileid>248319</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87469</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>bb6fd695603715860683a04281f9d6d8</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>18372</filesize>
+            <mtime>2018-04-04 15:23:05</mtime>
+            <url>https://thesis.library.caltech.edu/10754/9/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10754</eprintid>
+        <pos>9</pos>
+        <placement>9</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87470'>
+        <docid>87470</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248320'>
+            <fileid>248320</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87470</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>af08a8f0300e551d43bd23d19980dd59</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>31614</filesize>
+            <mtime>2018-04-04 15:23:07</mtime>
+            <url>https://thesis.library.caltech.edu/10754/10/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10754</eprintid>
+        <pos>10</pos>
+        <placement>10</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87471'>
+        <docid>87471</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248321'>
+            <fileid>248321</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87471</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>3fdb9213248a2d4596dd987992a0016e</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>3609</filesize>
+            <mtime>2018-04-04 15:23:09</mtime>
+            <url>https://thesis.library.caltech.edu/10754/11/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10754</eprintid>
+        <pos>11</pos>
+        <placement>11</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87472'>
+        <docid>87472</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248323'>
+            <fileid>248323</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87472</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>a491f6b5c20aafd521cb78baf327db57</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1066</filesize>
+            <mtime>2018-04-04 15:23:11</mtime>
+            <url>https://thesis.library.caltech.edu/10754/12/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10754</eprintid>
+        <pos>12</pos>
+        <placement>12</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87473'>
+        <docid>87473</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/248324'>
+            <fileid>248324</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87473</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c</mime_type>
+            <hash>d99602f5384c4e44fb7d3729d2790de7</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>22941</filesize>
+            <mtime>2018-04-04 15:23:22</mtime>
+            <url>https://thesis.library.caltech.edu/10754/13/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10754</eprintid>
+        <pos>13</pos>
+        <placement>13</placement>
+        <mime_type>text/x-c</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>validuser</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87468</uri>
+          </item>
+        </relation>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>8820</userid>
+    <dir>disk0/00/01/07/54</dir>
+    <datestamp>2018-03-06 21:45:14</datestamp>
+    <lastmod>2018-04-04 15:23:10</lastmod>
+    <status_changed>2018-03-06 21:45:14</status_changed>
+    <type>thesis</type>
+    <metadata_visibility>show</metadata_visibility>
+    <creators>
+      <item>
+        <name>
+          <family>Herndier</family>
+          <given>Brian</given>
+        </name>
+        <id>Herndier-Brian</id>
+      </item>
+    </creators>
+    <title>Activation of Cell Function; Pharmacological Agents Which Degranulate Mast Cells and Cause Skeletal Muscle to Contract</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_chem</item>
+    </divisions>
+    <full_text_status>restricted</full_text_status>
+    <keywords>Chemistry</keywords>
+    <abstract>&lt;p&gt;&lt;u&gt;Chapter I&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;This chapter presents a general introduction to the cellular metabolism of calcium with particular reference to the concept of calcium pools. The importance of the ionized calcium pool of the cytosol in determining the specific function of cells and tissues is discussed.&lt;/p&gt;
+
+&lt;p&gt;A model for stimulus-release coupling in mast cells is presented. Excitation-contraction (EC) coupling in skeletal muscle is defined and the fundamental premises required for a theory on EC coupling are given. The two basic theories of excitation-contraction coupling are briefly reviewed.&lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;Chapter II&lt;/u&gt;&lt;/p&gt;
+
+&lt;p&gt;We have discovered a new class of drugs which induce the release of &lt;sup&gt;3&lt;/sup&gt;H-serotonin in mast cells. Verapamil, previously described as a &quot;specific calcium antagonist&quot;, was found to release &lt;sup&gt;3&lt;/sup&gt;H-serotonin from mast cells. Our study investigated and compared verapamil and compound 48/80, a drug previously known to be a potent degranulator of mast cells.&lt;/p&gt;
+
+&lt;p&gt;This investigation revealed that low concentrations of verapamil inhibited the spontaneous release of &lt;sup&gt;3&lt;/sup&gt;H-serotonin and efflux of &lt;sup&gt;86&lt;/sup&gt;Rb&lt;sup&gt;+&lt;/sup&gt; in mast cells. High concentration of verapamil caused an increase in the rate of the release of &lt;sup&gt;3&lt;/sup&gt;H-serotonin and &lt;sup&gt;86&lt;/sup&gt;Rb&lt;sup&gt;+&lt;/sup&gt; from mast cells. Compound 48/80 causes only an increase in the release &lt;sup&gt;3&lt;/sup&gt;H-serotonin and &lt;sup&gt;86&lt;/sup&gt;Rb&lt;sup&gt;+&lt;/sup&gt;-efflux. The effect of compound 48/80 and verapamil on the rate of &lt;sup&gt;86&lt;/sup&gt;Rb&lt;sup&gt;+&lt;/sup&gt;-efflux in mast cells was investigated.&lt;/p&gt;
+
+&lt;p&gt;The significance of these results is discussed. Verapamil, at low concentrations, is thought to act as a &quot;specific Ca channel blocker&quot;. The increase in &lt;sup&gt;86&lt;/sup&gt;Rb&lt;sup&gt;+&lt;/sup&gt; efflux from mast cells induced by high concentration of verapamil suggests an increase in concentration of cytosolic Ca&lt;sup&gt;++&lt;/sup&gt;. The mobilization of calcium into the cytosolic pool is believed also to trigger the release of &lt;sup&gt;3&lt;/sup&gt;H-serotonin from the mast cell. We propose that verapamil is not simply a calcium antagonist in mast cells but also has the ability at higher concentrations to cause an increase in ionic or cytosolic Ca&lt;sup&gt;2+&lt;/sup&gt;.&lt;/p&gt;</abstract>
+    <date>1981</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:03062018-113544116</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>phd</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:03062018-113544116</official_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <funders>
+      <item>
+        <agency>National Research Council of Canada</agency>
+      </item>
+      <item>
+        <agency>California Institute of Technology</agency>
+      </item>
+    </funders>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Collins</family>
+          <given>Terrence J.</given>
+        </name>
+        <id>Collins-T-J</id>
+        <role>advisor</role>
+      </item>
+    </thesis_advisor>
+    <thesis_committee>
+      <item>
+        <name>
+          <family>Dervan</family>
+          <given>Peter B.</given>
+        </name>
+        <id>Dervan-P-B</id>
+        <role>chair</role>
+        <email>dervan@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Richards</family>
+          <given>John H.</given>
+        </name>
+        <id>Richards-J-H</id>
+        <role>member</role>
+      </item>
+      <item>
+        <name>
+          <family>Hood</family>
+          <given>Leroy E.</given>
+        </name>
+        <id>Hood-L-E</id>
+        <role>member</role>
+      </item>
+      <item>
+        <name>
+          <family>Raftery</family>
+          <given>Michael Augustine</given>
+        </name>
+        <id>Raftery-Michael-Augustine</id>
+        <role>member</role>
+      </item>
+      <item>
+        <name>
+          <family>Collins</family>
+          <given>Terrence J.</given>
+        </name>
+        <id>Collins-T-J</id>
+        <role>member</role>
+      </item>
+    </thesis_committee>
+    <thesis_degree>PHD</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>1981-05-04</thesis_defense_date>
+    <reviewer>Kathy Johnson</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>chemistry</item>
+    </option_major>
+    <copyright_statement>Author&apos;s Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under &quot;Thesis Availability&quot; in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+    <alt_title>
+      <item>Pharmacological Agents Which Degranulate Mast Cells and Cause Skeletal Muscle to Contract</item>
+    </alt_title>
+  </eprint>
+</eprints>

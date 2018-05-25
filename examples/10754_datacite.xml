@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.5072/1</identifier>
+  <creators>
+    <creator>
+      <creatorName>Herndier,Brian</creatorName>
+      <givenName>Brian</givenName>
+      <familyName>Herndier</familyName>
+      <affiliation>California Institute of Technology</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title>Activation of Cell Function; Pharmacological Agents Which Degranulate Mast Cells and Cause Skeletal Muscle to Contract</title>
+  </titles>
+  <publisher>California Institute of Technology</publisher>
+  <publicationYear>1981</publicationYear>
+  <subjects>
+    <subject>Chemistry</subject>
+    <subject>Chemistry</subject>
+  </subjects>
+  <dates>
+    <date dateType="Available">2018-03-06 21:45:14</date>
+  </dates>
+  <language>English</language>
+  <resourceType resourceTypeGeneral="Text">Dissertation</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Eprint_ID">10754</alternateIdentifier>
+  </alternateIdentifiers>
+  <formats>
+    <format>PDF</format>
+  </formats>
+  <version>Final</version>
+  <rightsList>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">Chapter I
+
+This chapter presents a general introduction to the cellular metabolism of calcium with particular reference to the concept of calcium pools. The importance of the ionized calcium pool of the cytosol in determining the specific function of cells and tissues is discussed.
+
+A model for stimulus-release coupling in mast cells is presented. Excitation-contraction (EC) coupling in skeletal muscle is defined and the fundamental premises required for a theory on EC coupling are given. The two basic theories of excitation-contraction coupling are briefly reviewed.
+
+Chapter II
+
+We have discovered a new class of drugs which induce the release of 3H-serotonin in mast cells. Verapamil, previously described as a "specific calcium antagonist", was found to release 3H-serotonin from mast cells. Our study investigated and compared verapamil and compound 48/80, a drug previously known to be a potent degranulator of mast cells.
+
+This investigation revealed that low concentrations of verapamil inhibited the spontaneous release of 3H-serotonin and efflux of 86Rb+ in mast cells. High concentration of verapamil caused an increase in the rate of the release of 3H-serotonin and 86Rb+ from mast cells. Compound 48/80 causes only an increase in the release 3H-serotonin and 86Rb+-efflux. The effect of compound 48/80 and verapamil on the rate of 86Rb+-efflux in mast cells was investigated.
+
+The significance of these results is discussed. Verapamil, at low concentrations, is thought to act as a "specific Ca channel blocker". The increase in 86Rb+ efflux from mast cells induced by high concentration of verapamil suggests an increase in concentration of cytosolic Ca++. The mobilization of calcium into the cytosolic pool is believed also to trigger the release of 3H-serotonin from the mast cell. We propose that verapamil is not simply a calcium antagonist in mast cells but also has the ability at higher concentrations to cause an increase in ionic or cytosolic Ca2+.</description>
+  </descriptions>
+  <fundingReferences>
+    <fundingReference>
+      <funderName>National Research Council of Canada</funderName>
+    </fundingReference>
+    <fundingReference>
+      <funderName>California Institute of Technology</funderName>
+    </fundingReference>
+  </fundingReferences>
+</resource>

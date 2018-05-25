@@ -1,0 +1,307 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://thesis.library.caltech.edu/id/eprint/10814'>
+    <eprintid>10814</eprintid>
+    <rev_number>15</rev_number>
+    <documents>
+      <document id='https://thesis.library.caltech.edu/id/document/87776'>
+        <docid>87776</docid>
+        <rev_number>3</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/249120'>
+            <fileid>249120</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87776</objectid>
+            <filename>Vivian Huang - Thesis.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>e5db5b44096c33590c20356b810204f2</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>487398</filesize>
+            <mtime>2018-04-18 16:04:40</mtime>
+            <url>https://thesis.library.caltech.edu/10814/1/Vivian%20Huang%20-%20Thesis.pdf</url>
+          </file>
+        </files>
+        <eprintid>10814</eprintid>
+        <pos>1</pos>
+        <placement>1</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <language>en</language>
+        <security>validuser</security>
+        <license>other</license>
+        <main>Vivian Huang - Thesis.pdf</main>
+        <content>final</content>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87777'>
+        <docid>87777</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/249122'>
+            <fileid>249122</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87777</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>7680ed83533659d18c970a4de18a2462</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>12352</filesize>
+            <mtime>2018-04-18 16:04:59</mtime>
+            <url>https://thesis.library.caltech.edu/10814/2/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10814</eprintid>
+        <pos>2</pos>
+        <placement>2</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87778'>
+        <docid>87778</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/249123'>
+            <fileid>249123</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87778</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>e19bb529537110eef1f4ba4764954d43</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>17520</filesize>
+            <mtime>2018-04-18 16:04:59</mtime>
+            <url>https://thesis.library.caltech.edu/10814/3/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10814</eprintid>
+        <pos>3</pos>
+        <placement>3</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87779'>
+        <docid>87779</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/249124'>
+            <fileid>249124</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87779</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>53f341354831c3cbfd5b09357b25347c</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>3956</filesize>
+            <mtime>2018-04-18 16:05:00</mtime>
+            <url>https://thesis.library.caltech.edu/10814/4/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10814</eprintid>
+        <pos>4</pos>
+        <placement>4</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87780'>
+        <docid>87780</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/249125'>
+            <fileid>249125</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87780</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>3c278a4cc7447edd170a4d845ee6c4c7</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1007</filesize>
+            <mtime>2018-04-18 16:05:00</mtime>
+            <url>https://thesis.library.caltech.edu/10814/5/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10814</eprintid>
+        <pos>5</pos>
+        <placement>5</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/87781'>
+        <docid>87781</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/249126'>
+            <fileid>249126</fileid>
+            <datasetid>document</datasetid>
+            <objectid>87781</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c</mime_type>
+            <hash>cc19962ea9f750788a93178054474479</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>23388</filesize>
+            <mtime>2018-04-18 16:05:00</mtime>
+            <url>https://thesis.library.caltech.edu/10814/6/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10814</eprintid>
+        <pos>6</pos>
+        <placement>6</placement>
+        <mime_type>text/x-c</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/87776</uri>
+          </item>
+        </relation>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>34</userid>
+    <dir>disk0/00/01/08/14</dir>
+    <datestamp>2018-04-18 16:08:34</datestamp>
+    <lastmod>2018-04-18 16:17:05</lastmod>
+    <status_changed>2018-04-18 16:08:34</status_changed>
+    <type>thesis</type>
+    <metadata_visibility>show</metadata_visibility>
+    <creators>
+      <item>
+        <name>
+          <family> Buhler</family>
+          <given>Vivian Huang</given>
+        </name>
+        <id>Buhler-Vivian-Huang</id>
+        <show_email>NO</show_email>
+      </item>
+    </creators>
+    <title>Mary and Magdalene Reintegrated Through Sisterhood in a Male-Dominated Goblin Market</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_bbe</item>
+    </divisions>
+    <full_text_status>restricted</full_text_status>
+    <keywords>Goblin Market ; Christina Rossetti ;Male dominance ; Mary ; Mary Magdalene</keywords>
+    <abstract>In her most celebrated and controversial poem, Goblin Market, Christina Rossetti presents an allegory of her own spiritual journey toward redemption as a woman, a sinner, and a reform worker. Through the stories of three young maidens’ misadventures among the goblin men’s “haunted glen,” Rossetti reveals the unjust Victorian binaries of male versus female, as well as virgin versus prostitute, and proposes an alternative definition of virtue attained through redemption that is accessible to all regardless of gender or social background. Using Jeanie, Lizzie, and Laura as figures for fallen woman, penitent, and sister, Rossetti further recasts the parallel feminine archetypes Eve, Mary, and Mary Magdalene as biblical paradigms of humanity united against the evils of the age, all equally destined for eternal salvation even if patriarchal standards should bar any such woman from an earthly life of honor.</abstract>
+    <date>2015</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:04182018-090000178</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>senior_major</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:04182018-090000178</official_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <doi>10.7907/Z9959FST</doi>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Gilmartin</family>
+          <given>Kevin M.</given>
+        </name>
+        <id>Gilmartin-K-M</id>
+        <role>advisor</role>
+        <email>kmg@hss.caltech.edu</email>
+      </item>
+    </thesis_advisor>
+    <thesis_degree>BS</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>2015</thesis_defense_date>
+    <reviewer>Kahy Johnson</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>bioeng</item>
+      <item>english</item>
+    </option_major>
+    <copyright_statement>Author&apos;s Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under &quot;Thesis Availability&quot; in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+    <thesis_awards>Mary A. Earl McKinney Prize in Literature, 2013.  Hallett Smith Prize, 2013.</thesis_awards>
+  </eprint>
+</eprints>

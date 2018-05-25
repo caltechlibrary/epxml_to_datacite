@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://thesis.library.caltech.edu/id/eprint/7320'>
+    <eprintid>7320</eprintid>
+    <rev_number>21</rev_number>
+    <documents>
+      <document id='https://thesis.library.caltech.edu/id/document/16748'>
+        <docid>16748</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/102060'>
+            <fileid>102060</fileid>
+            <datasetid>document</datasetid>
+            <objectid>16748</objectid>
+            <filename>Abrecht-PHDThesis.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <filesize>1819276</filesize>
+            <mtime>2012-12-26 04:46:25</mtime>
+            <url>https://thesis.library.caltech.edu/7320/1/Abrecht-PHDThesis.pdf</url>
+          </file>
+        </files>
+        <eprintid>7320</eprintid>
+        <pos>1</pos>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>Abrecht-PHDThesis.pdf</main>
+        <content>final</content>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/hasVolatileVersion</type>
+            <uri>https://thesis.library.caltech.edu/id/document/28277</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/haspreviewThumbnailVersion</type>
+            <uri>https://thesis.library.caltech.edu/id/document/28277</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/hasVersion</type>
+            <uri>https://thesis.library.caltech.edu/id/document/28277</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/28277'>
+        <docid>28277</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/102058'>
+            <fileid>102058</fileid>
+            <datasetid>document</datasetid>
+            <objectid>28277</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>ede57c4e8343a9cd118c9ede0be42dc7</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>39171</filesize>
+            <mtime>2012-12-26 04:46:25</mtime>
+            <url>https://thesis.library.caltech.edu/7320/2/preview.png</url>
+          </file>
+        </files>
+        <eprintid>7320</eprintid>
+        <pos>2</pos>
+        <placement>2</placement>
+        <mime_type>image/png</mime_type>
+        <format>image/png</format>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/16748</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/16748</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/16748</uri>
+          </item>
+        </relation>
+      </document>
+      <document id='https://thesis.library.caltech.edu/id/document/28349'>
+        <docid>28349</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id='https://thesis.library.caltech.edu/id/file/102838'>
+            <fileid>102838</fileid>
+            <datasetid>document</datasetid>
+            <objectid>28349</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c</mime_type>
+            <hash>1d9f746c6d1fe7d073456f21d4b8ea11</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>59950</filesize>
+            <mtime>2012-12-28 21:15:16</mtime>
+            <url>https://thesis.library.caltech.edu/7320/3/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>7320</eprintid>
+        <pos>3</pos>
+        <placement>3</placement>
+        <mime_type>text/x-c</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/16748</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/16748</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/16748</uri>
+          </item>
+        </relation>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>9681</userid>
+    <dir>disk0/00/00/73/20</dir>
+    <datestamp>2012-12-14 20:07:16</datestamp>
+    <lastmod>2016-02-04 22:19:31</lastmod>
+    <status_changed>2012-12-14 20:07:16</status_changed>
+    <type>thesis</type>
+    <succeeds>7319</succeeds>
+    <metadata_visibility>show</metadata_visibility>
+    <item_issues_count>0</item_issues_count>
+    <creators>
+      <item>
+        <name>
+          <family>Abrecht</family>
+          <given>David Gregory</given>
+        </name>
+        <id>Abrecht-David-Gregory</id>
+        <email>dgabrecht@gmail.com</email>
+        <show_email>YES</show_email>
+      </item>
+    </creators>
+    <title>Thermodynamic properties of organometallic dihydrogen complexes for hydrogen storage applications</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_chem</item>
+    </divisions>
+    <full_text_status>public</full_text_status>
+    <keywords>hydrogen storage, Kubas materials, Langmuir isotherm, Mossbauer spectroscopy, GAMESS, organometallic chemistry</keywords>
+    <abstract>&lt;p&gt;The mechanism and thermodynamic properties of hydrogen binding to the solid-state complexes [M(CO)dppe&lt;sub&gt;2&lt;/sub&gt;][BArF&lt;sup&gt;24&lt;/sup&gt;] (M = Mn, Re, Tc) and [M&apos;Hdppe&lt;sub&gt;2&lt;/sub&gt;][NTf&lt;sub&gt;2&lt;/sub&gt;] (M&apos; = Fe, Ru, Os) were investigated experimentally and computationally over the temperature range 298K-373K and pressure range 0-2800 torr, based on the Sieverts method. The bulk absorption behavior was found to be accurately described by Langmuir isotherms. Enthalpy and entropy values of &amp;#916;H&amp;#176; = -52.2 kJ/mol and &amp;#916;S&amp;#176; = -99.6 J/mol-K were obtained experimentally for hydrogen absorption onto [Mn(CO)dppe&lt;sub&gt;2&lt;/sub&gt;][BArF&lt;sup&gt;24&lt;/sup&gt;] from the Langmuir equilibrium constant, and values obtained from electronic structure calculations using the LANL2DZ-ECP basis set were found to successfully reproduce both the pressure-temperature-composition behavior and the thermodynamic values to within 5% of those obtained through experiment. Results from simulations for all complexes yielded large enthalpy values similar to metal hydride formation enthalpies for all complexes studied, and the substitution of the metal center reproduced qualitative binding strength trends of 5d&amp;gt;3d&amp;gt;4d consistent with those previously reported for the group 6 metals.&lt;/p&gt;
+
+&lt;p&gt;X-ray diffraction patterns and M&amp;#246;ssbauer spectra were taken to determine the thermal decomposition pathway for [FeH(&amp;#951;&lt;sup&gt;2&lt;/sup&gt;-H&lt;sub&gt;2&lt;/sub&gt;)dppe&lt;sub&gt;2&lt;/sub&gt;][NTf&lt;sub&gt;2&lt;/sub&gt;]. Simulations at the B3LYP/TZVP level of theory and experimental M&amp;#246;ssbauer spectra confirmed the direct thermal decomposition from singlet-state [FeH(&amp;#951;&lt;sup&gt;2&lt;/sup&gt;-H&lt;sub&gt;2&lt;/sub&gt;)dppe&lt;sub&gt;2&lt;/sub&gt;][NTf&lt;sub&gt;2&lt;/sub&gt;] to triplet-state [FeHdppe&lt;sub&gt;2&lt;/sub&gt;][NTf&lt;sub&gt;2&lt;/sub&gt;] under vacuum conditions at 398K. Evaluation of the partial quadrupole splitting values of Q(H&lt;sub&gt;2&lt;/sub&gt;) = -0.245 mm/s from M&amp;#246;ssbauer spectroscopy significantly differ from typical values obtained for hydrides, indicating an underutilized mechanism for identification of dihydrogen ligands. Singlet-state thermodynamic values from simulation were consistent with experimental observations for Ru and Os, and ruthenium complexes were found to have thermodynamic properties within appropriate ranges for hydrogen storage applications. Simulated thermodynamic values for Fe complexes were found to significantly underestimate experimental behavior, demonstrating the importance of the magnetic spin state of the molecule to hydrogen binding properties.&lt;/p&gt;</abstract>
+    <date>2013</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:12102012-132511810</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>phd</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:12102012-132511810</official_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <funders>
+      <item>
+        <agency>Resnick Sustainability Institute</agency>
+      </item>
+    </funders>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Fultz</family>
+          <given>Brent T.</given>
+        </name>
+        <id>Fultz-B-T</id>
+        <role>advisor</role>
+        <email>btf@caltech.edu</email>
+      </item>
+    </thesis_advisor>
+    <thesis_committee>
+      <item>
+        <name>
+          <family>Fultz</family>
+          <given>Brent T.</given>
+        </name>
+        <id>Fultz-B-T</id>
+        <role>chair</role>
+        <email>btf@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Tirrell</family>
+          <given>David A.</given>
+        </name>
+        <id>Tirrell-D-A</id>
+        <role>member</role>
+        <email>tirrell@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Davis</family>
+          <given>Mark E.</given>
+        </name>
+        <id>Davis-M-E</id>
+        <role>member</role>
+        <email>mdavis@cheme.caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Wang</family>
+          <given>Zhen-Gang</given>
+        </name>
+        <id>Wang-Zhen-Gang</id>
+        <role>member</role>
+        <email>zgw@cheme.caltech.edu</email>
+      </item>
+    </thesis_committee>
+    <thesis_degree>PHD</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>2012-12-04</thesis_defense_date>
+    <reviewer>Kathy Johnson</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>chemeng</item>
+    </option_major>
+    <option_minor>
+      <item>matsci</item>
+    </option_minor>
+    <copyright_statement>Author&apos;s Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under &quot;Thesis Availability&quot; in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+    <gradofc_approval_date>2012-12-12</gradofc_approval_date>
+    <local_group>
+      <item>Resnick Sustainability Institute</item>
+    </local_group>
+  </eprint>
+</eprints>

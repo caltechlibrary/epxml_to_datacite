@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.7907/Z9959FST</identifier>
+  <creators>
+    <creator>
+      <creatorName>Buhler,Vivian Huang</creatorName>
+      <givenName>Vivian Huang</givenName>
+      <familyName>Buhler</familyName>
+      <affiliation>California Institute of Technology</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title>Mary and Magdalene Reintegrated Through Sisterhood in a Male-Dominated Goblin Market</title>
+  </titles>
+  <publisher>California Institute of Technology</publisher>
+  <publicationYear>2015</publicationYear>
+  <subjects>
+    <subject>Goblin Market</subject>
+    <subject>Christina Rossetti</subject>
+    <subject>Male dominance</subject>
+    <subject>Mary</subject>
+    <subject>Mary Magdalene</subject>
+    <subject>Bioengineering</subject>
+    <subject>English</subject>
+  </subjects>
+  <dates>
+    <date dateType="Available">2018-04-18 16:08:34</date>
+  </dates>
+  <language>English</language>
+  <resourceType resourceTypeGeneral="Text">Senior thesis (Major)
+</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Eprint_ID">10814</alternateIdentifier>
+  </alternateIdentifiers>
+  <formats>
+    <format>PDF</format>
+  </formats>
+  <version>Final</version>
+  <rightsList>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">In her most celebrated and controversial poem, Goblin Market, Christina Rossetti presents an allegory of her own spiritual journey toward redemption as a woman, a sinner, and a reform worker. Through the stories of three young maidens’ misadventures among the goblin men’s “haunted glen,” Rossetti reveals the unjust Victorian binaries of male versus female, as well as virgin versus prostitute, and proposes an alternative definition of virtue attained through redemption that is accessible to all regardless of gender or social background. Using Jeanie, Lizzie, and Laura as figures for fallen woman, penitent, and sister, Rossetti further recasts the parallel feminine archetypes Eve, Mary, and Mary Magdalene as biblical paradigms of humanity united against the evils of the age, all equally destined for eternal salvation even if patriarchal standards should bar any such woman from an earthly life of honor.</description>
+  </descriptions>
+</resource>

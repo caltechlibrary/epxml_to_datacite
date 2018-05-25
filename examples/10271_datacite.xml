@@ -24,11 +24,13 @@
     <subject>Chemistry</subject>
   </subjects>
   <dates>
-    <date dateType="Issued">2018-05-01</date>
     <date dateType="Accepted">2017-06-06</date>
   </dates>
   <language>English</language>
-  <resourceType resourceTypeGeneral="Text">Dissertation (PHD)</resourceType>
+  <resourceType resourceTypeGeneral="Text">Dissertation</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Eprint_ID">10271</alternateIdentifier>
+  </alternateIdentifiers>
   <formats>
     <format>PDF</format>
   </formats>

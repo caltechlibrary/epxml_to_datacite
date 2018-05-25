@@ -24,11 +24,14 @@
     <subject>Geology</subject>
   </subjects>
   <dates>
-    <date dateType="Issued">2018-05-01</date>
     <date dateType="Available">2009-12-03 21:23:38</date>
   </dates>
   <language>English</language>
-  <resourceType resourceTypeGeneral="Text">Dissertation (BS)</resourceType>
+  <resourceType resourceTypeGeneral="Text">Bachelor's thesis
+</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Eprint_ID">5410</alternateIdentifier>
+  </alternateIdentifiers>
   <relatedIdentifiers>
     <relatedIdentifier relatedIdentifierType="DOI" relationType="IsSupplementedBy">https://doi.org/10.22002/D1.367</relatedIdentifier>
   </relatedIdentifiers>

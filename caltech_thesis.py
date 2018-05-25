@@ -17,7 +17,10 @@ for line in infile:
 files = glob.glob('*.xml')
 for f in files:
     if 'datacite' not in f:
-        with open(f) as fd:
+        
+        print(f)
+
+        with open(f,encoding="utf8") as fd:
             eprint = xmltodict.parse(fd.read())['eprints']['eprint']
         print(eprint['title'])
 

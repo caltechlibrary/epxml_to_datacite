@@ -23,11 +23,13 @@
     <subject>Computer Science</subject>
   </subjects>
   <dates>
-    <date dateType="Issued">2018-05-01</date>
     <date dateType="Accepted">2016-12-09</date>
   </dates>
   <language>English</language>
-  <resourceType resourceTypeGeneral="Text">Dissertation (PHD)</resourceType>
+  <resourceType resourceTypeGeneral="Text">Dissertation</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Eprint_ID">9981</alternateIdentifier>
+  </alternateIdentifiers>
   <formats>
     <format>PDF</format>
   </formats>
