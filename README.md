@@ -11,9 +11,9 @@ repositories.
 
 Requires: 
 
-Python 3 (Recommended via [Anaconda](https://www.anaconda.com/download)) 
-xmltodict (pip install xmltodict)
-datacite (pip install datacite)
+- Python 3 (Recommended via [Anaconda](https://www.anaconda.com/download)) 
+- xmltodict (pip install xmltodict)
+- datacite (pip install datacite)
 
 
 Download .xml files and put them in this folder.  Type `./run_thesis`. DataCite
