@@ -1,11 +1,18 @@
 import xmltodict
-from datacite import schema40
-import glob,json,datetime,re
+from datacite import DataCiteMDSClient,schema40
+import glob,json,datetime,re,argparse,subprocess
+import base32_crockford, random
 
 def cleanhtml(raw_html):
   cleanr = re.compile('<.*?>')
   cleantext = re.sub(cleanr, '', raw_html)
   return cleantext
+
+parser = argparse.ArgumentParser(description=\
+        "Make DataCite standard metadata for records from CaltechTHESIS and register DOIs")
+parser.add_argument('-mint', action='store_true', help='Mint DOIs')
+parser.add_argument('-test', action='store_true', help='Only register test DOI')
+args = parser.parse_args()
 
 #Parse subjects file to create dictionary of Eprints keys and labels
 infile = open('thesis-subjects.txt','r')
@@ -155,9 +162,40 @@ for f in files:
         #for error in errors:
         #        print(error.message)
 
-        xml = schema40.tostring(metadata)
+        if args.mint != True:
 
-        outname = f.split('.xml')[0]+'_datacite.xml'
-        outfile = open(outname,'w',encoding='utf8')
-        outfile.write(xml)
+            xml = schema40.tostring(metadata)
+
+            outname = f.split('.xml')[0]+'_datacite.xml'
+            outfile = open(outname,'w',encoding='utf8')
+            outfile.write(xml)
+
+        else:
+            if args.test== True:
+                prefix = '10.5072'
+            else:
+                prefix = '10.7907'
+
+            #Get our DataCite password
+            infile = open('pw','r')
+            password = infile.readline().strip()
+
+            # Initialize the MDS client.
+            d = DataCiteMDSClient(
+            username='CALTECH.LIBRARY',
+            password=password,
+            prefix=prefix,
+            #test_mode=True
+            )
+
+            doi_end =subprocess.check_output(['./gen-cool-doi'],universal_newlines=True)
+            identifier = str(prefix)+'/'+str(doi_end)
+
+            metadata['identifier'] = {'identifier':identifier,'identifierType':'DOI'}
+
+            xml = schema40.tostring(metadata)
+            #d.metadata_post(xml)
+            #d.doi_post(identifier,eprint['official_url'])
+            print('Minted DOI: '+identifier)
+
 

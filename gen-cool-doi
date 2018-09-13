@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'base32/url'
+require 'securerandom'
+
+UPPER_LIMIT = 1073741823
+
+number = SecureRandom.random_number(UPPER_LIMIT)
+
+print Base32::URL.encode(number, split: 4, length: 8, checksum: true)     
