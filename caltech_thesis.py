@@ -188,14 +188,14 @@ for f in files:
             #test_mode=True
             )
 
-            doi_end =subprocess.check_output(['./gen-cool-doi'],universal_newlines=True)
-            identifier = str(prefix)+'/'+str(doi_end)
-
-            metadata['identifier'] = {'identifier':identifier,'identifierType':'DOI'}
+            #Provide prefix to let DataCite generate DOI
+            metadata['identifier'] = {'identifier':str(prefix),'identifierType':'DOI'}
 
             xml = schema40.tostring(metadata)
-            #d.metadata_post(xml)
-            #d.doi_post(identifier,eprint['official_url'])
+
+            result = d.metadata_post(xml)
+            identifier = result.split('(')[1].split(')')[0]
+            d.doi_post(identifier,eprint['official_url'])
             print('Minted DOI: '+identifier)
 
 
