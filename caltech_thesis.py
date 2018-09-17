@@ -1,7 +1,6 @@
 import xmltodict
 from datacite import DataCiteMDSClient,schema40
 import glob,json,datetime,re,argparse,subprocess
-import base32_crockford, random
 
 def cleanhtml(raw_html):
   cleanr = re.compile('<.*?>')
