@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.5072/1</identifier>
+  <creators>
+    <creator>
+      <creatorName>Wang,Yishu</creatorName>
+      <givenName>Yishu</givenName>
+      <familyName>Wang</familyName>
+      <affiliation>California Institute of Technology</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title>Antiferromagnetic Quantum Phase Transitions: Continuous Tuning and Direct Probes of Competing States</title>
+  </titles>
+  <publisher>California Institute of Technology</publisher>
+  <publicationYear>2018</publicationYear>
+  <subjects>
+    <subject>Condensed Matter Physics</subject>
+    <subject>Correlated Electrons</subject>
+    <subject>Magnetism</subject>
+    <subject>Phase Transitions</subject>
+    <subject>Superconductivity</subject>
+    <subject>Physics</subject>
+  </subjects>
+  <dates>
+    <date dateType="Accepted">2018-05-21</date>
+  </dates>
+  <language>English</language>
+  <resourceType resourceTypeGeneral="Text">Dissertation</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Eprint_ID">10872</alternateIdentifier>
+  </alternateIdentifiers>
+  <formats>
+    <format>PDF</format>
+  </formats>
+  <version>Final</version>
+  <rightsList>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">Antiferromagnets are choice systems to study quantum critical behavior. Unlike ferromagnets, they can experience continuous quantum phase transitions when tuned by pressure. However, the lack of a net magnetization renders experimental approaches difficult and often indirect. Here I demonstrate that both non-resonant and resonant x-ray magnetic diffraction under pressure provide the highly-desired direct probe for microscopic insights into the disappearance of the magnetic order, as well as the evolution of the charge and structural degrees of freedom. In Mo3Sb7, where spins are itinerant with small magnetic moments, we have discovered the doubling of the superconducting transition temperature under pressure and relate it to a lattice change from tetragonal to cubic structure. In MnP, a spiral magnetic order with tightened pitch was revealed in the high-pressure phase near a superconducting state at ∼7 GPa. As the spiral pitch changes, fluctuations move from antiferromagnetic to ferromagnetic at long and short wavelengths, respectively, thereby potentially pro- moting spin-fluctuation-mediated superconductivity of different symmetries. In the all-in-all-out (AIAO) pyrochlore antiferromagnet Cd2Os2O7, we discovered an anti- ferromagnetic quantum critical point at 35.8 GPa using new techniques for resonant x-ray magnetic diffraction under pressure. The continuous suppression of AIAO antiferromagnetic order to zero temperature is accompanied by inversion symmetry breaking of the lattice, dividing the P − T phase space into three regions of different time reversal and spatial inversion symmetries. While phase lines of opposite curvature indicate a striking departure from a mean-field form at high pressure, the intertwined spin, charge, and phonon fluctuation modes point to a strong-coupled scenario of quantum criticality.</description>
+  </descriptions>
+</resource>

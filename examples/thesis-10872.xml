@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eprints xmlns="http://eprints.org/ep2/data/2.0">
+  <eprint id="https://thesis.library.caltech.edu/id/eprint/10872">
+    <eprintid>10872</eprintid>
+    <rev_number>35</rev_number>
+    <documents>
+      <document id="https://thesis.library.caltech.edu/id/document/88512">
+        <docid>88512</docid>
+        <rev_number>3</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251130">
+            <fileid>251130</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88512</objectid>
+            <filename>wang- yishu-6-month-embargo-request.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>913962db50f5d7aa35ef9c2bce5cafaf</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>77824</filesize>
+            <mtime>2018-05-10 19:29:25</mtime>
+            <url>https://thesis.library.caltech.edu/10872/8/wang-%20yishu-6-month-embargo-request.pdf</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>8</pos>
+        <placement>8</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Author Request 2018-05-10</formatdesc>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>wang- yishu-6-month-embargo-request.pdf</main>
+        <content>embargoform</content>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88513">
+        <docid>88513</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251132">
+            <fileid>251132</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88513</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>51b17edf064d36bc3bab5c2505fa4df3</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>73121</filesize>
+            <mtime>2018-05-10 19:29:46</mtime>
+            <url>https://thesis.library.caltech.edu/10872/9/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>9</pos>
+        <placement>9</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88514">
+        <docid>88514</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251133">
+            <fileid>251133</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88514</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>a86303a30debf43422af4edd91bf44cb</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>117514</filesize>
+            <mtime>2018-05-10 19:29:46</mtime>
+            <url>https://thesis.library.caltech.edu/10872/10/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>10</pos>
+        <placement>10</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88515">
+        <docid>88515</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251134">
+            <fileid>251134</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88515</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>c0b63c7e02900b669401623c72f03a6c</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>15950</filesize>
+            <mtime>2018-05-10 19:29:47</mtime>
+            <url>https://thesis.library.caltech.edu/10872/11/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>11</pos>
+        <placement>11</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88516">
+        <docid>88516</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251135">
+            <fileid>251135</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88516</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>4125345f78b3a926d7aef4d62c320937</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1980</filesize>
+            <mtime>2018-05-10 19:29:47</mtime>
+            <url>https://thesis.library.caltech.edu/10872/12/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>12</pos>
+        <placement>12</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88517">
+        <docid>88517</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251136">
+            <fileid>251136</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88517</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/plain</mime_type>
+            <hash>37c2ceede572469bfc5dfb4d58a92701</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1019</filesize>
+            <mtime>2018-05-10 19:29:48</mtime>
+            <url>https://thesis.library.caltech.edu/10872/13/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>13</pos>
+        <placement>13</placement>
+        <mime_type>text/plain</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88512</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88522">
+        <docid>88522</docid>
+        <rev_number>4</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251157">
+            <fileid>251157</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88522</objectid>
+            <filename>Wang-2018-Thesis.zip</filename>
+            <mime_type>application/x-zip</mime_type>
+            <hash>c9ed31a462825894a77b0ded20f152e6</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>13332061</filesize>
+            <mtime>2018-05-10 20:14:48</mtime>
+            <url>https://thesis.library.caltech.edu/10872/14/Wang-2018-Thesis.zip</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>14</pos>
+        <placement>2</placement>
+        <mime_type>application/x-zip</mime_type>
+        <format>application/zip</format>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>Wang-2018-Thesis.zip</main>
+        <content>final</content>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88523">
+        <docid>88523</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251159">
+            <fileid>251159</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88523</objectid>
+            <filename>Wang-2018-Thesis.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>e0c5a3b2f8704facfbbe1c30d33b6217</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>11832256</filesize>
+            <mtime>2018-05-10 20:14:53</mtime>
+            <url>https://thesis.library.caltech.edu/10872/15/Wang-2018-Thesis.pdf</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>15</pos>
+        <placement>1</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <language>en</language>
+        <security>validuser</security>
+        <license>other</license>
+        <main>Wang-2018-Thesis.pdf</main>
+        <date_embargo>2018-11-21</date_embargo>
+        <content>final</content>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88524">
+        <docid>88524</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251161">
+            <fileid>251161</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88524</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>8e1cfa9e91fa449710766650afdf035a</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>21119</filesize>
+            <mtime>2018-05-10 20:15:02</mtime>
+            <url>https://thesis.library.caltech.edu/10872/16/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>16</pos>
+        <placement>16</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88525">
+        <docid>88525</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251162">
+            <fileid>251162</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88525</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>594078cee8248488caa798ad93546a82</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>32699</filesize>
+            <mtime>2018-05-10 20:15:03</mtime>
+            <url>https://thesis.library.caltech.edu/10872/17/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>17</pos>
+        <placement>17</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88526">
+        <docid>88526</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251163">
+            <fileid>251163</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88526</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>b3189be7c7865934c77688fa6a47a21b</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>5559</filesize>
+            <mtime>2018-05-10 20:15:03</mtime>
+            <url>https://thesis.library.caltech.edu/10872/18/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>18</pos>
+        <placement>18</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88527">
+        <docid>88527</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251164">
+            <fileid>251164</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88527</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>06140aef857fbc7a541a2db9d92657fe</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1446</filesize>
+            <mtime>2018-05-10 20:15:04</mtime>
+            <url>https://thesis.library.caltech.edu/10872/19/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>19</pos>
+        <placement>19</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88528">
+        <docid>88528</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251165">
+            <fileid>251165</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88528</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c++</mime_type>
+            <hash>eb9a04437b5bb14481b22bb289e9c7d1</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>28886</filesize>
+            <mtime>2018-05-10 20:15:06</mtime>
+            <url>https://thesis.library.caltech.edu/10872/20/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10872</eprintid>
+        <pos>20</pos>
+        <placement>20</placement>
+        <mime_type>text/x-c++</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88523</uri>
+          </item>
+        </relation>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>11596</userid>
+    <dir>disk0/00/01/08/72</dir>
+    <datestamp>2018-05-21 22:08:23</datestamp>
+    <lastmod>2018-05-21 22:08:23</lastmod>
+    <status_changed>2018-05-21 22:08:23</status_changed>
+    <type>thesis</type>
+    <metadata_visibility>show</metadata_visibility>
+    <creators>
+      <item>
+        <name>
+          <family>Wang</family>
+          <given>Yishu</given>
+        </name>
+        <id>Wang-Yishu</id>
+        <email>wangyishu91@gmail.com</email>
+        <show_email>NO</show_email>
+      </item>
+    </creators>
+    <title>Antiferromagnetic Quantum Phase Transitions: Continuous Tuning and Direct Probes of Competing States</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_pma</item>
+    </divisions>
+    <full_text_status>restricted</full_text_status>
+    <keywords>Condensed Matter Physics; Correlated Electrons; Magnetism; Phase Transitions; Superconductivity</keywords>
+    <suggestions>Restricted to Caltech community only until 21 November 2018. // From author: This thesis includes unpublished data which we are looking forward to publishing in a few months.</suggestions>
+    <abstract>&lt;p&gt;Antiferromagnets are choice systems to study quantum critical behavior. Unlike ferromagnets, they can experience continuous quantum phase transitions when tuned by pressure. However, the lack of a net magnetization renders experimental approaches difficult and often indirect. Here I demonstrate that both non-resonant and resonant x-ray magnetic diffraction under pressure provide the highly-desired direct probe for microscopic insights into the disappearance of the magnetic order, as well as the evolution of the charge and structural degrees of freedom. In Mo&lt;sub&gt;3&lt;/sub&gt;Sb&lt;sub&gt;7&lt;/sub&gt;, where spins are itinerant with small magnetic moments, we have discovered the doubling of the superconducting transition temperature under pressure and relate it to a lattice change from tetragonal to cubic structure. In MnP, a spiral magnetic order with tightened pitch was revealed in the high-pressure phase near a superconducting state at ∼7 GPa. As the spiral pitch changes, fluctuations move from antiferromagnetic to ferromagnetic at long and short wavelengths, respectively, thereby potentially pro- moting spin-fluctuation-mediated superconductivity of different symmetries. In the all-in-all-out (AIAO) pyrochlore antiferromagnet Cd&lt;sub&gt;2&lt;/sub&gt;Os&lt;sub&gt;2&lt;/sub&gt;O&lt;sub&gt;7&lt;/sub&gt;, we discovered an anti- ferromagnetic quantum critical point at 35.8 GPa using new techniques for resonant x-ray magnetic diffraction under pressure. The continuous suppression of AIAO antiferromagnetic order to zero temperature is accompanied by inversion symmetry breaking of the lattice, dividing the &lt;i&gt;P − T&lt;/i&gt; phase space into three regions of different time reversal and spatial inversion symmetries. While phase lines of opposite curvature indicate a striking departure from a mean-field form at high pressure, the intertwined spin, charge, and phonon fluctuation modes point to a strong-coupled scenario of quantum criticality.&lt;/p&gt;</abstract>
+    <date>2018</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:05102018-115838454</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>phd</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:05102018-115838454</official_url>
+    <related_url>
+      <item>
+        <url>doi:10.1103/PhysRevB. 95.125102</url>
+        <type>doi</type>
+        <description>Article adapted for Ch. 3.</description>
+      </item>
+      <item>
+        <url>doi:10.1038/ncomms13037</url>
+        <type>doi</type>
+        <description>Article adapted for Ch. 4.</description>
+      </item>
+    </related_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Rosenbaum</family>
+          <given>Thomas F.</given>
+        </name>
+        <id>Rosenbaum-Thomas-F</id>
+        <role>advisor</role>
+        <email>tfr@caltech.edu</email>
+      </item>
+    </thesis_advisor>
+    <thesis_committee>
+      <item>
+        <name>
+          <family>Rosenbaum</family>
+          <given>Thomas F.</given>
+        </name>
+        <id>Rosenbaum-Thomas-F</id>
+        <role>chair</role>
+        <email>tfr@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Hsieh</family>
+          <given>David</given>
+        </name>
+        <id>Hsieh-David</id>
+        <role>member</role>
+        <email>dhsieh@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Alicea</family>
+          <given>Jason F.</given>
+        </name>
+        <id>Alicea-J-F</id>
+        <role>member</role>
+        <email>aliceaj@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Nad Perge</family>
+          <given>Stavan</given>
+        </name>
+        <id>Nad-Perge-S</id>
+        <role>member</role>
+        <email>s.nadj-perge@caltech.edu</email>
+      </item>
+    </thesis_committee>
+    <thesis_degree>PHD</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>2018-05-03</thesis_defense_date>
+    <reviewer>Melissa Ray</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>physics</item>
+    </option_major>
+    <copyright_statement>Author's Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under "Thesis Availability" in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+    <gradofc_approval_date>2018-05-21</gradofc_approval_date>
+    <alt_title>
+      <item>Continuous Tuning and Direct Probes of Competing States</item>
+    </alt_title>
+  </eprint>
+</eprints>

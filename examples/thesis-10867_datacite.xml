@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://datacite.org/schema/kernel-4" xsi:schemaLocation="http://datacite.org/schema/kernel-4 http://schema.datacite.org/meta/kernel-4/metadata.xsd">
+  <identifier identifierType="DOI">10.5072/1</identifier>
+  <creators>
+    <creator>
+      <creatorName>He,Siqi</creatorName>
+      <givenName>Siqi</givenName>
+      <familyName>He</familyName>
+      <nameIdentifier nameIdentifierScheme="ORCID">0000-0002-3690-7355</nameIdentifier>
+      <affiliation>California Institute of Technology</affiliation>
+    </creator>
+  </creators>
+  <titles>
+    <title>The Kapustin-Witten Equations with Singular Boundary Conditions</title>
+  </titles>
+  <publisher>California Institute of Technology</publisher>
+  <publicationYear>2018</publicationYear>
+  <subjects>
+    <subject>The Kapustin-Witten Equations</subject>
+    <subject>Singular Boundary Conditions</subject>
+    <subject>Mathematics</subject>
+  </subjects>
+  <dates>
+    <date dateType="Accepted">2018-05-21</date>
+  </dates>
+  <language>English</language>
+  <resourceType resourceTypeGeneral="Text">Dissertation</resourceType>
+  <alternateIdentifiers>
+    <alternateIdentifier alternateIdentifierType="Eprint_ID">10867</alternateIdentifier>
+  </alternateIdentifiers>
+  <formats>
+    <format>PDF</format>
+  </formats>
+  <version>Final</version>
+  <rightsList>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+  </rightsList>
+  <descriptions>
+    <description descriptionType="Abstract">Witten proposed a fasinating program interpreting the Jones polynomial of knots on a 3-manifold by counting solutions to the Kapustin-Witten equations with singular boundary conditions.
+
+In Chapter 1, we establish a gluing construction for the Nahm pole solutions to the Kapustin-Witten equations over manifolds with boundaries and cylindrical ends. Given two Nahm pole solutions with some convergence assumptions on the cylindrical ends, we prove that there exists an obstruction class for gluing the two solutions together along the cylindrical end. In addition, we establish a local Kuranishi model for this gluing picture. As an application, we show that over any compact four-manifold with S3 or T3 boundary, there exists a Nahm pole solution to the obstruction perturbed Kapustin-Witten equations. This is also the case for a four-manifold with hyperbolic boundary under some topological assumptions.
+
+In Chapter 2, we find a system of non-linear ODEs that gives rotationally invariant solutions to the Kapustin-Witten equations in 4-dimensional Euclidean space. We explicitly solve these ODEs in some special cases and find decaying rational solutions, which provide solutions to the Kapustin-Witten equations. The imaginary parts of the solutions are singular. By rescaling, we find some limit behavior for these singular solutions. In addition, for any integer k, we can construct a 5|k| dimensional family of C1 solutions to the Kapustin-Witten equations on Euclidean space, again with singular imaginary parts. Moreover, we get solutions to the Kapustin-Witten equation with Nahm pole boundary condition over S3 × (0, +∞).
+
+In Chapter 3, we develop a Kobayashi-Hitchin type correspondence for the extended Bogomolny equations on Σ× with Nahm pole singularity at Σ × {0} and the Hitchin component of the stable SL(2, ℝ) Higgs bundle; this verifies a conjecture of Gaiotto and Witten. We also develop a partial Kobayashi-Hitchin correspondence for solutions with a knot singularity in this program, corresponding to the non-Hitchin components in the moduli space of stable SL(2, ℝ) Higgs bundles. We also prove the existence and uniqueness of solutions with knot singularities on ℂ × ℝ+. This is joint a work with Rafe Mazzeo.
+
+In Chapter 4, for a 3-manifold Y, we study the expansions of the Nahm pole solutions to the Kapustin-Witten equations over Y × (0, +∞). Let y be the coordinate of (0, +∞) and assume the solution convergence to a flat connection at y → ∞, we prove the sub-leading terms of the Nahm pole solution is C1 to the boundary at y → 0 if and only if Y is an Einstein 3-manifold. For Y non-Einstein, the sub-leading terms of the Nahm pole solutions behave as y log y to the boundary. This is a joint work with Victor Mikhaylov.</description>
+  </descriptions>
+</resource>

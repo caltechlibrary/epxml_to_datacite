@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eprints xmlns="http://eprints.org/ep2/data/2.0">
+  <eprint id="https://thesis.library.caltech.edu/id/eprint/10867">
+    <eprintid>10867</eprintid>
+    <rev_number>42</rev_number>
+    <documents>
+      <document id="https://thesis.library.caltech.edu/id/document/88485">
+        <docid>88485</docid>
+        <rev_number>3</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251054">
+            <fileid>251054</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88485</objectid>
+            <filename>ThesisSiqi.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>edd536aa5b5c7c37ca699ea529b626f9</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>949218</filesize>
+            <mtime>2018-05-09 21:53:39</mtime>
+            <url>https://thesis.library.caltech.edu/10867/1/ThesisSiqi.pdf</url>
+          </file>
+        </files>
+        <eprintid>10867</eprintid>
+        <pos>1</pos>
+        <placement>1</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <language>en</language>
+        <security>internal</security>
+        <license>other</license>
+        <main>ThesisSiqi.pdf</main>
+        <date_embargo>2018-05-29</date_embargo>
+        <content>final</content>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88486">
+        <docid>88486</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251056">
+            <fileid>251056</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88486</objectid>
+            <filename>lightbox.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>9569cbd01ed5460033254b848af1970b</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>18680</filesize>
+            <mtime>2018-05-09 21:53:43</mtime>
+            <url>https://thesis.library.caltech.edu/10867/2/lightbox.jpg</url>
+          </file>
+        </files>
+        <eprintid>10867</eprintid>
+        <pos>2</pos>
+        <placement>2</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_lightbox</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>lightbox.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/islightboxThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88487">
+        <docid>88487</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251057">
+            <fileid>251057</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88487</objectid>
+            <filename>preview.png</filename>
+            <mime_type>image/png</mime_type>
+            <hash>b3bc1e3bb092453b9b827ff1e2798229</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>28248</filesize>
+            <mtime>2018-05-09 21:53:43</mtime>
+            <url>https://thesis.library.caltech.edu/10867/3/preview.png</url>
+          </file>
+        </files>
+        <eprintid>10867</eprintid>
+        <pos>3</pos>
+        <placement>3</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnail Documents conversion from application/pdf to thumbnail_preview</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>preview.png</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ispreviewThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88488">
+        <docid>88488</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251058">
+            <fileid>251058</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88488</objectid>
+            <filename>medium.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>638d2f6de776c667aa9ea3b549ae1bea</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>4895</filesize>
+            <mtime>2018-05-09 21:53:44</mtime>
+            <url>https://thesis.library.caltech.edu/10867/4/medium.jpg</url>
+          </file>
+        </files>
+        <eprintid>10867</eprintid>
+        <pos>4</pos>
+        <placement>4</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_medium</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>medium.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/ismediumThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88489">
+        <docid>88489</docid>
+        <rev_number>2</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251059">
+            <fileid>251059</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88489</objectid>
+            <filename>small.jpg</filename>
+            <mime_type>image/png</mime_type>
+            <hash>82e5274a6c82df3c9d1535e4543b5071</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>1428</filesize>
+            <mtime>2018-05-09 21:53:44</mtime>
+            <url>https://thesis.library.caltech.edu/10867/5/small.jpg</url>
+          </file>
+        </files>
+        <eprintid>10867</eprintid>
+        <pos>5</pos>
+        <placement>5</placement>
+        <mime_type>image/png</mime_type>
+        <format>other</format>
+        <formatdesc>Thumbnails conversion from application/pdf to thumbnail_small</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>small.jpg</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/issmallThumbnailVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+        </relation>
+      </document>
+      <document id="https://thesis.library.caltech.edu/id/document/88490">
+        <docid>88490</docid>
+        <rev_number>1</rev_number>
+        <files>
+          <file id="https://thesis.library.caltech.edu/id/file/251060">
+            <fileid>251060</fileid>
+            <datasetid>document</datasetid>
+            <objectid>88490</objectid>
+            <filename>indexcodes.txt</filename>
+            <mime_type>text/x-c++</mime_type>
+            <hash>a7f3584b4a8ff718635b524892027d38</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>18970</filesize>
+            <mtime>2018-05-09 21:53:55</mtime>
+            <url>https://thesis.library.caltech.edu/10867/6/indexcodes.txt</url>
+          </file>
+        </files>
+        <eprintid>10867</eprintid>
+        <pos>6</pos>
+        <placement>6</placement>
+        <mime_type>text/x-c++</mime_type>
+        <format>other</format>
+        <formatdesc>Generate index codes conversion from application/pdf to indexcodes</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>indexcodes.txt</main>
+        <relation>
+          <item>
+            <type>http://eprints.org/relation/isVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isVolatileVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+          <item>
+            <type>http://eprints.org/relation/isIndexCodesVersionOf</type>
+            <uri>https://thesis.library.caltech.edu/id/document/88485</uri>
+          </item>
+        </relation>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>11344</userid>
+    <dir>disk0/00/01/08/67</dir>
+    <datestamp>2018-05-21 22:01:22</datestamp>
+    <lastmod>2018-05-21 22:01:22</lastmod>
+    <status_changed>2018-05-21 22:01:22</status_changed>
+    <type>thesis</type>
+    <metadata_visibility>show</metadata_visibility>
+    <creators>
+      <item>
+        <name>
+          <family>He</family>
+          <given>Siqi</given>
+        </name>
+        <id>He-Siqi</id>
+        <email>siqihe@pku.edu.cn</email>
+        <show_email>NO</show_email>
+        <orcid>0000-0002-3690-7355</orcid>
+      </item>
+    </creators>
+    <title>The Kapustin-Witten Equations with Singular Boundary Conditions</title>
+    <ispublished>unpub</ispublished>
+    <divisions>
+      <item>div_pma</item>
+    </divisions>
+    <keywords>The Kapustin-Witten Equations, Singular Boundary Conditions</keywords>
+    <abstract>&lt;p&gt;Witten proposed a fasinating program interpreting the Jones polynomial of knots on a 3-manifold by counting solutions to the Kapustin-Witten equations with singular boundary conditions.&lt;/p&gt;
+
+&lt;p&gt;In Chapter 1, we establish a gluing construction for the Nahm pole solutions to the Kapustin-Witten equations over manifolds with boundaries and cylindrical ends. Given two Nahm pole solutions with some convergence assumptions on the cylindrical ends, we prove that there exists an obstruction class for gluing the two solutions together along the cylindrical end. In addition, we establish a local Kuranishi model for this gluing picture. As an application, we show that over any compact four-manifold with &lt;i&gt;S&lt;/i&gt;&lt;sup&gt;3&lt;/sup&gt; or &lt;i&gt;T&lt;/i&gt;&lt;sup&gt;3&lt;/sup&gt; boundary, there exists a Nahm pole solution to the obstruction perturbed Kapustin-Witten equations. This is also the case for a four-manifold with hyperbolic boundary under some topological assumptions.&lt;/p&gt;
+
+&lt;p&gt;In Chapter 2, we find a system of non-linear ODEs that gives rotationally invariant solutions to the Kapustin-Witten equations in 4-dimensional Euclidean space. We explicitly solve these ODEs in some special cases and find decaying rational solutions, which provide solutions to the Kapustin-Witten equations. The imaginary parts of the solutions are singular. By rescaling, we find some limit behavior for these singular solutions. In addition, for any integer &lt;i&gt;k&lt;/i&gt;, we can construct a 5|&lt;i&gt;k&lt;/i&gt;| dimensional family of &lt;i&gt;C&lt;/i&gt;&lt;sup&gt;1&lt;/sup&gt; solutions to the Kapustin-Witten equations on Euclidean space, again with singular imaginary parts. Moreover, we get solutions to the Kapustin-Witten equation with Nahm pole boundary condition over &lt;i&gt;S&lt;/i&gt;&lt;sup&gt;3&lt;/sup&gt; × (0, +∞).&lt;/p&gt;
+
+&lt;p&gt;In Chapter 3, we develop a Kobayashi-Hitchin type correspondence for the extended Bogomolny equations on Σ× with Nahm pole singularity at Σ × {0} and the Hitchin component of the stable &lt;i&gt;SL&lt;/i&gt;(2, ℝ) Higgs bundle; this verifies a conjecture of Gaiotto and Witten. We also develop a partial Kobayashi-Hitchin correspondence for solutions with a knot singularity in this program, corresponding to the non-Hitchin components in the moduli space of stable &lt;i&gt;SL&lt;/i&gt;(2, ℝ) Higgs bundles. We also prove the existence and uniqueness of solutions with knot singularities on ℂ × ℝ&lt;sup&gt;+&lt;/sup&gt;. This is joint a work with Rafe Mazzeo.&lt;/p&gt;
+
+&lt;p&gt;In Chapter 4, for a 3-manifold &lt;i&gt;Y&lt;/i&gt;, we study the expansions of the Nahm pole solutions to the Kapustin-Witten equations over &lt;i&gt;Y&lt;/i&gt; × (0, +∞). Let &lt;i&gt;y&lt;/i&gt; be the coordinate of (0, +∞) and assume the solution convergence to a flat connection at &lt;i&gt;y&lt;/i&gt; → ∞, we prove the sub-leading terms of the Nahm pole solution is &lt;i&gt;C&lt;/i&gt;&lt;sup&gt;1&lt;/sup&gt; to the boundary at &lt;i&gt;y&lt;/i&gt; → 0 if and only if &lt;i&gt;Y&lt;/i&gt; is an Einstein 3-manifold. For &lt;i&gt;Y&lt;/i&gt; non-Einstein, the sub-leading terms of the Nahm pole solutions behave as &lt;i&gt;y&lt;/i&gt; log &lt;i&gt;y&lt;/i&gt; to the boundary. This is a joint work with Victor Mikhaylov.&lt;/p&gt;</abstract>
+    <date>2018</date>
+    <date_type>degree</date_type>
+    <id_number>CaltechTHESIS:05092018-094640290</id_number>
+    <institution>California Institute of Technology</institution>
+    <thesis_type>phd</thesis_type>
+    <refereed>FALSE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechTHESIS:05092018-094640290</official_url>
+    <related_url>
+      <item>
+        <url>https://arxiv.org/abs/1707.06182</url>
+        <type>arxiv</type>
+        <description>Article adapted for Chapter I.</description>
+      </item>
+      <item>
+        <url>https://arxiv.org/abs/1510.07706</url>
+        <type>arxiv</type>
+        <description>Article adapted for Chapter II.</description>
+      </item>
+      <item>
+        <url>https://arxiv.org/abs/1710.10645</url>
+        <type>arxiv</type>
+        <description>Article adapted for Chapter III.</description>
+      </item>
+    </related_url>
+    <rights>No commercial reproduction, distribution, display or performance rights in this work are provided.</rights>
+    <collection>CaltechTHESIS</collection>
+    <thesis_advisor>
+      <item>
+        <name>
+          <family>Ni</family>
+          <given>Yi</given>
+        </name>
+        <id>Ni-Yi</id>
+        <role>advisor</role>
+        <email>yini@caltech.edu</email>
+      </item>
+    </thesis_advisor>
+    <thesis_committee>
+      <item>
+        <name>
+          <family>Ni</family>
+          <given>Yi</given>
+        </name>
+        <id>Ni-Yi</id>
+        <role>chair</role>
+        <email>yini@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Qi</family>
+          <given>You</given>
+        </name>
+        <id>Qi-You</id>
+        <role>member</role>
+        <email>youqi@caltech.edu </email>
+      </item>
+      <item>
+        <name>
+          <family>Vafaee</family>
+          <given>Faramarz</given>
+        </name>
+        <id>Vafaee-F</id>
+        <role>member</role>
+        <email>vafaee@caltech.edu </email>
+      </item>
+      <item>
+        <name>
+          <family>Manolescu</family>
+          <given>Ciprian</given>
+        </name>
+        <id>Manolescu-Ciprian</id>
+        <role>member</role>
+        <email>cm@math.ucla.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Markovic</family>
+          <given>Vladimir</given>
+        </name>
+        <id>Markovic-V</id>
+        <role>member</role>
+        <email>markovic@caltech.edu</email>
+      </item>
+      <item>
+        <name>
+          <family>Mazzeo</family>
+          <given>Rafe</given>
+        </name>
+        <id>Mazzeo-Rafe</id>
+        <role>member</role>
+        <email>mazzeo@math.stanford.edu</email>
+      </item>
+    </thesis_committee>
+    <thesis_degree>PHD</thesis_degree>
+    <thesis_degree_grantor>California Institute of Technology</thesis_degree_grantor>
+    <thesis_defense_date>2018-05-02</thesis_defense_date>
+    <reviewer>Melissa Ray</reviewer>
+    <review_status>approved</review_status>
+    <option_major>
+      <item>math</item>
+    </option_major>
+    <copyright_statement>Author's Rights Authorization: I hereby certify that, if appropriate, I have obtained a written permission statement from the owner(s) of each third party copyrighted matter to be included in my thesis, dissertation, or project report, allowing distribution as specified below. I certify that the version I submitted here is the same as that approved by my advisory committee.
+
+I hereby grant to California Institute of Technology or its agents the non-exclusive license to archive and make accessible, under the conditions specified under "Thesis Availability" in this submission, my thesis, dissertation, or project report in whole or in part in all forms of media, now or hereafter known. I retain all other ownership rights to the copyright of the thesis, dissertation, or project report. I also retain the right to use in future works (such as articles or books) all or part of this thesis, dissertation, or project report.</copyright_statement>
+    <gradofc_approval_date>2018-05-21</gradofc_approval_date>
+  </eprint>
+</eprints>
