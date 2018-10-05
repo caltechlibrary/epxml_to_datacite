@@ -34,7 +34,7 @@ def epxml_to_datacite(eprint):
             idv.append(nid)
             new['nameIdentifiers']=idv
     name = info['name']
-    new['creatorName'] = name['family']+','+name['given']
+    new['creatorName'] = name['family']+', '+name['given']
     new['givenName'] = name['given']
     new['familyName'] = name['family']
     newa.append(new)
