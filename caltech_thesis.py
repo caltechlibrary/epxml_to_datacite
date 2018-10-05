@@ -1,13 +1,23 @@
 import xmltodict
 from datacite import DataCiteMDSClient,schema40
-import glob,json,datetime,re,argparse,subprocess
+import glob,json,datetime,re
+import os,argparse,subprocess
 
 def cleanhtml(raw_html):
     cleanr = re.compile('<.*?>')
     cleantext = re.sub(cleanr, '', raw_html)
     return cleantext
 
-def epxml_to_datacite(eprint,thesis_subjects):
+def epxml_to_datacite(eprint):
+    
+    #Parse subjects file to create dictionary of Eprints keys and labels
+    ref_file = os.path.join(os.path.dirname(__file__),'thesis-subjects.txt')
+    infile = open(ref_file,'r')
+    thesis_subjects = {}
+    for line in infile:
+        split = line.split(':')
+        thesis_subjects[split[0]]=split[1]
+    
     metadata = {}
     
     #Transforming Metadata
@@ -142,13 +152,6 @@ if __name__ == '__main__':
     parser.add_argument('-test', action='store_true', help='Only register test DOI')
     args = parser.parse_args()
 
-    #Parse subjects file to create dictionary of Eprints keys and labels
-    infile = open('thesis-subjects.txt','r')
-    thesis_subjects = {}
-    for line in infile:
-        split = line.split(':')
-        thesis_subjects[split[0]]=split[1]
-
     files = glob.glob('*.xml')
     for f in files:
         if 'datacite' not in f:
@@ -159,7 +162,7 @@ if __name__ == '__main__':
                 eprint = xmltodict.parse(fd.read())['eprints']['eprint']
             print(eprint['title'])
 
-            metadata = epxml_to_datacite(eprint,thesis_subjects)
+            metadata = epxml_to_datacite(eprint)
     
             #Validation fails on Windows
             #assert schema40.validate(metadata)

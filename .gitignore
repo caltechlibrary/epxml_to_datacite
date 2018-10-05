@@ -1,2 +1,5 @@
 /*.xml
 pw
+build/
+dist/
+epxml_to_datacite.egg-info/
