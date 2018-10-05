@@ -117,20 +117,22 @@ def epxml_to_datacite(eprint):
         array = []
         if isinstance(eprint['related_url']['item'],list):
             for item in eprint['related_url']['item']:
+                if 'description' in item:
+                    if 'CaltechDATA' in item['description']:
+                        obj = {}
+                        obj['relationType']='IsSupplementedBy'
+                        obj['relatedIdentifierType']='DOI'
+                        obj['relatedIdentifier']=item['url']
+                        array.append(obj)
+        else:
+            item = eprint['related_url']['item']
+            if 'description' in item:
                 if 'CaltechDATA' in item['description']:
                     obj = {}
                     obj['relationType']='IsSupplementedBy'
                     obj['relatedIdentifierType']='DOI'
                     obj['relatedIdentifier']=item['url']
                     array.append(obj)
-        else:
-            item = eprint['related_url']['item']
-            if 'CaltechDATA' in item['description']:
-                obj = {}
-                obj['relationType']='IsSupplementedBy'
-                obj['relatedIdentifierType']='DOI'
-                obj['relatedIdentifier']=item['url']
-                array.append(obj)
         metadata['relatedIdentifiers']=array
 
     #Dates
