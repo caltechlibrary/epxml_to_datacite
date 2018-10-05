@@ -100,7 +100,8 @@ def epxml_to_datacite(eprint):
         if isinstance(eprint['funders']['item'],list):
             for item in eprint['funders']['item']:
                 award = {}
-                award['funderName'] = item['agency']
+                if 'agency' in item:
+                    award['funderName'] = item['agency']
                 if 'grant_number' in item:
                     award['awardNumber'] = {'awardNumber':item['grant_number']}
                 array.append(award)
