@@ -170,11 +170,12 @@ if __name__ == '__main__':
             metadata = epxml_to_datacite(eprint)
     
             #Validation fails on Windows
-            #assert schema40.validate(metadata)
+            #valid =  schema40.validate(metadata)
             #Debugging if this fails
-            #v = schema40.validator.validate(metadata)
-            #errors = sorted(v.iter_errors(instance), key=lambda e: e.path)
-            #for error in errors:
+            #if valid == False:
+            #    v = schema40.validator.validate(metadata)
+            #    errors = sorted(v.iter_errors(instance), key=lambda e: e.path)
+            #    for error in errors:
             #        print(error.message)
 
             if args.mint != True:
