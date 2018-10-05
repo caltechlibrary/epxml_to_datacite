@@ -42,7 +42,11 @@ def epxml_to_datacite(eprint):
     metadata['creators'] = newa
     metadata['titles'] = [{'title':eprint['title']}]
     metadata['publisher'] = "California Institute of Technology"
-    metadata['publicationYear'] = eprint['date']
+    if len(eprint['date']) != 4:
+        metadata['publicationYear'] = eprint['date'].split('-')[0]
+    else:
+        metadata['publicationYear'] = eprint['date']
+    print(metadata['publicationYear'])
     #DataCite wants doctoral degrees tagged as dissertation
     if eprint['thesis_degree'] == 'PHD':
         metadata['resourceType']={"resourceType":\
