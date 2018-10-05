@@ -46,7 +46,6 @@ def epxml_to_datacite(eprint):
         metadata['publicationYear'] = eprint['date'].split('-')[0]
     else:
         metadata['publicationYear'] = eprint['date']
-    print(metadata['publicationYear'])
     #DataCite wants doctoral degrees tagged as dissertation
     if eprint['thesis_degree'] == 'PHD':
         metadata['resourceType']={"resourceType":\
