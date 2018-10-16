@@ -10,17 +10,10 @@ def cleanhtml(raw_html):
 
 def epxml_to_datacite(eprint):
     
-    #Parse subjects file to create dictionary of Eprints keys and labels
-    ref_file = os.path.join(os.path.dirname(__file__),'thesis-subjects.txt')
-    infile = open(ref_file,'r')
-    thesis_subjects = {}
-    for line in infile:
-        split = line.split(':')
-        thesis_subjects[split[0]]=split[1]
-    
     metadata = {}
     
     #Transforming Metadata
+    #Creators
     newa = []
     if isinstance(eprint['creators']['item'],list) == False:
         eprint['creators']['item'] = [eprint['creators']['item']]
@@ -38,7 +31,7 @@ def epxml_to_datacite(eprint):
         new['creatorName'] = name['family']+', '+name['given']
         new['givenName'] = name['given']
         new['familyName'] = name['family']
-        newa.append(new) 
+        newa.append(new)
     metadata['creators'] = newa
 
     #Contributors
@@ -67,28 +60,18 @@ def epxml_to_datacite(eprint):
         newc.append({'contributorName':eprint['local_group']['item'],'contributorType':'ResearchGroup'})
     metadata['contributors'] = newc
 
-    metadata['creators'] = newa
     metadata['titles'] = [{'title':eprint['title']}]
-    metadata['publisher'] = "California Institute of Technology"
+    metadata['publisher'] = "CaltechDATA"
     if len(eprint['date']) != 4:
         metadata['publicationYear'] = eprint['date'].split('-')[0]
     else:
         metadata['publicationYear'] = eprint['date']
-    #DataCite wants doctoral degrees tagged as dissertation
-    if eprint['thesis_degree'] == 'PHD':
-        metadata['resourceType']={"resourceType":\
-        "Dissertation",'resourceTypeGeneral':"Text"}
-    else:
-        metadata['resourceType']={"resourceType":\
-        thesis_subjects[eprint['thesis_type']],'resourceTypeGeneral':"Text"}
+    metadata['resourceType']={'resourceTypeGeneral':"Dataset"}
 
     if 'doi' in eprint:
             metadata['identifier'] = {'identifier':eprint['doi'],'identifierType':"DOI"}
     else:
             metadata['identifier'] = {'identifier':'10.5072/1','identifierType':"DOI"}
-
-    metadata['alternateIdentifiers'] = [{'alternateIdentifier':eprint['eprintid'],
-            'alternateIdentifierType':"Eprint_ID"}]
 
     if 'other_numbering_system' in eprint:
         ids = []
@@ -102,8 +85,6 @@ def epxml_to_datacite(eprint):
 
     metadata['descriptions'] =[{'descriptionType':"Abstract",\
             'description':cleanhtml(eprint['abstract'])}]
-    metadata['formats'] = ['PDF']
-    metadata['version'] = 'Final'
     metadata['language'] = 'English'
 
     #Subjects
@@ -115,23 +96,6 @@ def epxml_to_datacite(eprint):
         for s in subjects:
             array.append({'subject':s.strip()})
         metadata['subjects']=array
-    if 'option_major' in eprint:
-        if isinstance(eprint['option_major']['item'],list):
-            for item in eprint['option_major']['item']:
-                text = thesis_subjects[item]
-                metadata['subjects'].append({'subject':text})
-        else:
-            text = thesis_subjects[eprint['option_major']['item']]
-            metadata['subjects'].append({'subject':text})
-
-    if 'option_minor' in eprint:
-        if isinstance(eprint['option_minor']['item'],list):
-            for item in eprint['option_minor']['item']:
-                text = thesis_subjects[item]
-                metadata['subjects'].append({'subject':text})
-        else:
-            text = thesis_subjects[eprint['option_minor']['item']]
-            metadata['subjects'].append({'subject':text})
    
     if 'funders' in eprint:
         array = []
@@ -161,30 +125,25 @@ def epxml_to_datacite(eprint):
         if isinstance(eprint['related_url']['item'],list):
             for item in eprint['related_url']['item']:
                 if 'description' in item:
-                    if 'CaltechDATA' in item['description']:
-                        obj = {}
-                        obj['relationType']='IsSupplementedBy'
-                        obj['relatedIdentifierType']='DOI'
-                        obj['relatedIdentifier']=item['url']
-                        array.append(obj)
-        else:
-            item = eprint['related_url']['item']
-            if 'description' in item:
-                if 'CaltechDATA' in item['description']:
                     obj = {}
                     obj['relationType']='IsSupplementedBy'
                     obj['relatedIdentifierType']='DOI'
                     obj['relatedIdentifier']=item['url']
                     array.append(obj)
+
+        else:
+            item = eprint['related_url']['item']
+            if 'description' in item:
+                obj = {}
+                obj['relationType']='IsSupplementedBy'
+                obj['relatedIdentifierType']='DOI'
+                obj['relatedIdentifier']=item['url']
+                array.append(obj)
         metadata['relatedIdentifiers']=array
 
     #Dates
     dates = []
-    if 'gradofc_approval_date' in eprint:
-        dates.append({"date":eprint['gradofc_approval_date'],"dateType":"Accepted"})
-    #These are scanned records, we just list when they were made available
-    else:
-        dates.append({"date":eprint['datestamp'],"dateType":"Available"})
+    dates.append({"date":eprint['datestamp'],"dateType":"Available"})
     metadata['dates'] = dates
 
     return metadata
@@ -192,7 +151,7 @@ def epxml_to_datacite(eprint):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description=\
-        "Make DataCite standard metadata for records from CaltechTHESIS and register DOIs")
+        "Make DataCite standard metadata for records from CaltechAUTHORS and register DOIs")
     parser.add_argument('-mint', action='store_true', help='Mint DOIs')
     parser.add_argument('-test', action='store_true', help='Only register test DOI')
     args = parser.parse_args()

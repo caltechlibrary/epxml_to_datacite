@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='utf-8'?>
+<eprints xmlns='http://eprints.org/ep2/data/2.0'>
+  <eprint id='https://authors.library.caltech.edu/id/eprint/66761'>
+    <eprintid>66761</eprintid>
+    <rev_number>37</rev_number>
+    <documents>
+      <document id='https://authors.library.caltech.edu/id/document/230938'>
+        <docid>230938</docid>
+        <rev_number>6</rev_number>
+        <files>
+          <file id='https://authors.library.caltech.edu/id/file/1039169'>
+            <fileid>1039169</fileid>
+            <datasetid>document</datasetid>
+            <objectid>230938</objectid>
+            <filename>all GT.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>e042f231d39748eeb1995f1403d15ca1</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>24040942</filesize>
+            <mtime>2016-05-12 14:13:54</mtime>
+            <url>https://authors.library.caltech.edu/66761/1/all%20GT.pdf</url>
+          </file>
+        </files>
+        <eprintid>66761</eprintid>
+        <pos>1</pos>
+        <placement>1</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Field notes taken at 87 sites along rupture. Site locations referenced in table of contents correspond to sites described in  Chen, T., et al., 2015.</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>all GT.pdf</main>
+        <content>supplemental</content>
+      </document>
+      <document id='https://authors.library.caltech.edu/id/document/230939'>
+        <docid>230939</docid>
+        <rev_number>7</rev_number>
+        <files>
+          <file id='https://authors.library.caltech.edu/id/file/1039171'>
+            <fileid>1039171</fileid>
+            <datasetid>document</datasetid>
+            <objectid>230939</objectid>
+            <filename>SUPP A.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>c3f7873728de6015fcfded3233ea0393</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>11520200</filesize>
+            <mtime>2016-05-12 14:15:49</mtime>
+            <url>https://authors.library.caltech.edu/66761/2/SUPP%20A.pdf</url>
+          </file>
+        </files>
+        <eprintid>66761</eprintid>
+        <pos>2</pos>
+        <placement>2</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Compilation of field based offset measurements. Site locations referenced in table of contents correspond to sites described in  Chen, T., et al., 2015.</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>SUPP A.pdf</main>
+        <content>supplemental</content>
+      </document>
+      <document id='https://authors.library.caltech.edu/id/document/230941'>
+        <docid>230941</docid>
+        <rev_number>5</rev_number>
+        <files>
+          <file id='https://authors.library.caltech.edu/id/file/1039177'>
+            <fileid>1039177</fileid>
+            <datasetid>document</datasetid>
+            <objectid>230941</objectid>
+            <filename>SUPP B_v2.pdf</filename>
+            <mime_type>application/pdf</mime_type>
+            <hash>23da00031b6cece1c8979ed0639d7327</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>9501326</filesize>
+            <mtime>2016-05-12 14:22:05</mtime>
+            <url>https://authors.library.caltech.edu/66761/4/SUPP%20B_v2.pdf</url>
+          </file>
+        </files>
+        <eprintid>66761</eprintid>
+        <pos>4</pos>
+        <placement>4</placement>
+        <mime_type>application/pdf</mime_type>
+        <format>application/pdf</format>
+        <formatdesc>Screenshot documentation of new lidar-based measurements. Images represent input screen and outputs generated from LaDiCaoz, MATLAB GUI for LiDAR data handling and lateral displacement measurement.</formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>SUPP B_v2.pdf</main>
+        <content>supplemental</content>
+      </document>
+      <document id='https://authors.library.caltech.edu/id/document/230980'>
+        <docid>230980</docid>
+        <rev_number>3</rev_number>
+        <files>
+          <file id='https://authors.library.caltech.edu/id/file/1039382'>
+            <fileid>1039382</fileid>
+            <datasetid>document</datasetid>
+            <objectid>230980</objectid>
+            <filename>SUPP C.xlsx</filename>
+            <mime_type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime_type>
+            <hash>385d0dcc10cc5a9a943525265e8c5b62</hash>
+            <hash_type>MD5</hash_type>
+            <filesize>32608</filesize>
+            <mtime>2016-05-12 20:34:37</mtime>
+            <url>https://authors.library.caltech.edu/66761/5/SUPP%20C.xlsx</url>
+          </file>
+        </files>
+        <eprintid>66761</eprintid>
+        <pos>5</pos>
+        <placement>5</placement>
+        <mime_type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime_type>
+        <format>application/vnd.ms-excel</format>
+        <formatdesc>Digitized version of textual data contained in Field Notes PDF.   Covers the 87 locations in the field where offset measurements (Chen et al, 2015) were groundtruthed. 21 of 87 sites were removed from &apos;database&apos; </formatdesc>
+        <language>en</language>
+        <security>public</security>
+        <license>other</license>
+        <main>SUPP C.xlsx</main>
+        <content>supplemental</content>
+      </document>
+    </documents>
+    <eprint_status>archive</eprint_status>
+    <userid>5490</userid>
+    <dir>disk0/00/06/67/61</dir>
+    <datestamp>2016-05-26 00:20:28</datestamp>
+    <lastmod>2016-08-08 16:29:30</lastmod>
+    <status_changed>2016-05-26 00:20:28</status_changed>
+    <type>dataset</type>
+    <metadata_visibility>show</metadata_visibility>
+    <creators>
+      <item>
+        <name>
+          <family>Sousa</family>
+          <given>Francis J.</given>
+        </name>
+        <id>Sousa-F-J</id>
+        <orcid>0000-0003-1623-4023</orcid>
+      </item>
+    </creators>
+    <contributors>
+      <item>
+        <type>http://www.loc.gov/loc.terms/relators/THS</type>
+        <name>
+          <family>Stock</family>
+          <given>Joann M.</given>
+        </name>
+        <id>Stock-J-M</id>
+      </item>
+      <item>
+        <type>http://www.loc.gov/loc.terms/relators/RTM</type>
+        <name>
+          <family>Scharer</family>
+          <given>Katherine</given>
+        </name>
+        <id>Scharer-K</id>
+      </item>
+      <item>
+        <type>http://www.loc.gov/loc.terms/relators/RTM</type>
+        <name>
+          <family>Hudnut</family>
+          <given>Kenneth</given>
+        </name>
+        <id>Hudnut-K-W</id>
+      </item>
+      <item>
+        <type>http://www.loc.gov/loc.terms/relators/RTM</type>
+        <name>
+          <family>Akciz</family>
+          <given>S. O.</given>
+        </name>
+        <id>Akciz-S-O</id>
+      </item>
+      <item>
+        <type>http://www.loc.gov/loc.terms/relators/RTM</type>
+        <name>
+          <family>Witkosky</family>
+          <given>Ryan D.</given>
+        </name>
+        <id>Witkofsky-R-D</id>
+      </item>
+      <item>
+        <type>http://www.loc.gov/loc.terms/relators/RTM</type>
+        <name>
+          <family>Harvey</family>
+          <given>Janet C.</given>
+        </name>
+        <id>Harvey-J-C</id>
+      </item>
+    </contributors>
+    <title>Data from &apos;Re-evaluating offset measurements in the maximum slip zone of the 1999 Hector Mine Earthquake surface rupture&apos;</title>
+    <ispublished>pub</ispublished>
+    <full_text_status>public</full_text_status>
+    <keywords>Earthquake geology; Faults; Strike-slip</keywords>
+    <note>This research was supported by the Southern California Earthquake Center (Contribution No. 6121).
+SCEC is funded by NSF Cooperative Agreement EAR-1033462 &amp; USGS Cooperative Agreement G12AC20038.
+</note>
+    <abstract>[Description of dataset] This archived dataset comprises four files containing field-based offset measurements and notes;  screenshot documentation of new lidar-based measurements; and field observations of published lidar measurements. These data were collected and analyzed as part of the research investigation described in Sousa et al, 2016, Re-evaluating offset measurements in the maximum slip zone of the 1999 Hector Mine Earthquake surface rupture, Bulletin of the Seismological Society of America (in press), and Sousa&apos;s June 2016 Caltech doctoral thesis.
+</abstract>
+    <date>2016-05-09</date>
+    <date_type>inpress</date_type>
+    <publisher>California Institute of Technology</publisher>
+    <id_number>CaltechAUTHORS:20160509-112713434</id_number>
+    <refereed>TRUE</refereed>
+    <official_url>http://resolver.caltech.edu/CaltechAUTHORS:20160509-112713434</official_url>
+    <related_url>
+      <item>
+        <url>http://dx.doi.org/10.1785/0120130108</url>
+        <type>related</type>
+        <description>Article: Chen et al, 2015. Fault-Slip Distribution of the 1999 Mw 7.1 Hector Mine Earthquake, California, Estimated from Postearthquake Airborne LiDAR Data</description>
+      </item>
+      <item>
+        <url>http://dx.doi.org/10.7907/Z9H41PD8</url>
+        <type>doi</type>
+        <description>Thesis: Sousa, Francis Joseph (2016) Tectonics of Central and Eastern California, Late Cretaceous to Modern. Dissertation (Ph.D.), Caltech</description>
+      </item>
+    </related_url>
+    <output_media>PDF; MS-Excel</output_media>
+    <data_type>Geospatial; Image; Field notes</data_type>
+    <rights>Copyright (c) 2016, California Institute of Technology. All rights not granted herein are expressly reserved by Caltech.
+
+Redistribution and use, with or without modification, are permitted provided that the following conditions are met:
+
+1. Redistributions must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+2. Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this dataset without specific prior written permission.
+
+THIS DATASET IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS DATASET, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</rights>
+    <doi>10.7907/Z9CJ8BF4</doi>
+    <other_numbering_system>
+      <item>
+        <name>Southern California Earthquake Center</name>
+        <id>6121</id>
+      </item>
+    </other_numbering_system>
+    <funders>
+      <item>
+        <agency>Southern California Earthquake Center (SCEC)</agency>
+        <grant_number> </grant_number>
+      </item>
+      <item>
+        <agency>NSF</agency>
+        <grant_number>EAR-1033462</grant_number>
+      </item>
+      <item>
+        <agency>USGS</agency>
+        <grant_number>G12AC20038</grant_number>
+      </item>
+    </funders>
+    <collection>CaltechAUTHORS</collection>
+    <reviewer>Kathy Johnson</reviewer>
+    <local_group>
+      <item>Seismological Laboratory</item>
+    </local_group>
+  </eprint>
+</eprints>
