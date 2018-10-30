@@ -1,7 +1,18 @@
 import xmltodict
 from datacite import DataCiteMDSClient,schema40
-import glob,json,datetime,re
+import glob,json,datetime,re,getpass
 import os,argparse,subprocess
+
+def download_records(ids):
+    username = input('Enter your CaltechTHESIS username: ')
+    password = getpass.getpass()
+
+    for idv in ids:
+        url = 'https://'+username+':'+password+'@thesis.library.caltech.edu/rest/eprint/'
+        record_url = url + str(idv) +'.xml'
+        record = subprocess.check_output(["eputil",record_url],universal_newlines=True)
+        outfile = open(idv+'.xml','w')
+        outfile.write(record)
 
 def cleanhtml(raw_html):
     cleanr = re.compile('<.*?>')
@@ -96,8 +107,7 @@ def epxml_to_datacite(eprint):
             #Deal with single item listings
             eprint['other_numbering_system']['item'] = [eprint['other_numbering_system']['item']]
         for item in eprint['other_numbering_system']['item']:
-            print
-            ids.append({'alternateIdentifier':item['id'],'alternateIdentifierType':item['name']})
+            ids.append({'alternateIdentifier':item['id'],'alternateIdentifierType':item['name']['#text']})
         metadata['alternateIdentifiers'] = ids
 
     metadata['descriptions'] =[{'descriptionType':"Abstract",\
@@ -195,7 +205,11 @@ if __name__ == '__main__':
         "Make DataCite standard metadata for records from CaltechTHESIS and register DOIs")
     parser.add_argument('-mint', action='store_true', help='Mint DOIs')
     parser.add_argument('-test', action='store_true', help='Only register test DOI')
+    parser.add_argument('-ids',nargs='*',help="CaltechTHESIS IDs to download XML files")
     args = parser.parse_args()
+
+    if len(args.ids) > 0:
+        download_records(args.ids)
 
     files = glob.glob('*.xml')
     for f in files:

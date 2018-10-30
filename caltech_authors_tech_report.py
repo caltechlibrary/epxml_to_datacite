@@ -1,6 +1,6 @@
 import xmltodict
 from datacite import DataCiteMDSClient,schema40
-import glob,json,datetime,re
+import glob,json,datetime,re,getpass
 import os,argparse,subprocess
 
 def cleanhtml(raw_html):
@@ -9,9 +9,24 @@ def cleanhtml(raw_html):
     return cleantext
 
 def epxml_to_datacite(eprint):
-    
+   
+    print(eprint['type'])
+    if eprint['type'] != 'monograph':
+        raise Exception("This code has only been tested on tech reports")
+
     metadata = {}
     
+    item_types = {
+            "discussion_paper":"Discussion Paper",
+            "documentation":"Documentation",
+            "manual":"Manual",
+            "other":"Other",
+            "project_report":"Project Report",
+            "report":"Report",
+            "technical_report":"Technical Report",
+            "white_paper":"White Paper",
+            "working_paper":"Working Paper"}
+
     #Transforming Metadata
     #Creators
     newa = []
@@ -65,7 +80,7 @@ def epxml_to_datacite(eprint):
         metadata['publicationYear'] = eprint['date'].split('-')[0]
     else:
         metadata['publicationYear'] = eprint['date']
-    metadata['resourceType']={'resourceTypeGeneral':"Text",'resourceType':"Technical Report"}
+    metadata['resourceType']={'resourceTypeGeneral':"Text",'resourceType':item_types[eprint['monograph_type']]}
 
     if 'doi' in eprint:
             metadata['identifier'] = {'identifier':eprint['doi'],'identifierType':"DOI"}
@@ -86,28 +101,28 @@ def epxml_to_datacite(eprint):
         for item in eprint['other_numbering_system']['item']:
             ids.append({'alternateIdentifier':item['id'],'alternateIdentifierType':item['name']})
 
-    if 'series_name' in eprint and if 'number' in eprint:
+    if 'series_name' in eprint and 'number' in eprint:
         name_and_series = [eprint['series_name'],eprint['number']]
     elif 'other_numbering_system' in eprint:
         ids = []
         #Assume first is correct
         item = eprint['other_numbering_system']['item'][0]
-        name_and_series = [item['name'],item['id']]
+        name_and_series = [item['name']['#text'],item['id']]
     elif 'local_group' in eprint:
         resolver = eprint['official_url'].split(':')
-        number = resolver[-1].split('.')[1]
+        number = resolver[-1]
         name_and_series = [eprint['local_group']['item'],number]
     else:
         resolver = eprint['official_url'].split(':')
         name = resolver[1].split('/')[-1]
-        number = resolver[-1].split('.')[1]
+        number = resolver[-1]
         name_and_series = [name,number]
     
     #Save Series Info
     description = [{'descriptionType':"Abstract",\
             'description':cleanhtml(eprint['abstract'])}]
     description +=\
-    [{'descriptionType':'SeriesInfo','description',name_and_series[0]+' '+name_and_series[1]}] 
+            [{'descriptionType':'SeriesInformation','description':name_and_series[0]+' '+name_and_series[1]}] 
     metadata['descriptions'] = description
 
     ids.append({'alternateIdentifier':name_and_series[1],'alternateIdentifierType':name_and_series[0]})
@@ -117,14 +132,19 @@ def epxml_to_datacite(eprint):
     metadata['language'] = 'English'
 
     #Subjects
+    sub_arr = []
     if "keywords" in eprint:
         subjects = eprint['keywords'].split(';')
         if len(subjects) == 1:
             subjects = eprint['keywords'].split(',')
-        array = []
         for s in subjects:
-            array.append({'subject':s.strip()})
-        metadata['subjects']=array
+            sub_arr.append({'subject':s.strip()})
+        
+    if 'classification_code' in eprint:
+        sub_arr.append({'subject':eprint['classification_code']})
+        
+    if len(sub_arr) != 0:
+        metadata['subjects']=sub_arr
    
     if 'funders' in eprint:
         array = []
@@ -177,13 +197,28 @@ def epxml_to_datacite(eprint):
 
     return metadata
 
+def download_records(ids):
+    username = input('Enter your CaltechAUTHORS username: ')
+    password = getpass.getpass()
+
+    for idv in ids:
+        url = 'https://'+username+':'+password+'@authors.library.caltech.edu/rest/eprint/'
+        record_url = url + str(idv) +'.xml'
+        record = subprocess.check_output(["eputil",record_url],universal_newlines=True)
+        outfile = open(idv+'.xml','w')
+        outfile.write(record)
+
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description=\
         "Make DataCite standard metadata for records from CaltechAUTHORS and register DOIs")
     parser.add_argument('-mint', action='store_true', help='Mint DOIs')
     parser.add_argument('-test', action='store_true', help='Only register test DOI')
+    parser.add_argument('-ids',nargs='*',help="CaltechAUTHORS IDs to download XML files")
     args = parser.parse_args()
+
+    if len(args.ids) > 0:
+        download_records(args.ids)
 
     files = glob.glob('*.xml')
     for f in files:

@@ -33,6 +33,11 @@ infile = open('10271.xml',encoding="utf8")
 eprint = xmltodict.parse(infile.read())['eprints']['eprint']
 ```
 
+## Downloading Eprints XML files
+
+You can use Eprints ids (e.g. 82938) to download Eprints xml files by adding a
+`-ids` option to any command.  This requires eputil to be installed on your local systems.
+
 ## Using caltech_thesis.py
 
 Download .xml files from thesis.library.caltech.edu/rest/eprint/1234.xml and put 
@@ -41,3 +46,6 @@ DataCite XML files will appear.  If you want to mint DOIs add the `-mint`
 option and if you want to make test DOIs add the `-test` option to the command
 line.  
 
+## Using caltech_authors_tech_report.py
+
+Will only work with items with the `monograph` item type (Report or Paper).
