@@ -54,12 +54,13 @@ def epxml_to_datacite(eprint):
             new['givenName'] = name['given']
             new['familyName'] = name['family']
             newc.append(new)
-    if 'local_group' in eprint:
-        newc.append({'contributorName':eprint['local_group']['item'],'contributorType':'ResearchGroup'})
     metadata['contributors'] = newc
 
     metadata['titles'] = [{'title':eprint['title']}]
-    metadata['publisher'] = "Caltech Library"
+    if 'publisher' in eprint:
+        metadata['publisher'] = eprint['publisher']
+    else:
+        metadata['publisher'] = "California Institute of Technology"
     if len(eprint['date']) != 4:
         metadata['publicationYear'] = eprint['date'].split('-')[0]
     else:
@@ -71,18 +72,48 @@ def epxml_to_datacite(eprint):
     else:
             metadata['identifier'] = {'identifier':'10.5072/1','identifierType':"DOI"}
 
+    #Waterfall for determining series name and number
+    description = [{'descriptionType':"Abstract",\
+            'description':cleanhtml(eprint['abstract'])}]
+    name_and_series = []
+    ids = []
+
+    #All numbering systems get added to ids
     if 'other_numbering_system' in eprint:
-        ids = []
         if isinstance(eprint['other_numbering_system']['item'],list) == False:
             #Deal with single item listings
             eprint['other_numbering_system']['item'] = [eprint['other_numbering_system']['item']]
         for item in eprint['other_numbering_system']['item']:
-            print
             ids.append({'alternateIdentifier':item['id'],'alternateIdentifierType':item['name']})
-        metadata['alternateIdentifiers'] = ids
 
-    metadata['descriptions'] =[{'descriptionType':"Abstract",\
+    if 'series_name' in eprint and if 'number' in eprint:
+        name_and_series = [eprint['series_name'],eprint['number']]
+    elif 'other_numbering_system' in eprint:
+        ids = []
+        #Assume first is correct
+        item = eprint['other_numbering_system']['item'][0]
+        name_and_series = [item['name'],item['id']]
+    elif 'local_group' in eprint:
+        resolver = eprint['official_url'].split(':')
+        number = resolver[-1].split('.')[1]
+        name_and_series = [eprint['local_group']['item'],number]
+    else:
+        resolver = eprint['official_url'].split(':')
+        name = resolver[1].split('/')[-1]
+        number = resolver[-1].split('.')[1]
+        name_and_series = [name,number]
+    
+    #Save Series Info
+    description = [{'descriptionType':"Abstract",\
             'description':cleanhtml(eprint['abstract'])}]
+    description +=\
+    [{'descriptionType':'SeriesInfo','description',name_and_series[0]+' '+name_and_series[1]}] 
+    metadata['descriptions'] = description
+
+    ids.append({'alternateIdentifier':name_and_series[1],'alternateIdentifierType':name_and_series[0]})
+
+    metadata['alternateIdentifiers'] = ids
+
     metadata['language'] = 'English'
 
     #Subjects
