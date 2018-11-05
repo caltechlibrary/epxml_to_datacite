@@ -1,6 +1,6 @@
 import xmltodict
 from datacite import DataCiteMDSClient,schema40
-import glob,json,datetime,re
+import glob,json,datetime,re,getpass
 import os,argparse,subprocess
 
 def cleanhtml(raw_html):
@@ -80,7 +80,7 @@ def epxml_to_datacite(eprint):
             eprint['other_numbering_system']['item'] = [eprint['other_numbering_system']['item']]
         for item in eprint['other_numbering_system']['item']:
             print
-            ids.append({'alternateIdentifier':item['id'],'alternateIdentifierType':item['name']})
+            ids.append({'alternateIdentifier':item['id'],'alternateIdentifierType':item['name']['#text']})
         metadata['alternateIdentifiers'] = ids
 
     metadata['descriptions'] =[{'descriptionType':"Abstract",\
@@ -88,15 +88,20 @@ def epxml_to_datacite(eprint):
     metadata['language'] = 'English'
 
     #Subjects
+    sub_arr = []
     if "keywords" in eprint:
         subjects = eprint['keywords'].split(';')
         if len(subjects) == 1:
             subjects = eprint['keywords'].split(',')
-        array = []
         for s in subjects:
-            array.append({'subject':s.strip()})
-        metadata['subjects']=array
-   
+            sub_arr.append({'subject':s.strip()})
+
+    if 'classification_code' in eprint:
+        sub_arr.append({'subject':eprint['classification_code']})
+
+    if len(sub_arr) != 0:
+        metadata['subjects']=sub_arr
+
     if 'funders' in eprint:
         array = []
         if isinstance(eprint['funders']['item'],list):
@@ -148,13 +153,26 @@ def epxml_to_datacite(eprint):
 
     return metadata
 
+def download_records(ids):
+    username = input('Enter your CaltechAUTHORS username: ')
+    password = getpass.getpass()
+
+    for idv in ids:
+        url = 'https://'+username+':'+password+'@authors.library.caltech.edu/rest/eprint/'
+        record_url = url + str(idv) +'.xml'
+        record = subprocess.check_output(["eputil",record_url],universal_newlines=True)
+        outfile = open(idv+'.xml','w')
+        outfile.write(record)
+
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description=\
         "Make DataCite standard metadata for records from CaltechAUTHORS and register DOIs")
-    parser.add_argument('-mint', action='store_true', help='Mint DOIs')
-    parser.add_argument('-test', action='store_true', help='Only register test DOI')
+    parser.add_argument('-ids',nargs='*',help="CaltechAUTHORS IDs to download XML files")
     args = parser.parse_args()
+
+    if len(args.ids) > 0:
+        download_records(args.ids)
 
     files = glob.glob('*.xml')
     for f in files:
@@ -177,39 +195,13 @@ if __name__ == '__main__':
                 for error in errors:
                     print(error.message)
 
-            if args.mint != True:
+            xml = schema40.tostring(metadata)
 
-                xml = schema40.tostring(metadata)
+            outname = f.split('.xml')[0]+'_datacite.xml'
+            outfile = open(outname,'w',encoding='utf8')
+            outfile.write(xml)
 
-                outname = f.split('.xml')[0]+'_datacite.xml'
-                outfile = open(outname,'w',encoding='utf8')
-                outfile.write(xml)
-
-            else:
-                if args.test== True:
-                    prefix = '10.5072'
-                else:
-                    prefix = '10.7907'
-
-                #Get our DataCite password
-                infile = open('pw','r')
-                password = infile.readline().strip()
-
-                # Initialize the MDS client.
-                d = DataCiteMDSClient(
-                username='CALTECH.LIBRARY',
-                password=password,
-                prefix=prefix,
-                )
-
-                #Provide prefix to let DataCite generate DOI
-                metadata['identifier'] = {'identifier':str(prefix),'identifierType':'DOI'}
-
-                xml = schema40.tostring(metadata)
-
-                result = d.metadata_post(xml)
-                identifier = result.split('(')[1].split(')')[0]
-                d.doi_post(identifier,eprint['official_url'])
-                print('Minted DOI: '+identifier)
-
+            outname = f.split('.xml')[0]+'_datacite.json'
+            outfile = open(outname,'w',encoding='utf8')
+            json.dump(metadata,outfile)
 
