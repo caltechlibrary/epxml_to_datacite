@@ -38,6 +38,9 @@ eprint = xmltodict.parse(infile.read())['eprints']['eprint']
 You can use Eprints ids (e.g. 82938) to download Eprints xml files by adding a
 `-ids` option to any command.  This requires eputil to be installed on your local systems.
 
+Alternativly, you can provide a tsv file, where the first column is the Eprints
+id using the `-id_file` option
+
 ## Using caltech_thesis.py
 
 Download .xml files from thesis.library.caltech.edu/rest/eprint/1234.xml and put 

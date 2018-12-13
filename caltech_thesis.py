@@ -1,18 +1,22 @@
 import xmltodict
 from datacite import DataCiteMDSClient,schema40
 import glob,json,datetime,re,getpass
-import os,argparse,subprocess
+import os,argparse,subprocess,csv,glob
+import requests
 
-def download_records(ids):
-    username = input('Enter your CaltechTHESIS username: ')
-    password = getpass.getpass()
-
+def download_records(ids,username,password):
     for idv in ids:
         url = 'https://'+username+':'+password+'@thesis.library.caltech.edu/rest/eprint/'
         record_url = url + str(idv) +'.xml'
         record = subprocess.check_output(["eputil",record_url],universal_newlines=True)
         outfile = open(idv+'.xml','w')
         outfile.write(record)
+
+def update_repo_doi(record_number,repo_url,identifier,username,password):
+    url = repo_url + '/rest/eprint/'+str(record_number)+'/doi.txt'
+    headers = {'content-type':'text/plain'}
+    response = requests.put(url,data=identifier,headers=headers,auth=(username,password))
+    print(response)
 
 def cleanhtml(raw_html):
     cleanr = re.compile('<.*?>')
@@ -206,10 +210,24 @@ if __name__ == '__main__':
     parser.add_argument('-mint', action='store_true', help='Mint DOIs')
     parser.add_argument('-test', action='store_true', help='Only register test DOI')
     parser.add_argument('-ids',nargs='*',help="CaltechTHESIS IDs to download XML files")
+    parser.add_argument('-id_file',nargs='*',help="TSV file with CaltechTHESIS records to mint DOIs")
     args = parser.parse_args()
 
-    if len(args.ids) > 0:
-        download_records(args.ids)
+    r_user = input('Enter your CaltechTHESIS username: ')
+    r_pass = getpass.getpass()
+
+    if args.ids != None:
+        download_records(args.ids,r_user,r_pass)
+
+    if args.id_file != None:
+        with open(args.id_file[0]) as infile:
+            ids = []
+            reader = csv.reader(infile, delimiter='\t')
+            for row in reader:
+                if row[0] != 'Eprint ID':
+                    ids.append(row[0])    
+        download_records(ids,r_user,r_pass)
+
 
     files = glob.glob('*.xml')
     for f in files:
@@ -241,10 +259,20 @@ if __name__ == '__main__':
                 outfile.write(xml)
 
             else:
+
+                #What record in eprints are we dealing with?
+                record_number = eprint['eprintid']
+
                 if args.test== True:
-                    prefix = '10.5072'
+                    #Existing test record
+                    record_number=5756
+                    prefix = '10.33569'
+                    url = 'https://mds.test.datacite.org'
+                    repo_url = 'http://authorstest.library.caltech.edu'
                 else:
                     prefix = '10.7907'
+                    url='https://mds.datacite.org'
+                    repo_url = 'https://authors.library.caltech.edu'
 
                 #Get our DataCite password
                 infile = open('pw','r')
@@ -255,7 +283,18 @@ if __name__ == '__main__':
                 username='CALTECH.LIBRARY',
                 password=password,
                 prefix=prefix,
+                url=url
                 )
+
+                #Double check if there is an existing identifier
+                if 'doi' in eprint:
+                    print("Record ",eprint['eprintid']," already has a DOI: ",eprint['doi'])
+                    print("Minting a new DOI will replace the one in Eprints")
+                    print("But the origional DOI will still exist")
+                    response = input("Are you SURE you want to mint a new DOI? (Type Yes to continue): ")
+                    if response != 'Yes':
+                        print("Exiting - please remove records where you don't want to mint DOIs")
+                        exit()
 
                 #Provide prefix to let DataCite generate DOI
                 metadata['identifier'] = {'identifier':str(prefix),'identifierType':'DOI'}
@@ -266,5 +305,10 @@ if __name__ == '__main__':
                 identifier = result.split('(')[1].split(')')[0]
                 d.doi_post(identifier,eprint['official_url'])
                 print('Minted DOI: '+identifier)
+                update_repo_doi(record_number,repo_url,identifier,r_user,r_pass)
 
-
+    response = input("Do you want to clean up the xml files in your local directory? (Y or N)")
+    if response == 'Y':
+        files = glob.glob('*.xml')
+        for f in files:
+            os.remove(f)
