@@ -242,8 +242,11 @@ if __name__ == '__main__':
             metadata = epxml_to_datacite(eprint)
     
             #Validation fails on Windows
-            valid =  schema40.validate(metadata)
-            #Debugging if this fails
+            if os.name == 'nt':
+                valid == True
+            else:
+                valid =  schema40.validate(metadata)
+            #Debugging if verification fails
             if valid == False:
                 v = schema40.validator.validate(metadata)
                 errors = sorted(v.iter_errors(instance), key=lambda e: e.path)
@@ -272,7 +275,7 @@ if __name__ == '__main__':
                 else:
                     prefix = '10.7907'
                     url='https://mds.datacite.org'
-                    repo_url = 'https://authors.library.caltech.edu'
+                    repo_url = 'https://thesis.library.caltech.edu'
 
                 #Get our DataCite password
                 infile = open('pw','r')
