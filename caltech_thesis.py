@@ -243,7 +243,7 @@ if __name__ == '__main__':
     
             #Validation fails on Windows
             if os.name == 'nt':
-                valid == True
+                valid = True
             else:
                 valid =  schema40.validate(metadata)
             #Debugging if verification fails

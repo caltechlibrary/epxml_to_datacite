@@ -8,6 +8,8 @@ repositories.
 ## Contents
 
 - caltech_thesis - Transform CaltechTHESIS records to DataCite
+- 
+
 
 ## Setup
 
@@ -21,6 +23,9 @@ If you will be minting DOIs, you need to create a file called `pw` using a text
 editor that contains your DataCite password.  The username is hardcoded in the
 script, since non-Caltech users will have to modify the script to work with
 their Eprints installation.
+
+If you want to download metadata from Eprints, you need to install
+[eprint-tools](https://github.com/caltechlibrary/eprinttools)
 
 You can also import the metadata transformation function into another python script by typing
 `python setup.py install` in the epxml_to_datacite directory.  Then include 
