@@ -27,6 +27,9 @@ their Eprints installation.
 If you want to download metadata from Eprints, you need to install
 [eprint-tools](https://github.com/caltechlibrary/eprinttools)
 
+
+### Advanced
+
 You can also import the metadata transformation function into another python script by typing
 `python setup.py install` in the epxml_to_datacite directory.  Then include 
 `import caltech_thesis` at the top of your new script and you wil be able to
