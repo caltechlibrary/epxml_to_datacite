@@ -218,7 +218,7 @@ if __name__ == '__main__':
 
     existing = glob.glob('*.xml')
     if len(existing) > 0 and (args.ids or args.id_file) :
-        response = input("There are existing xml files in your directory. There will be used to mint DOIs unless you delete them. Do you want delete them? (Y or N)")
+        response = input("There are existing xml files in your directory. They will be used to mint DOIs unless you delete them. Do you want delete them? (Y or N)")
         if response == 'Y':
             files = glob.glob('*.xml')
             for f in files:
