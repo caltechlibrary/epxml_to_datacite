@@ -7,9 +7,11 @@ repositories.
 
 ## Contents
 
-- caltech_thesis - Transform CaltechTHESIS records to DataCite
-- 
-
+- caltech_thesis - Generate DataCite metadata and DOIs from CaltechTHESIS
+- caltech_authors_tech_report - Generate DataCite metadata and DOIs from
+  CaltechAUTHORS tech reports
+- caltech_authors_to_data - Make DataCite metadata for data files in
+  CaltechAUTHORS
 
 ## Setup
 

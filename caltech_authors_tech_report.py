@@ -225,6 +225,14 @@ if __name__ == '__main__':
     r_user = input('Enter your CaltechAUTHORS username: ')
     r_pass = getpass.getpass()
 
+    existing = glob.glob('*.xml')
+    if len(existing) > 0 and (args.ids or args.id_file) :
+        response = input("There are existing xml files in your directory. They will be used to mint DOIs unless you delete them. Do you want delete them? (Y or N)")
+        if response == 'Y':
+            files = glob.glob('*.xml')
+            for f in files:
+                os.remove(f)
+
     if args.ids != None:
         download_records(args.ids,r_user,r_pass)
 
@@ -251,7 +259,7 @@ if __name__ == '__main__':
     
             #Validation fails on Windows
             if os.name == 'nt':
-                valid == True
+                valid = True
             else:
                 valid =  schema40.validate(metadata)
             #Debugging if verification fails
@@ -317,11 +325,3 @@ if __name__ == '__main__':
                 d.doi_post(identifier,eprint['official_url'])
                 print('Minted DOI: '+identifier)
                 update_repo_doi(record_number,repo_url,identifier,r_user,r_pass)
-    
-    response = input("Do you want to clean up the xml files in your local directory? (Y or N)")
-    if response == 'Y':
-        files = glob.glob('*.xml')
-        for f in files:
-            os.remove(f)
-
-
