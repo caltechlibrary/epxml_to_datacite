@@ -79,7 +79,12 @@ def epxml_to_datacite(eprint):
             new['familyName'] = name['family']
             newc.append(new)
     if 'local_group' in eprint:
-        newc.append({'contributorName':eprint['local_group']['item'],'contributorType':'ResearchGroup'})
+        group_field = eprint['local_group']['item']
+        if type(group_field) is str:
+            newc.append({'contributorName':group_field,'contributorType':'ResearchGroup'})
+        else:
+            for group in group_field:
+                newc.append({'contributorName':group,'contributorType':'ResearchGroup'})
     metadata['contributors'] = newc
 
     metadata['creators'] = newa
