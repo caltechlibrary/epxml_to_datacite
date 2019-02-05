@@ -58,6 +58,7 @@ molbiochem:Molecular Biology and Biochemistry:options:1
 neurobio:Neurobiology:options:1
 options:Options:ROOT:1
 philosophy:Philosophy:options:1
+paleontology:Paleontology:options:1
 physics:Physics:options:1
 plansci:Planetary Science:options:1
 polisci:Political Science:options:1

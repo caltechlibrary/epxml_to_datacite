@@ -233,7 +233,7 @@ if __name__ == '__main__':
         download_records(args.ids,r_user,r_pass)
 
     if args.id_file != None:
-        with open(args.id_file[0]) as infile:
+        with open(args.id_file[0],encoding="utf8") as infile:
             ids = []
             reader = csv.reader(infile, delimiter='\t')
             for row in reader:
