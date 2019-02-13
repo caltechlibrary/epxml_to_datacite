@@ -322,6 +322,10 @@ if __name__ == '__main__':
 
                 result = d.metadata_post(xml)
                 identifier = result.split('(')[1].split(')')[0]
-                d.doi_post(identifier,eprint['official_url'])
+                try:
+                    d.doi_post(identifier,eprint['official_url'])
+                except DataCiteServerError:
+                    print(Trying to re-run connection)
+                    d.doi_post(identifier,eprint['official_url'])
                 print('Minted DOI: '+identifier)
                 update_repo_doi(record_number,repo_url,identifier,r_user,r_pass)
