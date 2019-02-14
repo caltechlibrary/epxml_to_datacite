@@ -325,7 +325,7 @@ if __name__ == '__main__':
                 try:
                     d.doi_post(identifier,eprint['official_url'])
                 except DataCiteServerError:
-                    print(Trying to re-run connection)
+                    print("Trying to re-run connection")
                     d.doi_post(identifier,eprint['official_url'])
                 print('Minted DOI: '+identifier)
                 update_repo_doi(record_number,repo_url,identifier,r_user,r_pass)
