@@ -7,9 +7,9 @@ def download_records(ids,username,password):
     for idv in ids:
         url = 'https://'+username+':'+password+'@authors.library.caltech.edu/rest/eprint/'
         record_url = url + str(idv) +'.xml'
-        record = subprocess.check_output(["eputil",record_url],universal_newlines=True)
-        outfile = open(idv+'.xml','w')
-        outfile.write(record)
+        record = subprocess.check_output(["eputil",record_url]).decode('utf-8')
+        with open(idv+'.xml','w',encoding='utf8') as outfile:
+            outfile.write(record)
 
 def update_repo_doi(record_number,repo_url,identifier,username,password):
     url = repo_url + '/rest/eprint/'+str(record_number)+'/doi.txt'
