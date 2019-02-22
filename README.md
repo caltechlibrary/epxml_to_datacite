@@ -29,6 +29,42 @@ their Eprints installation.
 If you want to download metadata from Eprints, you need to install
 [eprint-tools](https://github.com/caltechlibrary/eprinttools)
 
+## Options
+
+There are three different scripts
+
+- `caltech_thesis.py`
+- `caltech_authors_to_data.py` (Prepares metadata from CaltechAUTHORS for submission to CaltechDATA)
+- `caltech_authors_tech_report.py` (Prepares metadata from CaltechAUTHORS tech reports  with `monograph` item type (Report or Paper))
+
+In this documentation we use `caltech_thesis.py` as the example script, but in most cases you can substitute one of the other sources.
+
+## Basic operation
+
+If you have Eprints XML files (from thesis.library.caltech.edu/rest/eprint/1234.xml, for example), put them in the epxml_to_datacite folder.  Type
+
+`python caltech_thesis.py`
+
+And you'll get '\_datacite.xml' for each xml file in the folder
+
+## Downloading Eprints XML
+
+You can use Eprints ids (e.g. 82938) to download Eprints xml files by adding a
+`-ids` option to any command.  This requires eputil to be installed on your local systems.
+
+`python caltech_thesis.py -ids 82938`
+
+Alternativly, you can provide a tsv file, where the first column is the Eprints
+id using the `-id_file` option
+
+`python caltech_thesis.py -id_file ids.tsv`
+
+## Mint DOIs
+
+You can also have the script submit the metadata to DataCite and add the DOI to the source repository. Add the `-mint`
+option and if you want to make test DOIs add the `-test` option to the command line.  
+
+`python caltech_thesis.py -mint -ids 82938`
 
 ### Advanced
 
@@ -42,23 +78,3 @@ like:
 infile = open('10271.xml',encoding="utf8")
 eprint = xmltodict.parse(infile.read())['eprints']['eprint']
 ```
-
-## Downloading Eprints XML files
-
-You can use Eprints ids (e.g. 82938) to download Eprints xml files by adding a
-`-ids` option to any command.  This requires eputil to be installed on your local systems.
-
-Alternativly, you can provide a tsv file, where the first column is the Eprints
-id using the `-id_file` option
-
-## Using caltech_thesis.py
-
-Download .xml files from thesis.library.caltech.edu/rest/eprint/1234.xml and put 
-them in the folder with caltech_thesis.py.  Type `python caltech_thesis` and
-DataCite XML files will appear.  If you want to mint DOIs add the `-mint`
-option and if you want to make test DOIs add the `-test` option to the command
-line.  
-
-## Using caltech_authors_tech_report.py
-
-Will only work with items with the `monograph` item type (Report or Paper).
