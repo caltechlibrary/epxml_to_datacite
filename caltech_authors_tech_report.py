@@ -205,10 +205,11 @@ def epxml_to_datacite(eprint):
                 array.append(obj)
         metadata['relatedIdentifiers']=array
 
-    #Dates
-    dates = []
-    dates.append({"date":eprint['datestamp'],"dateType":"Available"})
-    metadata['dates'] = dates
+    #Dates - only if record release date present
+    if 'datestamp' in eprint:
+        dates = []
+        dates.append({"date":eprint['datestamp'],"dateType":"Available"})
+        metadata['dates'] = dates
 
     return metadata
 
