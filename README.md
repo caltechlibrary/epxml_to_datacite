@@ -15,19 +15,43 @@ repositories.
 
 ## Setup
 
-Requires: 
+### Python Install
 
-- Python 3 (Recommended via [Anaconda](https://www.anaconda.com/download)) 
-- xmltodict (pip install xmltodict)
-- datacite (pip install datacite)
+You need to have Python 3.7 on your machine
+([Miniconda](https://docs.conda.io/en/latest/miniconda.html) is a great
+installation option).  Test whether you have python installed by opening a terminal or
+anaconda prompt window and typing `python -V`, which should print version 3.7
+or greater. 
+
+### Clone epxml_to_datacite
+
+It's best to download this software using git.  To install git, type
+`conda install git` in your terminal or anaconda prompt window.  Then find where you
+want the epxml_to_datacite folder to live on your computer in File Explorer or Finder
+(This could be the Desktop or Documents folder, for example).  Type `cd ` 
+in anaconda prompt or terminal and drag the location from the file browser into
+the terminal window.  The path to the location
+will show up, so your terminal will show a command like 
+`cd /Users/tmorrell/Desktop`.  Hit enter.  Then type 
+`git clone https://github.com/caltechlibrary/epxml_to_datacite.git`. Once you
+hit enter you'll see an epxml_to_datacite folder.  Type `cd epxml_to_datacite`
+
+### Install
+
+Now that you're in the epxml_to_datacite folder, type `pip install -r requirements.txt`
+to install dependencies.  Then type `python setup.py install` to install
+scripts.  
 
 If you will be minting DOIs, you need to create a file called `pw` using a text
 editor that contains your DataCite password.  The username is hardcoded in the
 script, since non-Caltech users will have to modify the script to work with
 their Eprints installation.
 
-If you want to download metadata from Eprints, you need to install
-[eprint-tools](https://github.com/caltechlibrary/eprinttools)
+### Updating
+
+When there is a new version of the software, go to the epxml_to_datacite
+folder in anaconda prompt or terminal and type `git pull`.  You shouldn't need to re-do
+the installation steps unless there are major updates.
 
 ## Options
 
@@ -50,7 +74,7 @@ And you'll get '\_datacite.xml' for each xml file in the folder
 ## Downloading Eprints XML
 
 You can use Eprints ids (e.g. 82938) to download Eprints xml files by adding a
-`-ids` option to any command.  This requires eputil to be installed on your local systems.
+`-ids` option to any command.
 
 `python caltech_thesis.py -ids 82938`
 
@@ -68,13 +92,13 @@ option and if you want to make test DOIs add the `-test` option to the command l
 
 ### Advanced
 
-You can also import the metadata transformation function into another python script by typing
-`python setup.py install` in the epxml_to_datacite directory.  Then include 
-`import caltech_thesis` at the top of your new script and you wil be able to
-call `epxml_to_datacite(eprint)`, where eprint is the xml parsed by something
-like:
+You can also import the metadata transformation function into another python
+script by including `from caltech_thesis import epxml_to_datacite` at the top of your new script.
+Then you will be able to call `epxml_to_datacite(eprint)`, where eprint is an
+xml file parsed by something like:
 
 ```
 infile = open('10271.xml',encoding="utf8")
 eprint = xmltodict.parse(infile.read())['eprints']['eprint']
+datacite = epxml_to_datacite(eprint)
 ```
