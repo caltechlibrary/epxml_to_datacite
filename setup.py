@@ -44,14 +44,14 @@ for obj in meta["author"]:
         author_email = author_email + ", " + email
 
 # Setup for our Go based executable as a "data_file".
-platform = os.uname().sysname
+platform = sys.platform
 exec_path = "exec/Linux/eputil"
 OS_Classifier = "Operating System :: POSIX :: Linux"
-if platform.startswith("Darwin"):
+if platform.startswith("darwin"):
     exec_path = "exec/MacOS/eputil"
     platform = "Mac OS X"
     OS_Classifier = "Operating System :: MacOS :: MacOS X"
-elif platform.startswith("Win"):
+elif platform.startswith("win"):
     exec_path = "exec/Win/eputil"
     platform = "Windows"
     OS_Classifier = "Operating System :: Microsoft :: Windows :: Windows 10"
