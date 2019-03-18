@@ -52,7 +52,7 @@ if platform.startswith("darwin"):
     platform = "Mac OS X"
     OS_Classifier = "Operating System :: MacOS :: MacOS X"
 elif platform.startswith("win"):
-    exec_path = "exec/Win/eputil"
+    exec_path = "exec/Win/eputil.exe"
     platform = "Windows"
     OS_Classifier = "Operating System :: Microsoft :: Windows :: Windows 10"
 
