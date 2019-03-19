@@ -2,7 +2,7 @@ import xmltodict
 from datacite import DataCiteMDSClient,schema40
 import glob,json,datetime,re,getpass
 import os,argparse,subprocess,requests
-from epxml_to_datacite import download_records,update_repo_doi,cleanhtml
+from epxml_support import download_records,update_repo_doi,cleanhtml
 
 def epxml_to_datacite(eprint):
    
@@ -217,7 +217,7 @@ if __name__ == '__main__':
                 os.remove(f)
 
     if args.ids != None:
-        download_records(args.ids,r_user,r_pass)
+        download_records(args.ids,'authors',r_user,r_pass)
 
     if args.id_file != None:
         with open(args.id_file[0]) as infile:
@@ -226,7 +226,7 @@ if __name__ == '__main__':
             for row in reader:
                 if row[0] != 'Eprint ID':
                     ids.append(row[0])
-        download_records(ids,r_user,r_pass)
+        download_records(ids,'authors',r_user,r_pass)
 
     files = glob.glob('*.xml')
     for f in files:

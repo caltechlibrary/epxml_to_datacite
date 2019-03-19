@@ -60,6 +60,9 @@ if os.path.exists(exec_path) == False:
     print("Missing executable " + exec_path + " in epxml_to_dataset module")
     sys.exit(1)
 
+#Copy exec for running locally
+shutil.copy(exec_path,'epxml_support/.')
+
 setup(
         name = 'epxml_to_datacite',
         version = version,
@@ -70,9 +73,9 @@ setup(
         download_url = "https://github.com/caltechlibrary/epxml_to_datacite/latest/releases",
         license = meta["license"],
         packages=find_packages(),
-        #py_modules = ["caltech_thesis","caltech_authors_tech_report"],
+        py_modules = ["caltech_thesis","caltech_authors_tech_report"],
         data_files=[('.',['thesis-subjects.txt']),
-                    ('epxml_to_datacite',[exec_path])],
+                    ('epxml_support',[exec_path])],
         install_requires=read_requirements(),
         classifiers = [
         "Development Status :: Beta",
