@@ -45,7 +45,8 @@ scripts.
 If you will be minting DOIs, you need to create a file called `pw` using a text
 editor that contains your DataCite password.  The username is hardcoded in the
 script, since non-Caltech users will have to modify the script to work with
-their Eprints installation.
+their Eprints installation. If you don't have a text editor on your machine, type
+`conda install -c swc nano`
 
 ### Updating
 
