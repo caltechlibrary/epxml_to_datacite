@@ -42,6 +42,11 @@ for obj in meta["author"]:
         author_email = email
     else:
         author_email = author_email + ", " + email
+description = meta['description']
+url = meta['codeRepository']
+download = meta['downloadUrl']
+license = meta['license']
+name = meta['name']
 
 # Setup for our Go based executable as a "data_file".
 platform = sys.platform
@@ -64,14 +69,14 @@ if os.path.exists(exec_path) == False:
 shutil.copy(exec_path,'epxml_support/.')
 
 setup(
-        name = 'epxml_to_datacite',
+        name = name,
         version = version,
-        description = "Convert Eprints XML to DataCite XML ato Mint DOIs",
+        description = description,
         author = author,
         author_email = author_email,
-        url = "https://caltechlibrary.github.io/epxml_to_datacite",
-        download_url = "https://github.com/caltechlibrary/epxml_to_datacite/latest/releases",
-        license = meta["license"],
+        url = url,
+        download_url = download,
+        license = license,
         packages=find_packages(),
         py_modules = ["caltech_thesis","caltech_authors_tech_report"],
         data_files=[('.',['thesis-subjects.txt']),
