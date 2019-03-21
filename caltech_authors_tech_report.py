@@ -110,13 +110,15 @@ def epxml_to_datacite(eprint):
     elif 'local_group' in eprint:
         resolver = eprint['official_url'].split(':')
         number = resolver[-1]
-        name_and_series = [eprint['local_group']['item'],number]
+        name_and_series = [eprint['local_group']['item'][0],number]
     else:
         resolver = eprint['official_url'].split(':')
         name = resolver[1].split('/')[-1]
         number = resolver[-1]
         name_and_series = [name,number]
     
+    print(name_and_series)
+
     #Save Series Info
     description +=\
             [{'descriptionType':'SeriesInformation','description':name_and_series[0]+' '+name_and_series[1]}] 
