@@ -1,6 +1,6 @@
 import xmltodict
 from datacite import DataCiteMDSClient,schema40
-import glob,json,datetime,re,getpass
+import glob,json,datetime,re,getpass,csv
 import os,argparse,subprocess,requests
 from epxml_support import download_records,update_repo_doi,cleanhtml
 
@@ -221,12 +221,21 @@ if __name__ == '__main__':
         download_records(args.ids,'authors',r_user,r_pass)
 
     if args.id_file != None:
-        with open(args.id_file[0]) as infile:
+        fname = args.id_file[0]
+        with open(fname) as infile:
             ids = []
-            reader = csv.reader(infile, delimiter='\t')
+            extension = fname.split('.')[-1]
+            if extension == 'csv':
+                reader = csv.reader(infile, delimiter=',')
+            elif extension == 'tsv':
+                reader = csv.reader(infile, delimiter='\t')
+            else:
+                print(fname," Type not known")
+                exit()
             for row in reader:
                 if row[0] != 'Eprint ID':
                     ids.append(row[0])
+        print("Downloading records")
         download_records(ids,'authors',r_user,r_pass)
 
     files = glob.glob('*.xml')

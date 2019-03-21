@@ -215,14 +215,22 @@ if __name__ == '__main__':
         download_records(args.ids,'thesis',r_user,r_pass)
 
     if args.id_file != None:
-        with open(args.id_file[0],encoding="utf8") as infile:
+        fname = args.id_file[0]
+        with open(fname) as infile:
             ids = []
-            reader = csv.reader(infile, delimiter='\t')
+            extension = fname.split('.')[-1]
+            if extension == 'csv':
+                reader = csv.reader(infile, delimiter=',')
+            elif extension == 'tsv':
+                reader = csv.reader(infile, delimiter='\t')
+            else:
+                print(fname," Type not known")
+                exit()
             for row in reader:
                 if row[0] != 'Eprint ID':
                     ids.append(row[0])    
+        print("Downloading records")
         download_records(ids,'thesis',r_user,r_pass)
-
 
     files = glob.glob('*.xml')
     for f in files:

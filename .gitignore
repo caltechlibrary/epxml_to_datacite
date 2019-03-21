@@ -3,3 +3,5 @@ pw
 build/
 dist/
 epxml_to_datacite.egg-info/
+epxml_support/eputil
+epxml_support/__pycache__
