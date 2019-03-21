@@ -117,8 +117,6 @@ def epxml_to_datacite(eprint):
         number = resolver[-1]
         name_and_series = [name,number]
     
-    print(name_and_series)
-
     #Save Series Info
     description +=\
             [{'descriptionType':'SeriesInformation','description':name_and_series[0]+' '+name_and_series[1]}] 
