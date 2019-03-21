@@ -203,6 +203,7 @@ if __name__ == '__main__':
     parser.add_argument('-test', action='store_true', help='Only register test DOI')
     parser.add_argument('-ids',nargs='*',help="CaltechAUTHORS IDs to download XML files")
     parser.add_argument('-id_file',nargs='*',help="TSV file with CaltechAUTHORS records to mint DOIs")
+    parser.add_argument('-prefix', help='DOI Prefix')
     args = parser.parse_args()
 
     r_user = input('Enter your CaltechAUTHORS username: ')
@@ -265,6 +266,11 @@ if __name__ == '__main__':
                 #What record in eprints are we dealing with?
                 record_number = eprint['eprintid']
 
+                if args.prefix != None:
+                    prefix = args.prefix
+                else:
+                    prefix = '10.7907'
+
                 if args.test== True:
                     #Existing test record
                     record_number=5756
@@ -272,7 +278,6 @@ if __name__ == '__main__':
                     url = 'https://mds.test.datacite.org'
                     repo_url = 'http://authorstest.library.caltech.edu'
                 else:
-                    prefix = '10.7907'
                     url='https://mds.datacite.org'
                     repo_url = 'https://authors.library.caltech.edu'
 
