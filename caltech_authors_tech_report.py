@@ -4,7 +4,7 @@ import glob,json,datetime,re,getpass,csv
 import os,argparse,subprocess,requests
 from epxml_support import download_records,update_repo_doi,cleanhtml
 
-def epxml_to_datacite(eprint):
+def epxml_to_datacite(eprint,customization = None):
    
     print(eprint['type'])
     if eprint['type'] != 'monograph':
@@ -117,14 +117,16 @@ def epxml_to_datacite(eprint):
         number = resolver[-1]
         name_and_series = [name,number]
     
-    #Save Series Info
-    description +=\
+    #Save Series Info, dependent on customization
+    if customization == 'KISS':
+        metadata['publisher'] = 'Keck Institute for Space Studies'
+    else:
+        description +=\
             [{'descriptionType':'SeriesInformation','description':name_and_series[0]+' '+name_and_series[1]}] 
+        ids.append({'alternateIdentifier':name_and_series[1],'alternateIdentifierType':name_and_series[0]})
+        metadata['alternateIdentifiers'] = ids
+    
     metadata['descriptions'] = description
-
-    ids.append({'alternateIdentifier':name_and_series[1],'alternateIdentifierType':name_and_series[0]})
-
-    metadata['alternateIdentifiers'] = ids
 
     metadata['language'] = 'English'
 
@@ -248,8 +250,17 @@ if __name__ == '__main__':
                 eprint = xmltodict.parse(fd.read())['eprints']['eprint']
             print(eprint['title'])
 
-            metadata = epxml_to_datacite(eprint)
-    
+            #KISS has customizations
+            customization = None
+            if args.prefix != None:
+                prefix = args.prefix
+                if prefix == '10.26206':
+                    customization = 'KISS'
+            else:
+                prefix = '10.7907'
+
+            metadata = epxml_to_datacite(eprint,customization)
+
             #Validation fails on Windows
             if os.name == 'nt':
                 valid = True
