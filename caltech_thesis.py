@@ -198,6 +198,7 @@ if __name__ == '__main__':
     parser.add_argument('-test', action='store_true', help='Only register test DOI')
     parser.add_argument('-ids',nargs='*',help="CaltechTHESIS IDs to download XML files")
     parser.add_argument('-id_file',nargs='*',help="TSV file with CaltechTHESIS records to mint DOIs")
+    parser.add_argument('-doi',nargs=1,help='Specific DOI to use, can only run one at a time')
     args = parser.parse_args()
 
     r_user = input('Enter your CaltechTHESIS username: ')
@@ -223,12 +224,15 @@ if __name__ == '__main__':
                 reader = csv.reader(infile, delimiter=',')
             elif extension == 'tsv':
                 reader = csv.reader(infile, delimiter='\t')
+            elif extension == 'txt':
+                reader = csv.reader(infile, delimiter='\n')
             else:
                 print(fname," Type not known")
                 exit()
             for row in reader:
-                if row[0] != 'Eprint ID':
-                    ids.append(row[0])    
+                if row != []:
+                    if row[0] != 'Eprint ID':
+                        ids.append(row[0])    
         print("Downloading records")
         download_records(ids,'thesis',r_user,r_pass)
 
@@ -303,7 +307,10 @@ if __name__ == '__main__':
                         exit()
 
                 #Provide prefix to let DataCite generate DOI
-                metadata['identifier'] = {'identifier':str(prefix),'identifierType':'DOI'}
+                if args.doi == None:
+                    metadata['identifier'] = {'identifier':str(prefix),'identifierType':'DOI'}
+                else:
+                    metadata['identifier'] = {'identifier':args.doi[0],'identifierType':'DOI'}
 
                 xml = schema40.tostring(metadata)
 
