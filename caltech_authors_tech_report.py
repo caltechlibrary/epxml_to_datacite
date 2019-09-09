@@ -7,7 +7,7 @@ from epxml_support import download_records,update_repo_doi,cleanhtml
 def epxml_to_datacite(eprint,customization = None):
    
     print(eprint['type'])
-    if eprint['type'] != 'monograph' or 'teaching_resource':
+    if eprint['type'] not in ['monograph','teaching_resource']:
         raise Exception("This code has only been tested on tech reports")
 
     metadata = {}
