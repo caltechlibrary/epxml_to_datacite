@@ -91,6 +91,17 @@ option and if you want to make test DOIs add the `-test` option to the command l
 
 `python caltech_thesis.py -mint -ids 82938`
 
+## Custom Prefixes
+
+`caltech_authors_tech_report.py` has support for alternative DOI prefixes. By
+adding the -prefix option you can mint a DOI for any of the DataCite prefixes
+controlled by the library.
+
+`python caltech_authors_tech_report.py -prefix 10.26206 -ids 99015`
+
+Custom prefixes can also trigger metadata changes.  For example, the publisher
+for prefix 10.26206 is the Keck Institute for Space Studies"
+
 ### Advanced
 
 You can also import the metadata transformation function into another python
