@@ -1,5 +1,5 @@
 import xmltodict
-from datacite import DataCiteMDSClient,schema40
+from datacite import DataCiteMDSClient,schema43
 import glob,json,datetime,re,getpass
 import os,argparse,subprocess,csv,glob
 from epxml_support import download_records,update_repo_doi,cleanhtml
@@ -23,7 +23,11 @@ def epxml_to_datacite(eprint):
         eprint['creators']['item'] = [eprint['creators']['item']]
     for info in eprint['creators']['item']:
         new = {}
-        new['affiliations'] = ["California Institute of Technology"]
+        new['affiliation'] = [
+            {'name':"California Institute of Technology",
+            'affiliationIdentifier':"https://ror.org/05dxps055",
+            'affiliationIdentifierScheme':"ROR",
+            'schemeURI':'https://ror.org'}]
         if 'orcid' in info:
             idv = []
             nid = {}
@@ -32,7 +36,7 @@ def epxml_to_datacite(eprint):
             idv.append(nid)
             new['nameIdentifiers']=idv
         name = info['name']
-        new['creatorName'] = name['family']+', '+name['given']
+        new['name'] = name['family']+', '+name['given']
         new['givenName'] = name['given']
         new['familyName'] = name['family']
         newa.append(new) 
@@ -46,7 +50,11 @@ def epxml_to_datacite(eprint):
             eprint['contributors']['item'] = [eprint['contributors']['item']]
         for info in eprint['contributors']['item']:
             new = {}
-            new['affiliations'] = ["California Institute of Technology"]
+            new['affiliations'] = [
+            {'name':"California Institute of Technology",
+            'affiliationIdentifier':"https://ror.org/05dxps055",
+            'affiliationIdentifierScheme':"ROR",
+            'schemeURI':'https://ror.org'}]
             if 'orcid' in info:
                 idv = []
                 nid = {}
@@ -56,17 +64,17 @@ def epxml_to_datacite(eprint):
                 new['nameIdentifiers']=idv
             new['contributorType'] = 'Other'
             name = info['name']
-            new['contributorName'] = name['family']+', '+name['given']
+            new['name'] = name['family']+', '+name['given']
             new['givenName'] = name['given']
             new['familyName'] = name['family']
             newc.append(new)
     if 'local_group' in eprint:
         group_field = eprint['local_group']['item']
         if type(group_field) is str:
-            newc.append({'contributorName':group_field,'contributorType':'ResearchGroup'})
+            newc.append({'name':group_field,'contributorType':'ResearchGroup'})
         else:
             for group in group_field:
-                newc.append({'contributorName':group,'contributorType':'ResearchGroup'})
+                newc.append({'name':group,'contributorType':'ResearchGroup'})
     metadata['contributors'] = newc
 
     metadata['creators'] = newa
@@ -78,10 +86,10 @@ def epxml_to_datacite(eprint):
         metadata['publicationYear'] = eprint['date']
     #DataCite wants doctoral degrees tagged as dissertation
     if eprint['thesis_degree'] == 'PHD':
-        metadata['resourceType']={"resourceType":\
+        metadata['types']={"resourceType":\
         "Dissertation",'resourceTypeGeneral':"Text"}
     else:
-        metadata['resourceType']={"resourceType":\
+        metadata['types']={"resourceType":\
         thesis_subjects[eprint['thesis_type']],'resourceTypeGeneral':"Text"}
 
     if 'doi' in eprint:
@@ -108,32 +116,56 @@ def epxml_to_datacite(eprint):
     metadata['language'] = 'English'
 
     #Subjects
+    #Need to remove duplicates
+    subj = []
     if "keywords" in eprint:
         subjects = eprint['keywords'].split(';')
         if len(subjects) == 1:
             subjects = eprint['keywords'].split(',')
         array = []
         for s in subjects:
-            array.append({'subject':s.strip()})
+            if s not in subj:
+                subj.append(s)
+                array.append({'subject':s.strip()})
         metadata['subjects']=array
     if 'option_major' in eprint:
         if isinstance(eprint['option_major']['item'],list):
             for item in eprint['option_major']['item']:
                 text = thesis_subjects[item]
-                metadata['subjects'].append({'subject':text})
+                if text not in subj:
+                    subj.append(text)
+                    if 'subjects' in metadata:
+                        metadata['subjects'].append({'subject':text})
+                    else:
+                        metadata['subjects'] = [{'subject':text}]
         else:
             text = thesis_subjects[eprint['option_major']['item']]
-            metadata['subjects'].append({'subject':text})
+            if text not in subj:
+                subj.append(text)
+                if 'subjects' in metadata:
+                    metadata['subjects'].append({'subject':text})
+                else:
+                    metadata['subjects'] = [{'subject':text}]
 
     if 'option_minor' in eprint:
         if isinstance(eprint['option_minor']['item'],list):
             for item in eprint['option_minor']['item']:
                 text = thesis_subjects[item]
-                metadata['subjects'].append({'subject':text})
+                if text not in subj:
+                    subj.append(text)
+                    if 'subjects' in metadata:
+                        metadata['subjects'].append({'subject':text})
+                    else:
+                        metadata['subjects'] = [{'subject':text}]
         else:
             text = thesis_subjects[eprint['option_minor']['item']]
-            metadata['subjects'].append({'subject':text})
-   
+            if text not in subj:
+                subj.append(text)
+                if 'subjects' in metadata:
+                    metadata['subjects'].append({'subject':text})
+                else:
+                    metadata['subjects'] = [{'subject':text}]
+
     if 'funders' in eprint:
         array = []
         if isinstance(eprint['funders']['item'],list):
@@ -142,7 +174,7 @@ def epxml_to_datacite(eprint):
                 award['funderName'] = item['agency']
                 if 'grant_number' in item:
                     if item['grant_number'] != None:
-                        award['awardNumber'] = {'awardNumber':item['grant_number']}
+                        award['awardNumber'] = item['grant_number']
                 array.append(award)
         else:
             item = eprint['funders']['item']
@@ -150,7 +182,7 @@ def epxml_to_datacite(eprint):
             award['funderName'] = item['agency']
             if 'grant_number' in item:
                 if item['grant_number'] != None:
-                    award['awardNumber'] = {'awardNumber':item['grant_number']}
+                    award['awardNumber'] = item['grant_number']
             array.append(award)
         metadata['fundingReferences'] = array
 
@@ -187,6 +219,15 @@ def epxml_to_datacite(eprint):
     else:
         dates.append({"date":eprint['datestamp'],"dateType":"Available"})
     metadata['dates'] = dates
+
+    #Identifiers
+    if 'doi' in eprint:
+        metadata['identifiers']=[{'identifier':eprint['doi'],'identifierType':'DOI'}]
+    else:
+        #DOI to be minted, just put prefix in identifier block
+        metadata['identifiers']=[{'identifier':'10.7907','identifierType':'DOI'}]
+
+    metadata["schemaVersion"] = "http://datacite.org/schema/kernel-4"
 
     return metadata
 
@@ -249,20 +290,20 @@ if __name__ == '__main__':
             metadata = epxml_to_datacite(eprint)
     
             #Validation fails on Windows
-            if os.name == 'nt':
-                valid = True
-            else:
-                valid =  schema40.validate(metadata)
+            #if os.name == 'nt':
+            #    valid = True
+            #else:
+            #    valid =  schema43.validate(metadata)
             #Debugging if verification fails
-            if valid == False:
-                v = schema40.validator.validate(metadata)
-                errors = sorted(v.iter_errors(instance), key=lambda e: e.path)
-                for error in errors:
-                    print(error.message)
+            #if valid == False:
+            #    v = schema43.validator.validate(metadata)
+            #    errors = sorted(v.iter_errors(instance), key=lambda e: e.path)
+            #    for error in errors:
+            #        print(error.message)
 
             if args.mint != True:
 
-                xml = schema40.tostring(metadata)
+                xml = schema43.tostring(metadata)
 
                 outname = f.split('.xml')[0]+'_datacite.xml'
                 outfile = open(outname,'w',encoding='utf8')
@@ -296,26 +337,34 @@ if __name__ == '__main__':
                 url=url
                 )
 
-                #Double check if there is an existing identifier
+
                 if 'doi' in eprint:
-                    print("Record ",eprint['eprintid']," already has a DOI: ",eprint['doi'])
-                    print("Minting a new DOI will replace the one in Eprints")
-                    print("But the origional DOI will still exist")
-                    response = input("Are you SURE you want to mint a new DOI? (Type Yes to continue): ")
-                    if response != 'Yes':
-                        print("Exiting - please remove records where you don't want to mint DOIs")
-                        exit()
+                        print("Record ",eprint['eprintid']," already has a DOI: ",eprint['doi'])
+                        print("Minting a new DOI will replace the one in Eprints")
+                        print("But the origional DOI will still exist")
+                        response = input("Are you SURE you want to mint a new DOI? (Type Yes to continue): ")
+                        if response != 'Yes':
+                            print("Exiting - please remove records where you don't want to mint DOIs")
+                            exit()
 
-                #Provide prefix to let DataCite generate DOI
-                if args.doi == None:
-                    metadata['identifier'] = {'identifier':str(prefix),'identifierType':'DOI'}
-                else:
+                #Command line option sets DOI
+                if args.doi:
+                    if 'doi' in eprint:
+                        print("Record ",eprint['eprintid']," already has a DOI: ",eprint['doi'])
+                        print("Minting a new DOI will replace the one in Eprints")
+                        print("But the origional DOI will still exist")
+                        response = input("Are you SURE you want to mint a new DOI? (Type Yes to continue): ")
+                        if response != 'Yes':
+                            print("Exiting - please remove records where you don't want to mint DOIs")
+                            exit()
+
                     metadata['identifier'] = {'identifier':args.doi[0],'identifierType':'DOI'}
-
-                xml = schema40.tostring(metadata)
+        
+                xml = schema43.tostring(metadata)
 
                 result = d.metadata_post(xml)
                 identifier = result.split('(')[1].split(')')[0]
                 d.doi_post(identifier,eprint['official_url'])
                 print('Minted DOI: '+identifier)
                 update_repo_doi(record_number,repo_url,identifier,r_user,r_pass)
+                os.remove(f)
