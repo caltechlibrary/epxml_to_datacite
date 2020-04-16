@@ -360,7 +360,7 @@ if __name__ == "__main__":
                     }
                 elif "doi" in eprint:
                     doi = eprint["doi"]
-                    d.update_metadata(doi, metadata)
+                    d.update_doi(doi, metadata)
                     print(
                         "Record ",
                         eprint["eprintid"],
