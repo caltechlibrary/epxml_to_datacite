@@ -40,7 +40,7 @@ def epxml_to_datacite(eprint, customization=None):
             idv.append(nid)
             new["nameIdentifiers"] = idv
         name = info["name"]
-        new["creatorName"] = name["family"] + ", " + name["given"]
+        new["name"] = name["family"] + ", " + name["given"]
         new["givenName"] = name["given"]
         new["familyName"] = name["family"]
         newa.append(new)
@@ -63,7 +63,7 @@ def epxml_to_datacite(eprint, customization=None):
                 new["nameIdentifiers"] = idv
             new["contributorType"] = "Other"
             name = info["name"]
-            new["contributorName"] = name["family"] + ", " + name["given"]
+            new["name"] = name["family"] + ", " + name["given"]
             new["givenName"] = name["given"]
             new["familyName"] = name["family"]
             newc.append(new)
@@ -85,7 +85,7 @@ def epxml_to_datacite(eprint, customization=None):
         metadata["publicationYear"] = eprint["date"].split("-")[0]
     else:
         metadata["publicationYear"] = eprint["date"]
-    metadata["resourceType"] = {
+    metadata["types"] = {
         "resourceTypeGeneral": "Text",
         "resourceType": item_types[eprint["monograph_type"]],
     }
@@ -177,7 +177,7 @@ def epxml_to_datacite(eprint, customization=None):
                 award["funderName"] = item["agency"]
                 if "grant_number" in item:
                     if item["grant_number"] != None:
-                        award["awardNumber"] = {"awardNumber": item["grant_number"]}
+                        award["awardNumber"] = item["grant_number"]
                 array.append(award)
         else:
             item = eprint["funders"]["item"]
@@ -185,7 +185,7 @@ def epxml_to_datacite(eprint, customization=None):
             award["funderName"] = item["agency"]
             if "grant_number" in item:
                 if item["grant_number"] != None:
-                    award["awardNumber"] = {"awardNumber": item["grant_number"]}
+                    award["awardNumber"] = item["grant_number"]
             array.append(award)
         metadata["fundingReferences"] = array
 
