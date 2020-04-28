@@ -60,7 +60,7 @@ options:Options:ROOT:1
 philosophy:Philosophy:options:1
 paleontology:Paleontology:options:1
 physics:Physics:options:1
-plansci:Planetary Science:options:1
+plansci:Planetary Sciences:options:1
 polisci:Political Science:options:1
 socsci:Social Science:options:1
 space:Space Engineering:options:1
@@ -72,3 +72,5 @@ masters:Master's thesis
 other:Other
 senior_major:Senior thesis (Major)
 senior_minor:Senior thesis (Minor)
+socdecneusci:Social and Decision Neuroscience
+devbio:Developmental Biology
