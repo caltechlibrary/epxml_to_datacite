@@ -385,5 +385,5 @@ if __name__ == "__main__":
                 else:
                     doi = d.public_doi(metadata, eprint["official_url"])
                     print("Minted DOI: " + doi)
-                    update_repo_doi(record_number, repo_url, identifier, r_user, r_pass)
+                    update_repo_doi(record_number, repo_url, doi, r_user, r_pass)
                 os.remove(f)
