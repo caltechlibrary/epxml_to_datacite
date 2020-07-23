@@ -8,22 +8,10 @@ from epxml_support import download_records, update_repo_doi, cleanhtml
 def epxml_to_datacite(eprint, customization=None):
 
     print(eprint["type"])
-    if eprint["type"] not in ["monograph", "teaching_resource"]:
-        raise Exception("This code has only been tested on tech reports")
+    if eprint["type"] not in ["book"]:
+        raise Exception("This code has only been tested on book")
 
     metadata = {}
-
-    item_types = {
-        "discussion_paper": "Discussion Paper",
-        "documentation": "Documentation",
-        "manual": "Manual",
-        "other": "Other",
-        "project_report": "Project Report",
-        "report": "Report",
-        "technical_report": "Technical Report",
-        "white_paper": "White Paper",
-        "working_paper": "Working Paper",
-    }
 
     # Transforming Metadata
     # Creators
@@ -87,7 +75,8 @@ def epxml_to_datacite(eprint, customization=None):
         metadata["publicationYear"] = eprint["date"]
     metadata["types"] = {
         "resourceTypeGeneral": "Text",
-        "resourceType": item_types[eprint["monograph_type"]],
+        "resourceType": "Book",
+        "bibtex": "book"
     }
 
     # Waterfall for determining series name and number
@@ -192,8 +181,8 @@ def epxml_to_datacite(eprint, customization=None):
     if "rights" in eprint:
         metadata["rightsList"] = [{"rights": eprint["rights"]}]
 
+    related = []
     if "related_url" in eprint:
-        array = []
         if isinstance(eprint["related_url"]["item"], list):
             for item in eprint["related_url"]["item"]:
                 if "description" in item:
@@ -201,7 +190,7 @@ def epxml_to_datacite(eprint, customization=None):
                     obj["relationType"] = "IsSupplementedBy"
                     obj["relatedIdentifierType"] = "DOI"
                     obj["relatedIdentifier"] = item["url"]
-                    array.append(obj)
+                    related.append(obj)
 
         else:
             item = eprint["related_url"]["item"]
@@ -210,8 +199,17 @@ def epxml_to_datacite(eprint, customization=None):
                 obj["relationType"] = "IsSupplementedBy"
                 obj["relatedIdentifierType"] = "DOI"
                 obj["relatedIdentifier"] = item["url"]
-                array.append(obj)
-        metadata["relatedIdentifiers"] = array
+                related.append(obj)
+
+    if "isbn" in eprint:
+        obj = {}
+        obj["relationType"] = "IsIdenticalTo"
+        obj["relatedIdentifierType"] = "ISBN"
+        obj["relatedIdentifier"] = eprint["isbn"]
+        related.append(obj)
+
+    if related != []:
+        metadata["relatedIdentifiers"] = related
 
     # Dates - only if record release date present
     if "datestamp" in eprint:
