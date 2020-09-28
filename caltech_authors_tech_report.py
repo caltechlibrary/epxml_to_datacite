@@ -85,11 +85,21 @@ def epxml_to_datacite(eprint, customization=None):
         metadata["publicationYear"] = eprint["date"].split("-")[0]
     else:
         metadata["publicationYear"] = eprint["date"]
-    metadata["types"] = {
-        "resourceTypeGeneral": "Text",
-        "resourceType": item_types[eprint["monograph_type"]],
-    }
-
+    if "monograph_type" in eprint:
+        metadata["types"] = {
+            "resourceTypeGeneral": "Text",
+            "resourceType": item_types[eprint["monograph_type"]],
+        }
+    elif eprint["type"] == "teaching_resource":
+        metadata["types"] = {
+            "resourceTypeGeneral": "Text",
+            "resourceType": "Teaching Resource",
+        }
+    else:
+        metadata["types"] = {
+            "resourceTypeGeneral": "Text",
+            "resourceType": "Text",
+        }
     # Waterfall for determining series name and number
     if "abstract" in eprint:
         description = [
