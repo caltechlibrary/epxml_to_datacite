@@ -211,9 +211,14 @@ def epxml_to_datacite(eprint):
                 eprint["other_numbering_system"]["item"]
             ]
         for item in eprint["other_numbering_system"]["item"]:
-            identifiers.append(
-                {"identifier": item["id"], "identifierType": item["name"]["#text"]}
-            )
+            if "name" in item:
+                identifiers.append(
+                    {"identifier": item["id"], "identifierType": item["name"]["#text"]}
+                )
+            else:
+                identifiers.append(
+                    {"identifier": item["id"], "identifierType": "Other"}
+                )
 
     metadata["identifiers"] = identifiers
 
