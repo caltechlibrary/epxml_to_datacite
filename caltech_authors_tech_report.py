@@ -8,7 +8,7 @@ from epxml_support import download_records, update_repo_doi, cleanhtml
 def epxml_to_datacite(eprint, customization=None):
 
     print(eprint["type"])
-    if eprint["type"] not in ["monograph", "teaching_resource"]:
+    if eprint["type"] not in ["monograph", "teaching_resource", "conference_item"]:
         raise Exception("This code has only been tested on tech reports")
 
     metadata = {}
@@ -95,6 +95,11 @@ def epxml_to_datacite(eprint, customization=None):
             "resourceTypeGeneral": "Text",
             "resourceType": "Teaching Resource",
         }
+    elif eprint["type"] == "conference_item":
+        metadata["types"] = {
+            "resourceTypeGeneral": "Text",
+            "resourceType": "Conference Item",
+        }
     else:
         metadata["types"] = {
             "resourceTypeGeneral": "Text",
@@ -135,30 +140,35 @@ def epxml_to_datacite(eprint, customization=None):
         number = resolver[-1]
         name_and_series = [eprint["local_group"]["item"][0], number]
     else:
-        resolver = eprint["official_url"].split(":")
-        name = resolver[1].split("/")[-1]
-        number = resolver[-1]
-        name_and_series = [name, number]
+        if eprint["type"] == "monograph":
+            resolver = eprint["official_url"].split(":")
+            name = resolver[1].split("/")[-1]
+            number = resolver[-1]
+            name_and_series = [name, number]
 
     # Add DOI to identifiers
     if "doi" in eprint:
         ids.append({"identifier": eprint["doi"], "identifierType": "DOI"})
+    # Add Eprints ID
+    ids.append({"identifier": eprint["eprintid"], "identifierType": "Eprint_ID"})
 
     # Save Series Info, dependent on customization
     if customization == "KISS":
         metadata["publisher"] = "Keck Institute for Space Studies"
     else:
-        description += [
-            {
-                "descriptionType": "SeriesInformation",
-                "description": name_and_series[0] + " " + name_and_series[1],
-            }
-        ]
-        ids.append(
-            {"identifier": name_and_series[1], "identifierType": name_and_series[0]}
-        )
-    if ids != []:
-        metadata["identifiers"] = ids
+        if eprint["type"] == "monograph":
+            description += [
+                {
+                    "descriptionType": "SeriesInformation",
+                    "description": name_and_series[0] + " " + name_and_series[1],
+                }
+            ]
+            ids.append(
+                {"identifier": name_and_series[1], "identifierType": name_and_series[0]}
+            )
+
+    # At a minimum, we always have an Eprints ID
+    metadata["identifiers"] = ids
 
     metadata["descriptions"] = description
 
@@ -354,7 +364,9 @@ if __name__ == "__main__":
                     repo_url = "http://authorstest.library.caltech.edu"
                 else:
                     d = DataCiteRESTClient(
-                        username="CALTECH.LIBRARY", password=password, prefix="10.7907",
+                        username="CALTECH.LIBRARY",
+                        password=password,
+                        prefix="10.7907",
                     )
                     repo_url = "https://authors.library.caltech.edu"
 
