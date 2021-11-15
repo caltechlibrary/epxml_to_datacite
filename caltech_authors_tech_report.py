@@ -288,6 +288,8 @@ if __name__ == "__main__":
                 reader = csv.reader(infile, delimiter=",")
             elif extension == "tsv":
                 reader = csv.reader(infile, delimiter="\t")
+            elif extension == "txt":
+                reader = csv.reader(infile, delimiter="\n")
             else:
                 print(fname, " Type not known")
                 exit()
