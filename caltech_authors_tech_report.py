@@ -7,7 +7,7 @@ from epxml_support import download_records, update_repo_doi, cleanhtml
 
 def epxml_to_datacite(eprint, customization=None):
 
-    print(eprint["type"])
+    # print(eprint["type"])
     if eprint["type"] not in ["monograph", "teaching_resource", "conference_item"]:
         raise Exception("This code has only been tested on tech reports")
 
@@ -125,16 +125,16 @@ def epxml_to_datacite(eprint, customization=None):
             eprint["other_numbering_system"]["item"] = [
                 eprint["other_numbering_system"]["item"]
             ]
-        for item in eprint["other_numbering_system"]["item"]:
-            ids.append({"identifier": item["id"], "identifierType": item["name"]})
 
     if "series_name" in eprint and "number" in eprint:
         name_and_series = [eprint["series_name"], eprint["number"]]
     elif "other_numbering_system" in eprint:
-        ids = []
         # Assume first is correct
         item = eprint["other_numbering_system"]["item"][0]
-        name_and_series = [item["name"]["#text"], item["id"]]
+        if "id" in item:
+            name_and_series = [item["name"]["#text"], item["id"]]
+        else:
+            name_and_series = [item["name"]["#text"], ""]
     elif "local_group" in eprint:
         resolver = eprint["official_url"].split(":")
         number = resolver[-1]
@@ -163,9 +163,13 @@ def epxml_to_datacite(eprint, customization=None):
                     "description": name_and_series[0] + " " + name_and_series[1],
                 }
             ]
-            ids.append(
-                {"identifier": name_and_series[1], "identifierType": name_and_series[0]}
-            )
+            if name_and_series[1] != "":
+                ids.append(
+                    {
+                        "identifier": name_and_series[1],
+                        "identifierType": name_and_series[0],
+                    }
+                )
 
     # At a minimum, we always have an Eprints ID
     metadata["identifiers"] = ids
