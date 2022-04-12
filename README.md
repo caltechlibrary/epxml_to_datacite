@@ -38,9 +38,13 @@ hit enter you'll see an epxml_to_datacite folder.  Type `cd epxml_to_datacite`
 
 ### Install
 
-Now that you're in the epxml_to_datacite folder, type `pip install -r requirements.txt`
-to install dependencies.  Then type `python setup.py install` to install
-scripts.  
+Now that you're in the epxml_to_datacite folder, type `pip install .`
+to install dependencies.
+
+If you're on a Mac, you'll need to authorize the underlying eputil application.
+Open the `epxml_to_datacite` directory in finder, open the `epxml_support`
+directory, and right click on `eputil` and select 'Open'. Agree that you
+authorize the executible. This is a one-time installation step.
 
 If you will be minting DOIs, you need to create a file called `pw` using a text
 editor that contains your DataCite password.  The username is hardcoded in the
@@ -74,10 +78,10 @@ And you'll get '\_datacite.xml' for each xml file in the folder
 
 ## Downloading Eprints XML
 
-You can use Eprints ids (e.g. 82938) to download Eprints xml files by adding a
+You can use Eprints ids (e.g. 9690) to download Eprints xml files by adding a
 `-ids` option to any command.
 
-`python caltech_thesis.py -ids 82938`
+`python caltech_thesis.py -ids 9690`
 
 Alternativly, you can provide a tsv file, where the first column is the Eprints
 id using the `-id_file` option
@@ -89,7 +93,7 @@ id using the `-id_file` option
 You can also have the script submit the metadata to DataCite and add the DOI to the source repository. Add the `-mint`
 option and if you want to make test DOIs add the `-test` option to the command line.  
 
-`python caltech_thesis.py -mint -ids 82938`
+`python caltech_thesis.py -mint -ids 9690`
 
 ## Custom Prefixes
 

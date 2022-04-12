@@ -1,6 +1,6 @@
 from setuptools import setup,find_packages
 
-import sys
+import sys, platform
 import os
 import shutil
 import json
@@ -49,17 +49,21 @@ license = meta['license']
 name = meta['name']
 
 # Setup for our Go based executable as a "data_file".
-platform = sys.platform
-exec_path = "exec/Linux/eputil"
-OS_Classifier = "Operating System :: POSIX :: Linux"
-if platform.startswith("darwin"):
-    exec_path = "exec/MacOS/eputil"
-    platform = "Mac OS X"
-    OS_Classifier = "Operating System :: MacOS :: MacOS X"
-elif platform.startswith("win"):
+if sys.platform.startswith('win'):
     exec_path = "exec/Win/eputil.exe"
-    platform = "Windows"
     OS_Classifier = "Operating System :: Microsoft :: Windows :: Windows 10"
+elif sys.platform.startswith('linux'):
+    exec_path = "exec/Linux/eputil"
+    OS_Classifier = "Operating System :: POSIX :: Linux"
+elif sys.platform.startswith("darwin"):
+    if platform.processor() == 'arm':
+        exec_path = "exec/MacOS-M1/eputil"
+    else:
+        exec_path = "exec/MacOS/eputil"
+    OS_Classifier = "Operating System :: MacOS :: MacOS X"
+else:
+    print("Platform " + sys.platform + " not supported")
+    sys.exit(1)
 
 if os.path.exists(exec_path) == False:
     print("Missing executable " + exec_path + " in epxml_to_dataset module")
