@@ -38,7 +38,7 @@ hit enter you'll see an epxml_to_datacite folder.  Type `cd epxml_to_datacite`
 
 ### Install
 
-Now that you're in the epxml_to_datacite folder, type `pip install .`
+Now that you're in the epxml_to_datacite folder, type `python setup.py install`
 to install dependencies.
 
 If you're on a Mac, you'll need to authorize the underlying eputil application.
