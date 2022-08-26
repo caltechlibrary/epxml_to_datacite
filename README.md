@@ -15,19 +15,18 @@ repositories.
 
 ## Setup
 
-### Python Install
+### Prerequisites
 
 You need to have Python 3.7 on your machine
 ([Miniconda](https://docs.conda.io/en/latest/miniconda.html) is a great
 installation option).  Test whether you have python installed by opening a terminal or
 anaconda prompt window and typing `python -V`, which should print version 3.7
-or greater. 
+or greater. It's best to download this software using git.  To install git, type
+`conda install git` in your terminal or anaconda prompt window.  
 
 ### Clone epxml_to_datacite
 
-It's best to download this software using git.  To install git, type
-`conda install git` in your terminal or anaconda prompt window.  Then find where you
-want the epxml_to_datacite folder to live on your computer in File Explorer or Finder
+Find where you want the epxml_to_datacite folder to live on your computer in File Explorer or Finder
 (This could be the Desktop or Documents folder, for example).  Type `cd ` 
 in anaconda prompt or terminal and drag the location from the file browser into
 the terminal window.  The path to the location
