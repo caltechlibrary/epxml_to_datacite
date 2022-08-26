@@ -2,8 +2,7 @@
 
 [![DOI](https://data.caltech.edu/badge/129455716.svg)](https://data.caltech.edu/badge/latestdoi/129455716)
 
-Convert Eprints XML to DataCite XML.  In Development.  Only tested on Caltech
-repositories.
+Convert Eprints XML to DataCite XML and mint DOIs.  Only tested on Caltech repositories.
 
 ## Contents
 
