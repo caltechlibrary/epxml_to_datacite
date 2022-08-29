@@ -1,10 +1,21 @@
-
-cff-version: 1.1.0
+cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
-authors:
-   - family-names: Morrell
-     given-names: Thomas E
-     orcid: https://orcid.org/0000-0001-9266-5146
-version: 1.1.0
 title: epxml_to_datacite
-date-released: 2021-10-27
+authors:
+  - family-names: Morrell
+    given-names: Thomas E
+    orcid: https://orcid.org/0000-0001-9266-5146
+abstract: Transform Eprints XML to DataCite XML.
+repository-code: "https://github.com/caltechlibrary/epxml_to_datacite"
+type: software
+version: 1.2.0
+license-url: "https://data.caltech.edu/license"
+keywords:
+  - GitHub
+  - Eprints
+  - metadata
+  - DataCite
+  - DOI
+  - XML
+  - software
+date-released: 2022-08-29
