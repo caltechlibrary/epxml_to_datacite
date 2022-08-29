@@ -192,7 +192,7 @@ def epxml_to_datacite(eprint):
         dates.append({"date": eprint["gradofc_approval_date"], "dateType": "Accepted"})
     # These are scanned records, we just list when they were made available
     else:
-        dates.append({"date": eprint["datestamp"], "dateType": "Available"})
+        dates.append({"date": eprint["datestamp"].split(' ')[0], "dateType": "Available"})
     metadata["dates"] = dates
 
     # Identifiers

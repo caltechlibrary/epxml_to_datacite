@@ -131,8 +131,8 @@ def epxml_to_datacite(eprint, customization=None):
                 eprint["other_numbering_system"]["item"]
             ]
 
-    if "series_name" in eprint and "number" in eprint:
-        name_and_series = [eprint["series_name"], eprint["number"]]
+    if "series" in eprint and "number" in eprint:
+        name_and_series = [eprint["series"], eprint["number"]]
     elif "other_numbering_system" in eprint:
         # Assume first is correct
         item = eprint["other_numbering_system"]["item"][0]
@@ -245,7 +245,7 @@ def epxml_to_datacite(eprint, customization=None):
     # Dates - only if record release date present
     if "datestamp" in eprint:
         dates = []
-        dates.append({"date": eprint["datestamp"], "dateType": "Available"})
+        dates.append({"date": eprint["datestamp"].split(' ')[0], "dateType": "Available"})
         metadata["dates"] = dates
 
     metadata["schemaVersion"] = "http://datacite.org/schema/kernel-4"
