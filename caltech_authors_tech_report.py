@@ -354,11 +354,6 @@ if __name__ == "__main__":
                 # What record in eprints are we dealing with?
                 record_number = eprint["eprintid"]
 
-                if args.prefix != None:
-                    prefix = args.prefix
-                else:
-                    prefix = "10.7907"
-
                 # Get our DataCite password
                 infile = open("pw", "r")
                 password = infile.readline().strip()
@@ -377,7 +372,7 @@ if __name__ == "__main__":
                     d = DataCiteRESTClient(
                         username="CALTECH.LIBRARY",
                         password=password,
-                        prefix="10.7907",
+                        prefix=prefix,
                     )
                     repo_url = "https://authors.library.caltech.edu"
 
