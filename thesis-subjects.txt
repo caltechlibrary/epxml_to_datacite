@@ -75,3 +75,4 @@ senior_major:Senior thesis (Major)
 senior_minor:Senior thesis (Minor)
 socdecneusci:Social and Decision Neuroscience
 devbio:Developmental Biology
+infdatasci:Information and Data Sciences
