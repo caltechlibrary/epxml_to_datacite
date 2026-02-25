@@ -48,9 +48,11 @@ history:History:options:1
 histsci:History and Philosophy of Science:options:1
 humanities:Humanities:options:1
 immun:Immunology:options:1
+infdatasci:Information and Data Sciences:options:1
 math:Mathematics:options:1
 matsci:Materials Science:options:1
 mecheng:Mechanical Engineering:options:1
+medee:Medical and Electrical Engineering:options:1
 medeng:Medical Engineering:options:1
 meteor:Meteorology:options:1
 microbio:Microbiology:options:1
@@ -63,6 +65,7 @@ paleontology:Paleontology:options:1
 physics:Physics:options:1
 plansci:Planetary Sciences:options:1
 polisci:Political Science:options:1
+socdecneusci:Social and Decision Neuroscience:options:1
 socsci:Social Science:options:1
 space:Space Engineering:options:1
 subjects:Library of Congress Subject Areas:ROOT:1
